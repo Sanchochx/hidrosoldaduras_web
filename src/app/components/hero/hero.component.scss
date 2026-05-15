@@ -1,0 +1,164 @@
+@use '../../shared/variables' as *;
+@use '../../shared/mixins' as *;
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('/assets/images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: $dark;
+  overflow: hidden;
+  padding-top: 72px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.62);
+    z-index: 0;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    @include blueprint-grid(rgba(255, 255, 255, 0.06), 32px);
+    z-index: 0;
+  }
+
+  &__wrapper {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+    @include respond-to($bp-md) {
+      padding: 0 48px;
+    }
+
+    @include respond-to($bp-xl) {
+      padding: 0 80px;
+    }
+  }
+
+  &__content {
+    text-align: center;
+
+    @include respond-to($bp-md) {
+      text-align: left;
+    }
+  }
+
+  &__eyebrow {
+    display: block;
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $accent;
+    margin-bottom: 16px;
+
+    &::before {
+      content: '// ';
+      opacity: 0.5;
+    }
+  }
+
+  &__headline {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    line-height: 1.1;
+    margin: 0 0 24px 0;
+
+    @include respond-to($bp-sm) {
+      font-size: 48px;
+    }
+
+    @include respond-to($bp-md) {
+      font-size: 64px;
+    }
+
+    @include respond-to($bp-lg) {
+      font-size: 72px;
+    }
+  }
+
+  &__description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: $white;
+    max-width: 600px;
+    margin: 0;
+
+    @include respond-to($bp-md) {
+      margin: 0;
+    }
+  }
+
+  &__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 40px;
+    justify-content: center;
+
+    @include respond-to($bp-md) {
+      justify-content: flex-start;
+    }
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 14px 32px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &--primary {
+    background: $primary;
+    color: $white;
+    border-color: $primary;
+
+    &:hover {
+      background: $secondary;
+      border-color: $secondary;
+    }
+  }
+
+  &--outline {
+    background: transparent;
+    color: $white;
+    border-color: $white;
+
+    &:hover {
+      background: rgba($white, 0.1);
+    }
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,44 @@
+<section id="contacto" class="contact">
+
+  <div class="contact__header" data-aos="fade-up">
+<h2 class="contact__title">CONTACTO</h2>
+    <p class="contact__subtitle">Lunes a Sábado &middot; 8:00 a.m. – 6:00 p.m.</p>
+  </div>
+
+  <div class="contact__grid">
+    @for (card of contactCards; track card.title; let i = $index) {
+      <div
+        class="contact-card"
+        data-aos="fade-up"
+        [attr.data-aos-delay]="i * 100"
+      >
+        <div class="contact-card__icon">
+          <i class="{{ card.iconPrefix ?? 'fa-solid' }} {{ card.icon }}"></i>
+        </div>
+        <h3 class="contact-card__title">{{ card.title }}</h3>
+        @if (card.phones) {
+          <div class="contact-card__content contact-card__phones">
+            @for (phone of card.phones; track phone.href) {
+              <a class="contact-card__link" [href]="phone.href">{{ phone.display }}</a>
+            }
+          </div>
+        } @else if (card.link && card.externalLink) {
+          <a class="contact-card__content contact-card__content--link"
+             [href]="card.link"
+             target="_blank"
+             rel="noopener noreferrer">
+            {{ card.content }}
+          </a>
+        } @else if (card.link) {
+          <a class="contact-card__content contact-card__content--link"
+             [href]="card.link">
+            {{ card.content }}
+          </a>
+        } @else {
+          <p class="contact-card__content">{{ card.content }}</p>
+        }
+      </div>
+    }
+  </div>
+
+</section>

@@ -1,0 +1,23 @@
+<nav class="navbar" [class.navbar--scrolled]="isScrolled">
+  <a class="navbar__brand" href="#"><img src="logo/logo.png" alt="Logo" class="navbar__logo"></a>
+
+  <ul class="navbar__nav">
+    <li><a class="navbar__link" href="#nosotros">NOSOTROS</a></li>
+    <li><a class="navbar__cta" href="#contacto">CONTÁCTENOS</a></li>
+  </ul>
+
+  <button
+    class="navbar__hamburger"
+    [class.navbar__hamburger--open]="isMenuOpen"
+    (click)="toggleMenu()"
+    [attr.aria-label]="isMenuOpen ? 'Cerrar menú' : 'Abrir menú'"
+    aria-expanded="{{ isMenuOpen }}"
+  >
+    <i [class]="isMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'"></i>
+  </button>
+</nav>
+
+<div class="navbar__drawer" [class.navbar__drawer--open]="isMenuOpen">
+  <a class="navbar__link" href="#nosotros" (click)="closeMenu()">NOSOTROS</a>
+  <a class="navbar__cta" href="#contacto" (click)="closeMenu()">CONTÁCTENOS</a>
+</div>

@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+@mixin respond-to($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+@mixin blueprint-grid($color: rgba(255, 255, 255, 0.04), $size: 32px) {
+  background-image:
+    linear-gradient(to right, $color 1px, transparent 1px),
+    linear-gradient(to bottom, $color 1px, transparent 1px);
+  background-size: $size $size;
+}
+
+@mixin section-padding {
+  padding: 80px 24px;
+
+  @include respond-to($bp-md) {
+    padding: 100px 48px;
+  }
+
+  @include respond-to($bp-xl) {
+    padding: 120px 80px;
+  }
+}

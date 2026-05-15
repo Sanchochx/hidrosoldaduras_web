@@ -1,0 +1,55 @@
+<section id="nosotros" class="about">
+
+  <!-- Sub-sección: Capacidades Técnicas -->
+  <div class="about__capabilities">
+    <div class="about__capabilities-header" data-aos="fade-up" data-aos-delay="0">
+<h2 class="about__capabilities-title">CAPACIDADES TÉCNICAS</h2>
+    </div>
+    <div class="capability-grid">
+      @for (cap of capabilities; track cap.title; let i = $index) {
+        <div class="capability-card" data-aos="fade-up" [attr.data-aos-delay]="i * 100">
+          <div class="capability-card__icon">
+            <i class="fa-solid {{ cap.icon }}"></i>
+          </div>
+          <h3 class="capability-card__title">{{ cap.title }}</h3>
+          <p class="capability-card__desc">{{ cap.desc }}</p>
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- Sub-sección: Nuestra Trayectoria en Números -->
+  <div class="about__stats">
+    <div class="about__stats-header" data-aos="fade-up">
+<h2 class="about__stats-title">NUESTRA TRAYECTORIA EN NÚMEROS</h2>
+    </div>
+    <div class="stats-grid">
+      @for (stat of stats; track stat.number; let i = $index) {
+        <div class="stat-item" data-aos="fade-up" [attr.data-aos-delay]="i * 80">
+          <div class="stat-item__number">{{ stat.number }}</div>
+          <div class="stat-item__label">{{ stat.label }}</div>
+          <div class="stat-item__sublabel">{{ stat.sublabel }}</div>
+        </div>
+      }
+    </div>
+  </div>
+
+  <!-- Sub-sección: Por qué somos líderes -->
+  <div class="about__why">
+    <div class="about__why-content" data-aos="fade-right" data-aos-delay="0">
+<h2 class="about__why-title">POR QUÉ SOMOS LÍDERES EN SOLDADURA MODERNOS Y TECNOLOGÍAS DE UNIÓN</h2>
+      <ul class="about__feature-list">
+        @for (feature of features; track feature; let i = $index) {
+          <li class="about__feature-item" data-aos="fade-up" [attr.data-aos-delay]="i * 50">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>{{ feature }}</span>
+          </li>
+        }
+      </ul>
+    </div>
+    <div class="about__why-image" data-aos="fade-left" data-aos-delay="100">
+      <img src="assets/images/imagen_1.jpeg" alt="Cobertura nacional Hidrosoldaduras ACH SAS" />
+    </div>
+  </div>
+
+</section>

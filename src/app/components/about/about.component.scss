@@ -1,0 +1,315 @@
+@use '../../shared/variables' as *;
+@use '../../shared/mixins' as *;
+
+.about {
+  // Sub-sección: Capacidades Técnicas
+  &__capabilities {
+    background-color: $white;
+    padding: 60px 20px;
+
+    @include respond-to($bp-md) {
+      padding: 80px 40px;
+    }
+
+    @include respond-to($bp-xl) {
+      padding: 80px 80px;
+    }
+  }
+
+  &__capabilities-header {
+    text-align: center;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__capabilities-title {
+    font-family: $font-title;
+    font-size: clamp(24px, 4vw, 36px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  // Sub-sección: Nuestra Trayectoria en Números
+  &__stats {
+    background-color: $secondary;
+    @include blueprint-grid(rgba($white, 0.04), 32px);
+    padding: 60px 20px;
+    position: relative;
+
+    @include respond-to($bp-md) {
+      padding: 80px 40px;
+    }
+  }
+
+  &__stats-header {
+    text-align: center;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__stats-title {
+    font-family: $font-title;
+    font-size: clamp(22px, 4vw, 34px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+
+  // Sub-sección: Por qué somos líderes
+  &__why {
+    background-color: $light;
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+
+    // En mobile: imagen primero, luego texto
+    .about__why-image { order: -1; }
+
+    @include respond-to($bp-md) {
+      grid-template-columns: 45% 55%;
+      gap: 64px;
+      padding: 80px 40px;
+      align-items: center;
+
+      .about__why-image { order: 0; }
+    }
+
+    @include respond-to($bp-xl) {
+      padding: 80px 80px;
+    }
+  }
+
+  &__why-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 32px;
+
+    @include respond-to($bp-md) {
+      padding-left: 48px;
+    }
+  }
+
+  &__eyebrow {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $primary;
+  }
+
+  &__eyebrow--light {
+    color: $white;
+  }
+
+  &__why-title {
+    font-family: $font-title;
+    font-size: clamp(22px, 4vw, 34px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    line-height: 1.2;
+    border-left: 4px solid $primary;
+    padding-left: 16px;
+    margin: 0;
+  }
+
+  &__feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: $font-body;
+    font-size: 15px;
+    color: $dark;
+
+    i {
+      color: $primary;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+  }
+
+  &__why-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-height: 640px;
+      object-fit: contain;
+      display: block;
+    }
+  }
+}
+
+// Grid de estadísticas
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px 0;
+
+  // Quinto ítem centrado en mobile (2 col)
+  .stat-item:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  @include respond-to($bp-md) {
+    grid-template-columns: repeat(3, 1fr);
+
+    .stat-item:last-child:nth-child(odd) {
+      grid-column: auto;
+      max-width: none;
+      margin: 0;
+    }
+  }
+
+  @include respond-to($bp-lg) {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+.stat-item {
+  padding: 0 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  border-top: 1px solid $primary;
+  padding-top: 24px;
+
+  @include respond-to($bp-lg) {
+    border-top: none;
+    border-left: 1px solid rgba($white, 0.1);
+    padding-top: 0;
+
+    &:first-child {
+      border-left: none;
+    }
+  }
+
+  &__number {
+    font-family: 'Courier New', monospace;
+    font-size: clamp(40px, 5vw, 64px);
+    font-weight: 700;
+    color: $white;
+    line-height: 1;
+    margin-bottom: 8px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: $primary;
+      margin: 0 auto 16px;
+    }
+  }
+
+  &__label {
+    font-family: $font-body;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: $white;
+  }
+
+  &__sublabel {
+    font-family: $font-body;
+    font-size: 12px;
+    color: rgba($white, 0.6);
+  }
+}
+
+// Grid de capacidades
+.capability-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+
+  @include respond-to($bp-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to($bp-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.capability-card {
+  border: 1px solid rgba($dark, 0.12);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    box-shadow: 4px 4px 0 $primary;
+    transform: translate(-2px, -2px);
+  }
+
+  &__icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: rgba($primary, 0.1);
+    border: 1px solid $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+
+    i {
+      font-size: 24px;
+      color: $primary;
+    }
+  }
+
+  &__title {
+    font-family: $font-title;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: $dark;
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+
+  &__desc {
+    font-family: $font-body;
+    font-size: 14px;
+    color: rgba($dark, 0.72);
+    margin: 0;
+    line-height: 1.6;
+  }
+}

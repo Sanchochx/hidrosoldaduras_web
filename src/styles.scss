@@ -1,0 +1,22 @@
+@use 'app/shared/variables' as *;
+@use 'app/shared/mixins' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-body;
+  font-size: 16px;
+  line-height: 1.6;
+  color: $dark;
+  background-color: $white;
+}

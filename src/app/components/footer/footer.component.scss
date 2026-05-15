@@ -1,0 +1,183 @@
+@use '../../shared/variables' as *;
+@use '../../shared/mixins' as *;
+
+.footer {
+  background-color: $dark;
+  position: relative;
+  overflow-x: hidden;
+  @include blueprint-grid(rgba(255, 255, 255, 0.03), 32px);
+
+  &__body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 20px 32px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+
+    @include respond-to($bp-md) {
+      grid-template-columns: 40% 30% 30%;
+      gap: 0;
+      padding: 60px 48px 40px;
+      text-align: left;
+    }
+
+    @include respond-to($bp-xl) {
+      padding: 60px 80px 40px;
+    }
+  }
+
+  &__brand {
+    padding-right: 0;
+
+    @include respond-to($bp-md) {
+      padding-right: 40px;
+    }
+  }
+
+  &__logo {
+    height: 56px;
+    width: auto;
+    display: block;
+    margin: 0 auto 12px;
+
+    @include respond-to($bp-md) {
+      margin: 0 0 12px;
+      height: 60px;
+    }
+  }
+
+  &__brand-slogan {
+    font-family: $font-body;
+    font-style: italic;
+    font-size: 14px;
+    color: rgba($white, 0.6);
+    margin: 0 0 16px;
+  }
+
+  &__brand-desc {
+    font-family: $font-body;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba($white, 0.5);
+    margin: 0;
+  }
+
+  &__col-title {
+    font-family: $font-title;
+    font-size: 13px;
+    font-weight: 600;
+    color: $accent;
+    letter-spacing: 1.5px;
+    margin: 0 0 16px;
+    text-transform: uppercase;
+  }
+
+  &__nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 20px;
+
+    @include respond-to($bp-md) {
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 10px;
+    }
+  }
+
+  &__contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    @include respond-to($bp-md) {
+      align-items: flex-start;
+    }
+  }
+
+  &__nav-link {
+    font-family: $font-body;
+    font-size: 14px;
+    color: rgba($white, 0.7);
+    text-decoration: none;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  &__contact-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    font-family: $font-body;
+    font-size: 14px;
+    color: rgba($white, 0.7);
+    max-width: 100%;
+
+    i {
+      color: $accent;
+      font-size: 13px;
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    @include respond-to($bp-md) {
+      justify-content: flex-start;
+    }
+  }
+
+  &__bottom {
+    border-top: 1px solid rgba($white, 0.1);
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    @include respond-to($bp-md) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 20px 48px;
+    }
+
+    @include respond-to($bp-xl) {
+      padding: 20px 80px;
+    }
+  }
+
+  &__copyright {
+    font-family: $font-body;
+    font-size: 13px;
+    color: rgba($white, 0.4);
+  }
+
+  &__social {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__social-link {
+    color: rgba($white, 0.5);
+    font-size: 18px;
+    transition: color 0.2s, transform 0.2s;
+    text-decoration: none;
+
+    &:hover {
+      color: $white;
+      transform: scale(1.1);
+    }
+  }
+}
