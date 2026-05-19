@@ -1,0 +1,19 @@
+<section id="catalogo" class="catalogo">
+  <div class="catalogo__header" data-aos="fade-up" data-aos-delay="0">
+    <h2 class="catalogo__title">NUESTROS PRODUCTOS</h2>
+  </div>
+  <div class="catalogo__grid">
+    @for (product of products; track product.title; let i = $index) {
+      <div class="catalogo-card" data-aos="fade-up" [attr.data-aos-delay]="i * 100">
+        <div class="catalogo-card__image-wrapper">
+          <img class="catalogo-card__image" [src]="product.img" [alt]="product.alt" />
+        </div>
+        <div class="catalogo-card__body">
+          <h3 class="catalogo-card__title">{{ product.title }}</h3>
+          <p class="catalogo-card__desc">{{ product.desc }}</p>
+          <button class="catalogo-card__btn">CATÁLOGO</button>
+        </div>
+      </div>
+    }
+  </div>
+</section>

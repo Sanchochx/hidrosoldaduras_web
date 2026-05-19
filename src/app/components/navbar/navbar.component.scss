@@ -86,6 +86,23 @@
     }
   }
 
+  &__link-outline {
+    font-family: $font-title;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: $white;
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid $white;
+    padding: 7px 20px;
+    transition: background 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background: rgba($white, 0.1);
+    }
+  }
+
   &__cta {
     font-family: $font-title;
     font-size: 0.9rem;
@@ -132,6 +149,7 @@
     }
 
     .navbar__link,
+    .navbar__link-outline,
     .navbar__cta {
       display: flex;
       align-items: center;
@@ -150,6 +168,13 @@
         background: rgba($primary, 0.15);
         color: $accent;
       }
+    }
+
+    .navbar__link-outline {
+      font-weight: 700;
+      color: $white;
+      border: none;
+      background: transparent;
     }
 
     .navbar__cta {
