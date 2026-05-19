@@ -253,6 +253,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
+  isolation: isolate;
 
   @include respond-to($bp-md) {
     grid-template-columns: repeat(2, 1fr);
@@ -271,11 +272,13 @@
   align-items: center;
   text-align: center;
   gap: 16px;
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  position: relative;
 
   &:hover {
-    box-shadow: 4px 4px 0 $primary;
-    transform: translate(-2px, -2px);
+    box-shadow: 0 6px 20px rgba($primary, 0.15);
+    transform: translateY(-4px);
+    z-index: 2;
   }
 
   &__icon {

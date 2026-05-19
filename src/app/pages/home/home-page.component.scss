@@ -1,0 +1,33 @@
+@keyframes bounce-in {
+  0%   { transform: scale(0); opacity: 0; }
+  60%  { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #25D366;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  animation: bounce-in 0.4s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  text-decoration: none;
+
+  i {
+    color: #fff;
+    font-size: 28px;
+  }
+
+  &:hover {
+    transform: scale(1.08);
+    background-color: #1ebe5e;
+  }
+}

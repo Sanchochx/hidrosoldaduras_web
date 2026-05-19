@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html class="light" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Catálogo de Productos | HIDROSOLDADURAS ACH</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&amp;family=Work+Sans:ital,wght@0,100..900;1,100..900&amp;family=JetBrains+Mono:wght@100..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .blueprint-grid {
+            background-image: radial-gradient(circle, #c2c6d4 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        .technical-line {
+            position: relative;
+        }
+        .technical-line::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: -20px;
+            right: -20px;
+            height: 1px;
+            background: #c2c6d4;
+            opacity: 0.5;
+        }
+        .hover-lift {
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+        }
+        .hover-lift:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px -10px rgba(0, 63, 135, 0.2);
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#004a78",
+                        "on-primary-container": "#bbd0ff",
+                        "outline": "#727784",
+                        "on-error-container": "#93000a",
+                        "outline-variant": "#c2c6d4",
+                        "primary": "#003f87",
+                        "secondary-container": "#77bbfd",
+                        "surface": "#f9f9ff",
+                        "on-surface-variant": "#424752",
+                        "secondary": "#00629e",
+                        "on-secondary": "#ffffff",
+                        "tertiary-fixed": "#dae4ee",
+                        "on-background": "#111c2c",
+                        "surface-container": "#e7eeff",
+                        "on-tertiary-container": "#c7d1db",
+                        "surface-tint": "#115cb9",
+                        "surface-container-high": "#dee8ff",
+                        "inverse-surface": "#263142",
+                        "inverse-on-surface": "#ebf1ff",
+                        "tertiary": "#39434a",
+                        "primary-container": "#0056b3",
+                        "secondary-fixed": "#cfe5ff",
+                        "secondary-fixed-dim": "#99cbff",
+                        "primary-fixed-dim": "#acc7ff",
+                        "on-tertiary-fixed": "#131d24",
+                        "surface-container-highest": "#d8e3fa",
+                        "on-tertiary-fixed-variant": "#3e4850",
+                        "on-secondary-container": "#004a79",
+                        "on-error": "#ffffff",
+                        "surface-variant": "#d8e3fa",
+                        "on-secondary-fixed": "#001d34",
+                        "surface-container-lowest": "#ffffff",
+                        "error": "#ba1a1a",
+                        "surface-bright": "#f9f9ff",
+                        "on-primary-fixed-variant": "#004491",
+                        "on-primary": "#ffffff",
+                        "tertiary-container": "#505a62",
+                        "surface-dim": "#cfdaf1",
+                        "tertiary-fixed-dim": "#bec8d1",
+                        "on-primary-fixed": "#001a40",
+                        "background": "#f9f9ff",
+                        "surface-container-low": "#f0f3ff",
+                        "on-tertiary": "#ffffff",
+                        "on-surface": "#111c2c",
+                        "error-container": "#ffdad6",
+                        "inverse-primary": "#acc7ff",
+                        "primary-fixed": "#d7e2ff"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0px",
+                        "lg": "0px",
+                        "xl": "0px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "margin-edge": "40px",
+                        "grid-line-weight": "1px",
+                        "gutter": "24px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-sm": ["Space Grotesk"],
+                        "label-md": ["JetBrains Mono"],
+                        "headline-md": ["Space Grotesk"],
+                        "headline-lg-mobile": ["Space Grotesk"],
+                        "body-md": ["Work Sans"],
+                        "headline-lg": ["Space Grotesk"],
+                        "body-lg": ["Work Sans"]
+                    },
+                    "fontSize": {
+                        "headline-sm": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "label-md": ["14px", {"lineHeight": "1.4", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "headline-md": ["32px", {"lineHeight": "1.2", "letterSpacing": "0.02em", "fontWeight": "600"}],
+                        "headline-lg-mobile": ["32px", {"lineHeight": "1.1", "fontWeight": "700"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "0.02em", "fontWeight": "700"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md blueprint-grid min-h-screen">
+<!-- TopNavBar Component -->
+<header class="sticky top-0 z-50 border-b border-outline-variant bg-background/95 backdrop-blur-md">
+<nav class="flex justify-between items-center w-full px-margin-edge py-4 max-w-7xl mx-auto">
+<a class="text-headline-sm font-headline-sm font-bold text-primary dark:text-inverse-primary tracking-tighter" href="index.html">
+                HIDROSOLDADURAS ACH
+            </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors font-label-md text-label-md" href="index.html">Inicio</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Servicios</a>
+<a class="text-primary dark:text-secondary-fixed-dim border-b-2 border-primary font-bold pb-1 font-label-md text-label-md" href="#">Catálogo</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Proyectos</a>
+<a class="text-on-surface-variant dark:text-outline-variant hover:text-primary transition-colors font-label-md text-label-md" href="#">Contacto</a>
+</div>
+<button class="bg-primary text-on-primary px-6 py-2 font-label-md text-label-md hover:bg-primary-container transition-all duration-300 transform active:scale-95">
+                Solicitar Cotización
+            </button>
+</nav>
+</header>
+<main class="max-w-7xl mx-auto px-margin-edge py-16">
+<!-- Title Section -->
+<div class="text-center mb-16 technical-line pb-unit">
+<h1 class="font-headline-lg text-headline-lg text-primary uppercase mb-4">
+                CATÁLOGO DE PRODUCTOS
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                Ingeniería de precisión y soluciones integrales para la infraestructura hidráulica y soldadura industrial especializada.
+            </p>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Product Card 1 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Válvula de Control Alpha" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A high-precision industrial control valve made of brushed steel, situated in a clean laboratory environment with blueprints in the background. The lighting is crisp and surgical, emphasizing the metallic textures and engineering details. The color palette is dominated by corporate blues and cool grays, reflecting a professional industrial engineering aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKw2pvuicDA-0xdKItm4v1y6Cu5a7dCLs51fxoN1YDUk9Ux7pQT3fvrPOZzjY8zr8Z2esF9eWh0S3kgTHbKR0Wgv08FamwtOnpk-eZgaCrwNy64OkJ3V_pgbUIiCGa5zlASBlRwNMtQHELP7Oj-OjRIkVPHpYHalLBwVGRWdDkJTNaGo729YvIw2EXVuNeZyWWMy5kZg9wjFsTdtlbUuKQFkHdOqEZCxOKRQzTWRbsUky38moprTkyMhaT_ij-4LY4J17W5X-8PBI"/>
+<div class="absolute top-4 right-4 bg-primary text-on-primary px-3 py-1 font-label-md text-label-md">
+                        NUEVO
+                    </div>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Válvula de Control Alpha</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Solución de alta precisión para infraestructura hidráulica con regulación automática de flujo.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$1,249.00</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 2 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Kit de Soldadura Pro" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Professional TIG welding equipment set up on a steel workbench in a modern fabrication shop. The scene features sparks flying in the distance and a structured grid of tools. The lighting is dramatic and technical, with high-contrast shadows. The aesthetic is industrial minimalist with deep blue and metallic silver tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDMxZq2iz_vaYA9fmRxNDSFP57VaDdZImJ1xSr3yF6lx79zBntsNnavIivybg_TDVK4yt8utz8gMpfpQPJFGqkYDCkj1Xh9I832eGSci3_kKngC4_bFFP1Iwmv5irHCPOKcPKGSEllPFNhjDsygwsFreUNqDmpfjhzxE5QZiGgkxF0lODT0Z2uakORDJE5GfqpAkCcz6ATuQCQdr0Kc9_FtaAu1Pd16pH8UhIN2b8R5Wjkv4vg1Gy6ksRiASGM1a8MjIpDQOuX5LLQ"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Kit de Soldadura Pro</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Sistema completo para soldadura especializada de alta resistencia en ambientes industriales severos.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">Cotizar</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 3 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Tubería Hidráulica Serie X" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A row of heavy-duty blue industrial pipes installed in a water treatment plant, showing precise bolt connections and technical markings. The perspective is architectural, emphasizing geometric symmetry and structural integrity. Bright, even daylight illuminates the scene, highlighting the vibrant blue coating and metallic joints." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkCSKL20zOCCjgjy3rgP3HH81dG_A6gkD7bi_2OGVd1Sm8LF-Yj_rKWNezYJNxL9jtf1Fi4B1vNhPZS6LvLYs9_l-sew-5kVwsCQL5f4vgzMuojEWvESp2UwvD5oqgYq5iwp_jewsneEm8sWr8curmFkRNWTXAVa_P6PG19tNND1JaarmC6WP_aeiX7pyLvJRBQahRbbV3U6QIQVgcu9AbYLhmaZi_zMN3hikbHlM0I1jurFLEux5l6s-S4qIuqlOmrLKqOo4ToSU"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Tubería Hidráulica Serie X</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Tubería reforzada con aleación anticorrosiva para transporte de fluidos a gran escala.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$85.00/m</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 4 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Bomba de Alta Presión" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A heavy industrial high-pressure water pump, painted in corporate blue, bolted to a concrete floor in a technical facility. The image shows intricate piping and pressure gauges. The lighting is clear and professional, with a focus on technical clarity and structural solidity. The overall feel is authoritative and efficient." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9Z1fgDiqYNqk-lnTp6wUWMbr8OKuw52dWiOftqLpaAdxROKfa-6H_sdgoHcx3_WzvDVayFnC7tG8rjdEx7N--R3rpuWiK58EZbr4akxVs_ibyCr2wvbHb6JU81UOOYMZTZ-icv_-AFpwBnq5skQsxhScZX_mLFp9qTOTKPxnns3zLI73fkvL4gxROpqkYYPYULVuLqR2Gdc23-ehWxcL4ztSBbDBJJhNf7eRcJXSJDu6OMOz9_EmZ_v5_HWQIW8gjqCVRNGG-5Ic"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Bomba de Alta Presión</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Equipo de bombeo industrial diseñado para máxima eficiencia energética y durabilidad prolongada.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">Cotizar</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 5 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Filtro Industrial" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A stainless steel industrial filtration unit with multiple stages and technical labeling. The background is a clean, modern factory floor. Lighting is neutral and diffuse, creating a high-end corporate presentation. The visual style is technical minimalism, focusing on the precision of the filter's construction." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdRoyLU6MTnTAeFhZpgMQ9G2l4rtCRMtHVw2RhW3VNr7wDAZDwZFm-3qfpB1qmqf_OYOd3lMK11OJybzRnAKRRwVHX4ICyghjVU2BRiQnil2Gps6qQCQK4NMxcnz8tpPlSz4nJ83_pDGi-9VnUhfZI-6UCc-r9TPI8lUEjiNU09_Ih9gy493LmoGUt1rkIcmwRhUgQbdJ2WGtRLsEKNvhgis00IJZSdEfSm7bl95Sj4Ixmy8VZ4m_k4OqV6AWsEomF81G0q2qdznE"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Filtro Industrial</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Sistema de filtrado de partículas para procesos químicos e industriales de alta pureza.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$450.00</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 6 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Acople Técnico" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A collection of precision-engineered brass and steel couplings arranged on a technical drawing. The image highlights the detailed threading and geometric perfection of the parts. The lighting is focused and warm on the metal, contrasted against a cool blue background. The mood is one of technical mastery and reliability." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0iH2kbREM2VT-zpXPVwcOCwy7dZcilPiMZZ_wi9LlqB35zTdM0lT7B30S0SwvvNZvioGuIyRxZwPewWEqaNR2eksI0Q1uwQbx6C6rTZRbyPpVFdT8H_VKERGwoI9lZiFiu8pbliOIh20u1lYpRQtrXfGvSXsTQJ9p1629N17DpNm3PPrGJGWFOlTRXLRf-eAB09r8oCT0qwf-335YgJZPT4QkYr-pJ-SANpgOvecoNAjGNOVaA9ixL_SmZ6T39NYz4dXIR6HsDmk"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Acople Técnico</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Conectores de alta seguridad para sistemas de presión crítica y transferencia de fluidos.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$12.50/u</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 7 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Manómetro de Precisión" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="Close-up of a high-precision analog pressure gauge with clear markings and a steel casing. The dial is pristine white with black and red indicators. The lighting is sharp, creating crisp reflections on the glass cover. The setting is a technical testing station, emphasizing accuracy and industrial standards." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcGz1c933stbe9ErmNxi9jUcWRXiZPZVcf-RWXm_JciDBGP-dvDnGA6fnS3w3j532asH4FfS4LwyeDW-cbKZctzPvVzv_T9-G7yK-iJvipf_Ef3Rj6NbmDrB34O0a6_Uq0Mx6nCClOAx0orSUlB0qZd3AZtjls7c3_A3liZeMU81Z4brWQ7CH_MQFQp-hzm0omUwWgEKCUZ5kGad2CWjer0DherElphalnvy7yBXQuKkbAEt-rlLZZ5J7jSfqj__8XLai-vPtKFCM"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Manómetro de Precisión</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Instrumentación de monitoreo para sistemas hidráulicos con margen de error certificado.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$189.00</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 8 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Unidad de Potencia" class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A compact hydraulic power unit in a metallic enclosure, showing a complex arrangement of hoses and valves. The lighting is overhead and even, creating a blueprint-like clarity. The design style is industrial sophistication, with a palette of deep grays and primary blue accents. The focus is on the unit's technical complexity and robust build." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3kWZY8-fbNtgCi6x6tFM-4AU820nssHbXt-7nn2SUTvs7WLUU63RuE34pa4G27p7_mZHNgss9tbiEJYBs93DcA6h6IGAFoXx1Yz4po6JbTALboffqXt6EmVPXHdWXVaXLhHvaHfNca4h6215Z4HEW3B3rWOoFFNVvhVEquO8bJj28y9VuPyqAKuZ0ei2VW5o30IHU_1FMztWnpVsok0K6pMkqdkEO_zBh-eXqfH0IR_jbZaLiKd_oM-pp6Y-D9YigiqX5Rxp8OfQ"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Unidad de Potencia</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Central hidráulica compacta para aplicaciones de maquinaria pesada y automatización.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">Cotizar</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+<!-- Product Card 9 -->
+<div class="group bg-surface-container-lowest border border-outline-variant hover-lift flex flex-col">
+<div class="relative overflow-hidden aspect-video">
+<img alt="Brida Reforzada" class="w-full h-full object-crop grayscale group-hover:grayscale-0 transition-all duration-500" data-alt="A large, heavy-duty steel flange sitting on a pallet in a warehouse. The surface shows a clean, machined finish. The lighting is industrial with strong directional beams, highlighting the circular geometry and bolt holes. The color palette is strictly professional, using cool steel tones and shadows to create depth." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDrLHwoaCrmutdz_7wrmgx-mojN8IuamVG1hxRDzihxqjTJGujYcPi68pDySg4rAoZce0Vfy-7KVpPFgU3IJJh2dHXlIVTPOyTFa6hsMZ1yU1GG3Nhleio7OiSiqQdnT3zL_BWeEtpYQ1zCCENVRLMZJt_KkswVoT7MdFnzMHETWccx5sBJ9qxgW4qqu0ysQKc4G65pot1fqw9v9NvlAAYVLJm2vQckIz0GTp0ydhELcZ2JK5c1IzN7UYB5d3l-0ZzbMUz9xB6Hd0"/>
+</div>
+<div class="p-6 flex flex-col flex-grow border-t border-outline-variant">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-2">Brida Reforzada</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6 flex-grow">
+                        Componentes de unión estandarizados bajo normativa internacional para máxima seguridad.
+                    </p>
+<div class="flex justify-between items-center pt-4 border-t border-surface-container">
+<span class="font-label-md text-label-md text-secondary font-bold">$34.00/u</span>
+<button class="font-label-md text-label-md text-primary border border-primary px-4 py-2 hover:bg-primary hover:text-on-primary transition-colors">
+                            Ver Detalles
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Call to Action Section -->
+<div class="mt-20 bg-primary p-12 flex flex-col md:flex-row justify-between items-center gap-8 border-t-4 border-secondary-container">
+<div class="max-w-xl">
+<h2 class="font-headline-md text-headline-md text-on-primary mb-4">¿NO ENCUENTRA LO QUE BUSCA?</h2>
+<p class="font-body-lg text-body-lg text-on-primary/80">
+                    Desarrollamos soluciones de ingeniería a medida y fabricamos piezas especiales según sus requerimientos técnicos específicos.
+                </p>
+</div>
+<button class="bg-surface-container-lowest text-primary px-8 py-4 font-label-md text-label-md font-bold hover:bg-secondary-container transition-all transform hover:-translate-y-1">
+                SOLICITAR ASESORÍA TÉCNICA
+            </button>
+</div>
+</main>
+<!-- Footer Component -->
+<footer class="bg-primary dark:bg-inverse-surface w-full px-margin-edge py-gutter flex flex-col md:flex-row justify-between items-center gap-8 border-t-4 border-secondary-container">
+<div class="flex flex-col items-center md:items-start gap-4">
+<div class="text-headline-md font-headline-md text-surface-container-lowest uppercase tracking-widest">
+                HIDROSOLDADURAS ACH
+            </div>
+<p class="font-label-md text-label-md text-surface-container-lowest opacity-80 text-center md:text-left">
+                © 2024 HIDROSOLDADURAS ACH S.A.S. - Ingeniería Hidráulica y Soldadura Especializada. Todos los derechos reservados.
+            </p>
+</div>
+<div class="flex gap-6 flex-wrap justify-center">
+<a class="font-label-md text-label-md text-surface-container-lowest opacity-80 hover:opacity-100 hover:text-secondary-container transition-all" href="#">Términos y Condiciones</a>
+<a class="font-label-md text-label-md text-surface-container-lowest opacity-80 hover:opacity-100 hover:text-secondary-container transition-all" href="#">Política de Privacidad</a>
+<a class="font-label-md text-label-md text-surface-container-lowest opacity-80 hover:opacity-100 hover:text-secondary-container transition-all" href="#">Certificaciones Técnicas</a>
+<a class="font-label-md text-label-md text-surface-container-lowest opacity-80 hover:opacity-100 hover:text-secondary-container transition-all" href="#">Soporte Industrial</a>
+</div>
+</footer>
+<script>
+        // Simple micro-interactions for the cards
+        document.querySelectorAll('.group').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                const img = card.querySelector('img');
+                if(img) img.classList.remove('grayscale');
+            });
+            card.addEventListener('mouseleave', () => {
+                const img = card.querySelector('img');
+                if(img) img.classList.add('grayscale');
+            });
+        });
+
+        // Atmospheric effect: parallax subtle grid shift on mouse move
+        const body = document.querySelector('body');
+        window.addEventListener('mousemove', (e) => {
+            const x = e.clientX / window.innerWidth;
+            const y = e.clientY / window.innerHeight;
+            body.style.backgroundPosition = `${x * 4}px ${y * 4}px`;
+        });
+    </script>
+</body></html>

@@ -1,0 +1,270 @@
+@use '../../shared/variables' as *;
+@use '../../shared/mixins' as *;
+
+.catalogo-page {
+  background-color: $light;
+  background-image: radial-gradient(circle, rgba(17, 17, 17, 0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+  min-height: 100vh;
+  padding-top: 80px;
+
+  @include respond-to($bp-lg) {
+    padding-top: 90px;
+  }
+}
+
+.catalogo-page__container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 40px 20px 80px;
+
+  @include respond-to($bp-xl) {
+    padding: 64px 40px 100px;
+  }
+}
+
+.catalogo-page__header {
+  text-align: center;
+  margin-bottom: 40px;
+
+  @include respond-to($bp-lg) {
+    margin-bottom: 64px;
+  }
+}
+
+.catalogo-page__header-line {
+  position: relative;
+  padding-bottom: 24px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    right: -40px;
+    height: 1px;
+    background: rgba(17, 17, 17, 0.15);
+  }
+}
+
+.catalogo-page__title {
+  font-family: $font-title;
+  font-size: clamp(24px, 6vw, 48px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: $primary;
+  margin: 0 0 16px;
+}
+
+.catalogo-page__subtitle {
+  font-family: $font-body;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.65);
+  max-width: 640px;
+  margin: 0 auto;
+  line-height: 1.6;
+
+  @include respond-to($bp-md) {
+    font-size: 18px;
+  }
+}
+
+.catalogo-page__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  overflow: hidden;
+
+  @include respond-to($bp-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include respond-to($bp-lg) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.catalogo-page-card {
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 0;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 30px -10px rgba($primary, 0.3);
+    cursor: pointer;
+  }
+
+  &:hover &__image {
+    filter: grayscale(0);
+  }
+
+  &__image-wrapper {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: filter 0.5s ease;
+  }
+
+  &__badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background-color: $primary;
+    color: $white;
+    font-family: 'Courier New', monospace;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 4px 12px;
+  }
+
+  &__body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  &__title {
+    font-family: $font-title;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $primary;
+    margin: 0 0 8px;
+  }
+
+  &__desc {
+    font-family: $font-body;
+    font-size: 14px;
+    color: rgba(17, 17, 17, 0.65);
+    line-height: 1.6;
+    flex-grow: 1;
+    margin: 0 0 24px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(17, 17, 17, 0.08);
+    padding-top: 16px;
+  }
+
+  &__price {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    color: $secondary;
+  }
+
+  &__btn {
+    border: 1px solid $primary;
+    color: $primary;
+    background-color: transparent;
+    padding: 8px 16px;
+    border-radius: 0;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}
+
+.catalogo-page__cta {
+  background-color: $primary;
+  border-top: 4px solid $secondary;
+  padding: 32px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  margin-top: 60px;
+
+  @include respond-to($bp-md) {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    text-align: left;
+    margin-top: 80px;
+  }
+}
+
+.catalogo-page__cta-content {
+  flex: 1;
+}
+
+.catalogo-page__cta-title {
+  font-family: $font-title;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  margin: 0 0 12px;
+
+  @include respond-to($bp-md) {
+    font-size: 28px;
+  }
+}
+
+.catalogo-page__cta-desc {
+  font-family: $font-body;
+  font-size: 16px;
+  color: rgba($white, 0.85);
+  max-width: 520px;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.catalogo-page__cta-btn {
+  background-color: $white;
+  color: $primary;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 0;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  text-align: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+
+  @include respond-to($bp-md) {
+    width: auto;
+    display: inline-block;
+  }
+
+  &:hover {
+    background-color: $accent;
+    color: $white;
+  }
+}

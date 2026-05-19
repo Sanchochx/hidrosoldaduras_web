@@ -1,0 +1,39 @@
+<div class="catalogo-page">
+  <main class="catalogo-page__container">
+    <div class="catalogo-page__header catalogo-page__header-line" data-aos="fade-up">
+      <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
+    </div>
+    <div class="catalogo-page__grid">
+      @for (product of products; track product.title; let i = $index) {
+        <div class="catalogo-page-card" [attr.data-aos-delay]="i * 100" data-aos="fade-up">
+          <div class="catalogo-page-card__image-wrapper">
+            <img class="catalogo-page-card__image" [src]="product.img" [alt]="product.alt" />
+            @if (product.badge) {
+              <span class="catalogo-page-card__badge">{{ product.badge }}</span>
+            }
+          </div>
+          <div class="catalogo-page-card__body">
+            <h3 class="catalogo-page-card__title">{{ product.title }}</h3>
+            <p class="catalogo-page-card__desc">{{ product.desc }}</p>
+            <div class="catalogo-page-card__footer">
+              <span class="catalogo-page-card__price">{{ product.price }}</span>
+              <button class="catalogo-page-card__btn">VER DETALLES</button>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+    <div class="catalogo-page__cta" data-aos="fade-up">
+      <div class="catalogo-page__cta-content">
+        <h2 class="catalogo-page__cta-title">¿NO ENCUENTRA LO QUE BUSCA?</h2>
+        <p class="catalogo-page__cta-desc">
+          Desarrollamos soluciones de ingeniería a medida y fabricamos piezas especiales
+          según sus requerimientos técnicos específicos.
+        </p>
+      </div>
+      <a href="tel:3224465872" class="catalogo-page__cta-btn">
+        SOLICITAR ASESORÍA TÉCNICA
+      </a>
+    </div>
+  </main>
+</div>

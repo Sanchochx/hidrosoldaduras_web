@@ -1,4 +1,4 @@
-<section id="catalogo" class="catalogo">
+<section id="nuestros_productos" class="catalogo">
   <div class="catalogo__header" data-aos="fade-up" data-aos-delay="0">
     <h2 class="catalogo__title">NUESTROS PRODUCTOS</h2>
   </div>
@@ -11,7 +11,11 @@
         <div class="catalogo-card__body">
           <h3 class="catalogo-card__title">{{ product.title }}</h3>
           <p class="catalogo-card__desc">{{ product.desc }}</p>
-          <button class="catalogo-card__btn">CATÁLOGO</button>
+          @if (product.catalogRoute) {
+            <a [routerLink]="product.catalogRoute" class="catalogo-card__btn">CATÁLOGO</a>
+          } @else {
+            <button class="catalogo-card__btn" disabled>CATÁLOGO</button>
+          }
         </div>
       </div>
     }
