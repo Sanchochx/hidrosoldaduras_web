@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router, RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 interface Product {
@@ -38,6 +38,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/codo-liso.jpeg',
         alt: 'Codo Liso',
         price: 'Cotizar',
+        routeId: 'codo-liso',
       },
       {
         title: 'Tee Bridada o Mixta',
@@ -45,6 +46,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/tee-bridada-mixta.jpeg',
         alt: 'Tee Bridada o Mixta',
         price: 'Cotizar',
+        routeId: 'tee-bridada-mixta',
       },
       {
         title: 'Tee Lisa',
@@ -52,6 +54,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/tee-lisa.jpeg',
         alt: 'Tee Lisa',
         price: 'Cotizar',
+        routeId: 'tee-lisa',
       },
       {
         title: 'Yee Bridada o Mixta',
@@ -59,6 +62,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/yee-bridada-mixta.png',
         alt: 'Yee Bridada o Mixta',
         price: 'Cotizar',
+        routeId: 'yee-bridada-mixta',
       },
       {
         title: 'Yee Lisa',
@@ -66,6 +70,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/yee-lisa.jpeg',
         alt: 'Yee Lisa',
         price: 'Cotizar',
+        routeId: 'yee-lisa',
       },
       {
         title: 'Reducción Excéntrica / Concéntrica Bridada',
@@ -73,6 +78,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/reduccion-excentrica-bridada.jpeg',
         alt: 'Reducción Excéntrica Concéntrica Bridada',
         price: 'Cotizar',
+        routeId: 'reduccion-excentrica-concentrica-bridada',
       },
       {
         title: 'Reducción Excéntrica / Concéntrica Lisa',
@@ -80,6 +86,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/reduccion-excentrica-liso.jpeg',
         alt: 'Reducción Excéntrica Concéntrica Lisa',
         price: 'Cotizar',
+        routeId: 'reduccion-excentrica-concentrica-liso',
       },
       {
         title: 'Niple Pasamuro Bridado o Mixto',
@@ -87,6 +94,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/niple-pasamuro-bridado.png',
         alt: 'Niple Pasamuro Bridado o Mixto',
         price: 'Cotizar',
+        routeId: 'niple-pasamuro-bridado-mixto',
       },
       {
         title: 'Niple Pasamuro Liso',
@@ -94,6 +102,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/niple-pasamuro-liso.png',
         alt: 'Niple Pasamuro Liso',
         price: 'Cotizar',
+        routeId: 'niple-pasamuro-liso',
       },
       {
         title: 'Compuerta Tipo Bridada',
@@ -101,6 +110,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/compuerta-bridada.png',
         alt: 'Compuerta Tipo Bridada',
         price: 'Cotizar',
+        routeId: 'compuerta-tipo-bridada',
       },
       {
         title: 'Compuerta Tipo Pasamuro',
@@ -108,6 +118,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/compuerta-pasamuro.jpeg',
         alt: 'Compuerta Tipo Pasamuro',
         price: 'Cotizar',
+        routeId: 'compuerta-tipo-pasamuro',
       },
       {
         title: 'Compuerta Tipo Plana',
@@ -115,6 +126,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/compuerta-plana.jpeg',
         alt: 'Compuerta Tipo Plana',
         price: 'Cotizar',
+        routeId: 'compuerta-tipo-plana',
       },
       {
         title: 'Unión Autoportante',
@@ -122,6 +134,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/union-autoportante.png',
         alt: 'Unión Autoportante',
         price: 'Cotizar',
+        routeId: 'union-autoportante',
       },
       {
         title: 'Unión de Transición PVC–AC / HD–AC',
@@ -129,6 +142,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/union-transicion-pvc-ac-hd.jpeg',
         alt: 'Unión de Transición PVC-AC HD-AC',
         price: 'Cotizar',
+        routeId: 'union-transicion-pvc-ac-hd-ac',
       },
       {
         title: 'Unión Dresser',
@@ -136,6 +150,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/union-dresser.jpeg',
         alt: 'Unión Dresser',
         price: 'Cotizar',
+        routeId: 'union-dresser',
       },
       {
         title: 'Válvula de Pie',
@@ -143,6 +158,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/valvula-pie.jpeg',
         alt: 'Válvula de Pie',
         price: 'Cotizar',
+        routeId: 'valvula-de-pie',
       },
     ],
   },
@@ -159,10 +175,9 @@ export class CatalogoPageComponent implements OnInit {
   catalogTitle = '';
   catalogSubtitle = '';
   products: Product[] = [];
-  selectedProduct: Product | null = null;
   categoria = '';
 
-  constructor(private route: ActivatedRoute, private router: Router) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     this.categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
@@ -172,15 +187,5 @@ export class CatalogoPageComponent implements OnInit {
       this.catalogSubtitle = data.subtitle;
       this.products = data.products;
     }
-  }
-
-  selectProduct(product: Product): void {
-    this.selectedProduct = product;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
-  clearProduct(): void {
-    this.selectedProduct = null;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

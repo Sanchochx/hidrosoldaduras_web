@@ -106,7 +106,7 @@
     "nombre": "Reducción Excéntrica-Concéntrica Bridada",
     "categoria": "Accesorios",
     "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante conexiones bridadas, facilitando el desmontaje para mantenimiento. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido.",
-    "imagen": "reduccion-bridada.png",
+    "imagen": "reduccion-excentrica-bridada.jpeg",
     "tipos": ["Reducción Excéntrica Bridada", "Reducción Concéntrica Bridada"],
     "propiedades": {
       "diametros": "63 mm a 920 mm",
@@ -155,7 +155,7 @@
     "nombre": "Reducción Excéntrica-Concéntrica Liso",
     "categoria": "Accesorios",
     "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante soldadura a tope. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido transportado.",
-    "imagen": "reduccion-liso.png",
+    "imagen": "reduccion-excentrica-liso.jpeg",
     "tipos": ["Reducción Excéntrica Lisa", "Reducción Concéntrica Lisa"],
     "propiedades": {
       "diametros": "63 mm a 920 mm",
@@ -204,7 +204,7 @@
     "nombre": "Codo Bridado o Mixto",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en un sistema hidráulico. Disponible con ángulos de 11.5°, 22.5°, 45° y 90°, con conexiones bridadas que facilitan la instalación y el mantenimiento sin soldadura directa en sitio.",
-    "imagen": "codo-bridado.png",
+    "imagen": "codo-bridado-mixto.png",
     "tipos": ["Codo Bridado", "Codo Mixto"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -255,7 +255,7 @@
     "nombre": "Codo Liso",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en ángulos de 45° o 90°. Se caracteriza por su acabado sin costuras visibles o tipo largo (2D/3D), lo que reduce la fricción interna y se une mediante soldadura a tope.",
-    "imagen": "codo-liso.png",
+    "imagen": "codo-liso.jpeg",
     "tipos": ["Codo Liso 45°", "Codo Liso 90°"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -306,7 +306,7 @@
     "nombre": "Tee Lisa",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería en forma de 'T' que se utiliza para desviar o combinar el flujo de fluidos, conectando tres secciones de tubería. Sus extremos lisos están preparados para unión mediante soldadura a tope (buttweld).",
-    "imagen": "tee-lisa.png",
+    "imagen": "tee-lisa.jpeg",
     "tipos": ["Tee Lisa Igual", "Tee Lisa Reducida"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -353,7 +353,7 @@
     "nombre": "Tee Bridada o Mixta",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de conexión para tuberías industriales que permite la derivación del flujo en un ángulo de 90 grados. Utiliza bridas en sus extremos para facilitar la instalación y el mantenimiento sin necesidad de soldadura directa en el sitio.",
-    "imagen": "tee-bridada.png",
+    "imagen": "tee-bridada-mixta.jpeg",
     "tipos": ["Tee Bridada", "Tee Mixta"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -399,7 +399,7 @@
     "nombre": "Yee Bridada o Mixta",
     "categoria": "Accesorios",
     "descripcion": "Accesorio robusto con forma de 'Y' utilizado en sistemas de tuberías industriales para crear ramificaciones en ángulo. Cuenta con bridas en sus extremos para facilitar la instalación y el mantenimiento sin soldadura directa en sitio.",
-    "imagen": "yee-bridada.png",
+    "imagen": "yee-bridada-mixta.png",
     "tipos": ["Yee Bridada", "Yee Mixta"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -446,7 +446,7 @@
     "nombre": "Yee Lisa",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería industrial con forma de 'Y', diseñado para crear derivaciones en sistemas de fluidos mediante soldadura a tope. Garantiza una unión robusta y permanente con alta resistencia mecánica.",
-    "imagen": "yee-lisa.png",
+    "imagen": "yee-lisa.jpeg",
     "tipos": ["Yee Lisa Igual", "Yee Lisa Reducida"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -493,7 +493,7 @@
     "nombre": "Compuerta Tipo Plana",
     "categoria": "Compuertas",
     "descripcion": "Dispositivo industrial utilizado para controlar o interrumpir completamente el flujo de fluidos como líquidos, gases o lodos en sistemas de tuberías y canales. Opera mediante un tablero o placa plana que se desliza verticalmente perpendicular al flujo.",
-    "imagen": "compuerta-plana.png",
+    "imagen": "compuerta-plana.jpeg",
     "tipos": ["Compuerta Plana Mural", "Compuerta Plana en Canal", "Compuerta Plana Bridada"],
     "propiedades": {
       "diametros": "100 mm a 1500 mm",
@@ -545,7 +545,7 @@
     "nombre": "Compuerta Tipo Pasamuro",
     "categoria": "Compuertas",
     "descripcion": "Compuerta de acero al carbono diseñada para regular o cortar el flujo de fluidos en sistemas de tuberías y canales, instalándose directamente en muros o paredes metálicas. Combina la función de compuerta con la de pasamuro.",
-    "imagen": "compuerta-pasamuro.png",
+    "imagen": "compuerta-pasamuro.jpeg",
     "tipos": ["Compuerta Pasamuro Mural", "Compuerta Pasamuro en Canal", "Compuerta Pasamuro Bridada"],
     "propiedades": {
       "diametros": "100 mm a 1500 mm",
@@ -645,7 +645,7 @@
     "nombre": "Unión de Transición PVC-AC / HD-AC",
     "categoria": "Uniones",
     "descripcion": "Accesorio para proyectos de redes de acueducto y obras sanitarias, donde es común realizar empalmes entre tuberías nuevas y redes existentes de materiales distintos (PVC, Hierro Dúctil o Asbesto Cemento). Mantiene el sello bajo presiones negativas y absorbe desviaciones angulares del terreno.",
-    "imagen": "union-transicion.png",
+    "imagen": "union-transicion-pvc-ac-hd.jpeg",
     "tipos": ["Unión de Transición Simple PVC-AC", "Adaptador de Brida HD-AC"],
     "propiedades": {
       "diametros": "10\" a 30\"",
@@ -738,7 +738,7 @@
     "nombre": "Unión Dresser",
     "categoria": "Uniones",
     "descripcion": "Acople mecánico de compresión utilizado para unir tuberías de diversos materiales incluyendo acero al carbono, PVC e Hierro Dúctil. No requiere soldadura: el sellado se logra mediante la compresión de empaques de caucho al apretar los pernos.",
-    "imagen": "union-dresser.png",
+    "imagen": "union-dresser.jpeg",
     "tipos": ["Unión Dresser Simple", "Unión Dresser Deslizante"],
     "propiedades": {
       "diametros": "40 mm a 1219 mm",
@@ -792,7 +792,7 @@
     "nombre": "Válvula de Pie",
     "categoria": "Válvulas",
     "descripcion": "Válvula de retención con canastilla integrada en su extremo de succión. Protege la tubería de la aspiración de partículas sólidas y evita que la tubería de succión se vacíe cuando la bomba se detiene, facilitando el cebado y protegiendo el impulsor.",
-    "imagen": "valvula-de-pie.png",
+    "imagen": "valvula-pie.jpeg",
     "tipos": ["Válvula de Pie Bridada"],
     "propiedades": {
       "diametros": "150 mm a 900 mm",

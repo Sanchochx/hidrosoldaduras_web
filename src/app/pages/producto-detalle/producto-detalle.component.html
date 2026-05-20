@@ -47,7 +47,6 @@
         @for (spec of specConfig; track spec.key; let i = $index) {
           @if (producto.propiedades[spec.key]) {
             <div class="pd__spec-card">
-              <span class="pd__spec-label">TECH-SPEC_0{{ i + 1 }}</span>
               <i class="fa-solid {{ spec.icon }} pd__spec-icon"></i>
               <h3 class="pd__spec-name">{{ spec.label }}</h3>
               <p class="pd__spec-value">{{ producto.propiedades[spec.key] }}</p>

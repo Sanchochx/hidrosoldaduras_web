@@ -59,10 +59,12 @@ export class ProductoDetalleComponent implements OnInit {
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id') ?? '';
     this.categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
-    this.imagenPath = `assets/images/${this.categoria}/${id}.png`;
 
     this.productoService.getById(id).subscribe(p => {
       this.producto = p ?? null;
+      if (this.producto) {
+        this.imagenPath = `assets/images/${this.categoria}/${this.producto.imagen}`;
+      }
     });
   }
 

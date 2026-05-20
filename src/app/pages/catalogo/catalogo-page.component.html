@@ -1,17 +1,15 @@
 <div class="catalogo-page">
   <main class="catalogo-page__container">
 
-@if (!selectedProduct) {
-
       <div class="catalogo-page__header catalogo-page__header-line">
         <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
       </div>
       <div class="catalogo-page__grid">
-        @for (product of products; track product.title; let i = $index) {
+        @for (product of products; track product.title) {
           <div
             class="catalogo-page-card"
-            [class.catalogo-page-card--clickable]="i === 0 && !!product.routeId"
-            [routerLink]="i === 0 && product.routeId ? ['/catalogo', categoria, product.routeId] : null"
+            [class.catalogo-page-card--clickable]="!!product.routeId"
+            [routerLink]="product.routeId ? ['/catalogo', categoria, product.routeId] : null"
           >
             <div class="catalogo-page-card__image-wrapper">
               <img class="catalogo-page-card__image" [src]="product.img" [alt]="product.alt" />
@@ -25,58 +23,6 @@
           </div>
         }
       </div>
-
-    } @else {
-
-      <div class="product-detail">
-
-        <div class="product-detail__nav">
-          <button class="product-detail__back-btn" (click)="clearProduct()">
-            <i class="fa-solid fa-arrow-left"></i>
-            VOLVER AL CATÁLOGO
-          </button>
-          <nav class="product-detail__breadcrumb" aria-label="Ruta de navegación">
-            <span class="product-detail__breadcrumb-item">FABRICACIÓN</span>
-            <span class="product-detail__breadcrumb-sep" aria-hidden="true">›</span>
-            <span class="product-detail__breadcrumb-current">{{ selectedProduct.title }}</span>
-          </nav>
-        </div>
-
-        <div class="product-detail__hero">
-          <div class="product-detail__image-wrapper">
-            <img
-              class="product-detail__image"
-              [src]="selectedProduct.img"
-              [alt]="selectedProduct.alt"
-            />
-          </div>
-          <div class="product-detail__info">
-            <h1 class="product-detail__title">{{ selectedProduct.title }}</h1>
-            <div class="product-detail__divider"></div>
-            <p class="product-detail__desc">{{ selectedProduct.desc }}</p>
-            <div class="product-detail__actions">
-              <a
-                href="https://wa.me/573224465872"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="product-detail__btn product-detail__btn--whatsapp"
-              >
-                <i class="fa-brands fa-whatsapp"></i>
-                WHATSAPP
-              </a>
-              <a
-                href="tel:3224465872"
-                class="product-detail__btn product-detail__btn--cotizar"
-              >
-                COTIZAR
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    }
 
     <div class="catalogo-page__cta" data-aos="fade-up">
       <div class="catalogo-page__cta-content">
