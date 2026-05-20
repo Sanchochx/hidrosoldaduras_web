@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 interface Product {
@@ -9,6 +9,7 @@ interface Product {
   alt: string;
   price: string;
   badge?: string;
+  routeId?: string;
 }
 
 interface CatalogEntry {
@@ -29,6 +30,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/fabricacion/codo-bridado-mixto.png',
         alt: 'Codo Bridado o Mixto',
         price: 'Cotizar',
+        routeId: 'codo-bridado-mixto',
       },
       {
         title: 'Codo Liso',
@@ -149,7 +151,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
 @Component({
   selector: 'app-catalogo-page',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink],
   templateUrl: './catalogo-page.component.html',
   styleUrl: './catalogo-page.component.scss',
 })
@@ -157,16 +159,28 @@ export class CatalogoPageComponent implements OnInit {
   catalogTitle = '';
   catalogSubtitle = '';
   products: Product[] = [];
+  selectedProduct: Product | null = null;
+  categoria = '';
 
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private router: Router) {}
 
   ngOnInit(): void {
-    const categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
-    const data = CATALOG_DATA[categoria];
+    this.categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
+    const data = CATALOG_DATA[this.categoria];
     if (data) {
       this.catalogTitle = data.title;
       this.catalogSubtitle = data.subtitle;
       this.products = data.products;
     }
+  }
+
+  selectProduct(product: Product): void {
+    this.selectedProduct = product;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  clearProduct(): void {
+    this.selectedProduct = null;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

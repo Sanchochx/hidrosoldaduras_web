@@ -216,3 +216,176 @@
     color: $white;
   }
 }
+
+// ─── Primera tarjeta clickeable ───────────────────────────────────────────────
+
+.catalogo-page-card--clickable {
+  cursor: pointer;
+}
+
+
+// ─── Vista de detalle de producto ─────────────────────────────────────────────
+
+.product-detail {
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba($dark, 0.15);
+  }
+
+  &__back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 1px solid $primary;
+    color: $primary;
+    font-family: $font-title;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, color 0.2s ease;
+
+    &:hover {
+      background-color: $primary;
+      color: $white;
+    }
+  }
+
+  &__breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: $font-body;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba($dark, 0.45);
+  }
+
+  &__breadcrumb-sep {
+    color: rgba($dark, 0.25);
+  }
+
+  &__breadcrumb-current {
+    color: $primary;
+    font-weight: 600;
+  }
+
+  &__hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-bottom: 48px;
+
+    @include respond-to($bp-lg) {
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+  }
+
+  &__image-wrapper {
+    border: 2px solid $primary;
+    overflow: hidden;
+    aspect-ratio: 4 / 3;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+
+    &:hover {
+      transform: scale(1.04);
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__title {
+    font-family: $font-title;
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $dark;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+    margin: 0;
+  }
+
+  &__divider {
+    width: 72px;
+    height: 4px;
+    background-color: $primary;
+  }
+
+  &__desc {
+    font-family: $font-body;
+    font-size: 16px;
+    color: rgba($dark, 0.72);
+    line-height: 1.7;
+    margin: 0;
+
+    @include respond-to($bp-md) {
+      font-size: 18px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 8px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    font-family: $font-title;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 0;
+    transition: all 0.2s ease;
+
+    &--whatsapp {
+      background-color: #25D366;
+      color: $white;
+
+      &:hover {
+        background-color: #1ebe5d;
+      }
+    }
+
+    &--cotizar {
+      background-color: $primary;
+      color: $white;
+
+      &:hover {
+        background-color: $secondary;
+      }
+    }
+  }
+}

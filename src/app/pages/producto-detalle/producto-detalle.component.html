@@ -1,0 +1,127 @@
+@if (producto) {
+<div class="pd">
+  <div class="pd__container">
+
+
+<!-- Hero -->
+    <section class="pd__hero">
+      <div class="pd__hero-image-wrapper">
+        <img class="pd__hero-image" [src]="imagenPath" [alt]="producto.nombre" />
+      </div>
+      <div class="pd__hero-info">
+<h1 class="pd__title">{{ producto.nombre | uppercase }}</h1>
+        <div class="pd__divider"></div>
+        <p class="pd__desc">{{ producto.descripcion }}</p>
+        <div class="pd__tipos">
+          @for (tipo of producto.tipos; track tipo) {
+            <span class="pd__tipo-pill">{{ tipo | uppercase }}</span>
+          }
+        </div>
+        <div class="pd__actions">
+          <a
+            href="https://wa.me/573224465872"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pd__btn pd__btn--whatsapp"
+          >
+            <i class="fa-brands fa-whatsapp"></i> COTIZAR POR WHATSAPP
+          </a>
+          <a
+            [attr.href]="'assets/fichas_tecnicas/' + producto.id + '.pdf'"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="pd__btn pd__btn--pdf"
+          >
+            <i class="fa-solid fa-file-pdf"></i> FICHA TÉCNICA PDF
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Especificaciones Técnicas -->
+    <section class="pd__section">
+      <div class="pd__section-header">
+        <h2 class="pd__section-title">ESPECIFICACIONES TÉCNICAS</h2>
+      </div>
+      <div class="pd__specs-grid">
+        @for (spec of specConfig; track spec.key; let i = $index) {
+          @if (producto.propiedades[spec.key]) {
+            <div class="pd__spec-card">
+              <span class="pd__spec-label">TECH-SPEC_0{{ i + 1 }}</span>
+              <i class="fa-solid {{ spec.icon }} pd__spec-icon"></i>
+              <h3 class="pd__spec-name">{{ spec.label }}</h3>
+              <p class="pd__spec-value">{{ producto.propiedades[spec.key] }}</p>
+            </div>
+          }
+        }
+      </div>
+    </section>
+
+    <!-- Tabla de Dimensiones -->
+    @if (producto.tabla_dimensiones.length) {
+      <section class="pd__section">
+        <h2 class="pd__section-title pd__section-title--standalone">TABLA DE DIMENSIONES</h2>
+        <div class="pd__table-wrapper">
+          <table class="pd__table">
+            <thead>
+              <tr>
+                @for (header of tableHeaders; track header) {
+                  <th class="pd__table-th">{{ labelFor(header) }}</th>
+                }
+              </tr>
+            </thead>
+            <tbody>
+              @for (row of producto.tabla_dimensiones; track $index; let i = $index) {
+                <tr [class.pd__table-row--odd]="i % 2 === 0">
+                  @for (header of tableHeaders; track header) {
+                    <td class="pd__table-td">{{ row[header] !== null ? row[header] : '—' }}</td>
+                  }
+                </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </section>
+    }
+
+    <!-- Normas Técnicas -->
+    <section class="pd__section">
+      <h2 class="pd__section-title pd__section-title--standalone">NORMAS TÉCNICAS</h2>
+      <div class="pd__normas-grid">
+        @for (norma of producto.normas; track norma) {
+          <div class="pd__norma-item">
+            <i class="fa-solid fa-circle-check pd__norma-icon"></i>
+            <span class="pd__norma-text">{{ norma }}</span>
+          </div>
+        }
+      </div>
+    </section>
+
+    <!-- Características -->
+    <section class="pd__section">
+      <h2 class="pd__section-title pd__section-title--center">CARACTERÍSTICAS</h2>
+      <div class="pd__chars-grid">
+        @for (char of producto.caracteristicas; track char; let i = $index) {
+          <div class="pd__char-card">
+            <i class="fa-solid {{ charIcons[i % charIcons.length] }} pd__char-icon"></i>
+            <p class="pd__char-text">{{ char }}</p>
+          </div>
+        }
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="pd__cta">
+      <div class="pd__cta-content">
+        <h2 class="pd__cta-title">¿NECESITA ESTE PRODUCTO PARA SU PROYECTO?</h2>
+        <p class="pd__cta-desc">Nuestro equipo de ingeniería está listo para asesorarlo en la selección y dimensionamiento del accesorio ideal.</p>
+      </div>
+      <div class="pd__cta-actions">
+        <a href="https://wa.me/573224465872" target="_blank" rel="noopener noreferrer" class="pd__cta-btn pd__cta-btn--primary"><i class="fa-brands fa-whatsapp"></i> SOLICITAR COTIZACIÓN</a>
+        <a [routerLink]="['/catalogo', categoria]" class="pd__cta-btn pd__cta-btn--secondary">VER OTROS PRODUCTOS</a>
+      </div>
+    </section>
+
+  </div>
+</div>
+}

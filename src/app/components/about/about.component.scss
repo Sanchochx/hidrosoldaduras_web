@@ -4,7 +4,7 @@
 .about {
   // Sub-sección: Capacidades Técnicas
   &__capabilities {
-    background-color: $white;
+    background-color: transparent;
     padding: 60px 20px;
 
     @include respond-to($bp-md) {
@@ -68,7 +68,7 @@
 
   // Sub-sección: Por qué somos líderes
   &__why {
-    background-color: $light;
+    background-color: transparent;
     padding: 60px 20px;
     display: grid;
     grid-template-columns: 1fr;

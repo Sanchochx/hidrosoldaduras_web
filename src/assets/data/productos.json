@@ -1,0 +1,837 @@
+[
+  {
+    "id": "niple-pasamuro-bridado-mixto",
+    "nombre": "Niple Pasamuro Bridado o Mixto",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de conexión hidráulico diseñado para atravesar estructuras de concreto (como muros de tanques o cimentaciones) permitiendo la conexión estanca de tuberías en ambos lados.",
+    "imagen": "niple-pasamuro-bridado.png",
+    "tipos": ["Niple Bridado", "Niple Mixto", "Niple con Anclaje Mecánico"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Cuerpo fabricado en tubería de acero al carbón de alta resistencia",
+      "Bridas en ambos extremos para acoplar válvulas, bombas y otros accesorios mediante pernos",
+      "Brida rompeaguas central soldada que actúa como anclaje mecánico anti-filtraciones",
+      "Recubrimiento epóxico para alta durabilidad en ambientes húmedos",
+      "Extremo de salida liso compatible con tubería PVC, Hierro Dúctil o Brida ANSI B16.1"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "pn": "10-25", "g": 89,  "asbesto": 120 },
+      { "dn": 75,  "pn": "10-25", "g": 108, "asbesto": 120 },
+      { "dn": 100, "pn": "10-25", "g": 114, "asbesto": 120 },
+      { "dn": 150, "pn": "10-25", "g": 140, "asbesto": 120 },
+      { "dn": 200, "pn": "10-25", "g": 159, "asbesto": 120 },
+      { "dn": 250, "pn": "10-25", "g": 184, "asbesto": 120 },
+      { "dn": 300, "pn": "10-25", "g": 210, "asbesto": 120 },
+      { "dn": 350, "pn": "10-25", "g": 220, "asbesto": 120 },
+      { "dn": 400, "pn": "10-25", "g": 240, "asbesto": 120 },
+      { "dn": 450, "pn": "10-25", "g": 260, "asbesto": 120 },
+      { "dn": 500, "pn": "10-25", "g": 280, "asbesto": 120 },
+      { "dn": 600, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 700, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 750, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 800, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 863, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 920, "pn": "10-25", "g": null, "asbesto": 120 }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "niple-pasamuro-liso",
+    "nombre": "Niple Pasa Muro Liso",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de fijación robusto diseñado para permitir el paso seguro de fluidos a través de estructuras como muros o tanques, garantizando alta resistencia mecánica y hermeticidad. Sus extremos lisos se unen mediante soldadura a tope.",
+    "imagen": "niple-pasamuro-liso.png",
+    "tipos": ["Niple Liso", "Niple con Anclaje Mecánico"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Soldada / Uniones Mecánicas",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASTM A960/A960M – Requisitos generales"
+    ],
+    "caracteristicas": [
+      "Cuerpo fabricado en tubería de acero al carbón de alta resistencia",
+      "Extremos lisos para unión mediante soldadura a tope o uniones mecánicas",
+      "Compatible con tubería PVC e Hierro Dúctil junta hidráulica",
+      "Anillo rompeaguas central disponible como anclaje mecánico anti-filtraciones",
+      "Recubrimiento epóxico para protección en ambientes húmedos"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "pn": "10-25", "g": 89,  "asbesto": 120 },
+      { "dn": 75,  "pn": "10-25", "g": 108, "asbesto": 120 },
+      { "dn": 100, "pn": "10-25", "g": 114, "asbesto": 120 },
+      { "dn": 150, "pn": "10-25", "g": 140, "asbesto": 120 },
+      { "dn": 200, "pn": "10-25", "g": 159, "asbesto": 120 },
+      { "dn": 250, "pn": "10-25", "g": 184, "asbesto": 120 },
+      { "dn": 300, "pn": "10-25", "g": 210, "asbesto": 120 },
+      { "dn": 350, "pn": "10-25", "g": 220, "asbesto": 120 },
+      { "dn": 400, "pn": "10-25", "g": 240, "asbesto": 120 },
+      { "dn": 450, "pn": "10-25", "g": 260, "asbesto": 120 },
+      { "dn": 500, "pn": "10-25", "g": 280, "asbesto": 120 },
+      { "dn": 600, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 700, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 750, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 800, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 863, "pn": "10-25", "g": null, "asbesto": 120 },
+      { "dn": 920, "pn": "10-25", "g": null, "asbesto": 120 }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "reduccion-excentrica-concentrica-bridada",
+    "nombre": "Reducción Excéntrica-Concéntrica Bridada",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante conexiones bridadas, facilitando el desmontaje para mantenimiento. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido.",
+    "imagen": "reduccion-bridada.png",
+    "tipos": ["Reducción Excéntrica Bridada", "Reducción Concéntrica Bridada"],
+    "propiedades": {
+      "diametros": "63 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Fabricada en acero al carbono con soldadura y bridas",
+      "Permite unir tuberías de distintos diámetros con conexión desmontable",
+      "Versión excéntrica: lado plano arriba en succión de bombas para evitar bolsas de aire",
+      "Versión concéntrica: alineada respecto al eje central común de ambas tuberías",
+      "Acabado con recubrimiento epóxico o galvanizado para protección anticorrosiva"
+    ],
+    "tabla_dimensiones": [
+      { "dn_mayor": 150, "dn_menor": 63,  "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 14,  "peso_pn16_kg": 14  },
+      { "dn_mayor": 150, "dn_menor": 75,  "pn": "10-25", "longitud_mm": 400, "peso_pn10_kg": 16,  "peso_pn16_kg": 16  },
+      { "dn_mayor": 150, "dn_menor": 100, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 15,  "peso_pn16_kg": 15  },
+      { "dn_mayor": 200, "dn_menor": 100, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 28,  "peso_pn16_kg": 28  },
+      { "dn_mayor": 200, "dn_menor": 150, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 22,  "peso_pn16_kg": 22  },
+      { "dn_mayor": 250, "dn_menor": 100, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 38,  "peso_pn16_kg": 38  },
+      { "dn_mayor": 250, "dn_menor": 150, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 38,  "peso_pn16_kg": 38  },
+      { "dn_mayor": 250, "dn_menor": 200, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 30,  "peso_pn16_kg": 30  },
+      { "dn_mayor": 300, "dn_menor": 150, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 46,  "peso_pn16_kg": 46  },
+      { "dn_mayor": 300, "dn_menor": 250, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 42,  "peso_pn16_kg": 42  },
+      { "dn_mayor": 350, "dn_menor": 300, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 52,  "peso_pn16_kg": 55  },
+      { "dn_mayor": 400, "dn_menor": 150, "pn": "10-25", "longitud_mm": 700, "peso_pn10_kg": 78,  "peso_pn16_kg": 78  },
+      { "dn_mayor": 500, "dn_menor": 250, "pn": "10-25", "longitud_mm": 700, "peso_pn10_kg": 101, "peso_pn16_kg": 114 },
+      { "dn_mayor": 600, "dn_menor": 350, "pn": "10-26", "longitud_mm": 750, "peso_pn10_kg": 147, "peso_pn16_kg": 174 },
+      { "dn_mayor": 920, "dn_menor": 350, "pn": "10-28", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "reduccion-excentrica-concentrica-liso",
+    "nombre": "Reducción Excéntrica-Concéntrica Liso",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante soldadura a tope. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido transportado.",
+    "imagen": "reduccion-liso.png",
+    "tipos": ["Reducción Excéntrica Lisa", "Reducción Concéntrica Lisa"],
+    "propiedades": {
+      "diametros": "63 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Soldada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASTM A960/A960M – Requisitos generales"
+    ],
+    "caracteristicas": [
+      "Fabricada en acero al carbono con unión por soldadura a tope",
+      "Permite cambiar el diámetro de la tubería manteniendo la continuidad del flujo",
+      "Versión excéntrica con lado plano orientable según requerimiento hidráulico",
+      "Versión concéntrica para tuberías alineadas en el mismo eje",
+      "Acabado con recubrimiento epóxico o galvanizado para protección anticorrosiva"
+    ],
+    "tabla_dimensiones": [
+      { "dn_mayor": 150, "dn_menor": 63,  "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 14,  "peso_pn16_kg": 14  },
+      { "dn_mayor": 150, "dn_menor": 75,  "pn": "10-25", "longitud_mm": 400, "peso_pn10_kg": 16,  "peso_pn16_kg": 16  },
+      { "dn_mayor": 150, "dn_menor": 100, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 15,  "peso_pn16_kg": 15  },
+      { "dn_mayor": 200, "dn_menor": 100, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 28,  "peso_pn16_kg": 28  },
+      { "dn_mayor": 200, "dn_menor": 150, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 22,  "peso_pn16_kg": 22  },
+      { "dn_mayor": 250, "dn_menor": 100, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 38,  "peso_pn16_kg": 38  },
+      { "dn_mayor": 250, "dn_menor": 150, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 38,  "peso_pn16_kg": 38  },
+      { "dn_mayor": 250, "dn_menor": 200, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 30,  "peso_pn16_kg": 30  },
+      { "dn_mayor": 300, "dn_menor": 150, "pn": "10-25", "longitud_mm": 600, "peso_pn10_kg": 46,  "peso_pn16_kg": 46  },
+      { "dn_mayor": 300, "dn_menor": 250, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 42,  "peso_pn16_kg": 42  },
+      { "dn_mayor": 350, "dn_menor": 300, "pn": "10-25", "longitud_mm": 300, "peso_pn10_kg": 52,  "peso_pn16_kg": 55  },
+      { "dn_mayor": 400, "dn_menor": 150, "pn": "10-25", "longitud_mm": 700, "peso_pn10_kg": 78,  "peso_pn16_kg": 78  },
+      { "dn_mayor": 500, "dn_menor": 250, "pn": "10-25", "longitud_mm": 700, "peso_pn10_kg": 101, "peso_pn16_kg": 114 },
+      { "dn_mayor": 600, "dn_menor": 350, "pn": "10-26", "longitud_mm": 750, "peso_pn10_kg": 147, "peso_pn16_kg": 174 },
+      { "dn_mayor": 920, "dn_menor": 350, "pn": "10-28", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "codo-bridado-mixto",
+    "nombre": "Codo Bridado o Mixto",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en un sistema hidráulico. Disponible con ángulos de 11.5°, 22.5°, 45° y 90°, con conexiones bridadas que facilitan la instalación y el mantenimiento sin soldadura directa en sitio.",
+    "imagen": "codo-bridado.png",
+    "tipos": ["Codo Bridado", "Codo Mixto"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Fabricado en acero al carbono con soldadura y bridas",
+      "Disponible en ángulos de curvatura: 11.5°, 22.5°, 45° y 90°",
+      "Conexión bridada que permite desmontaje sin corte ni soldadura en campo",
+      "Alta resistencia a cargas pesadas y presiones extremas",
+      "Recubrimiento epóxico o galvanizado para protección anticorrosiva"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "pn": "10-25", "angulo_11_5": 109, "angulo_22_5": 104, "angulo_45": 150,  "angulo_90": 150  },
+      { "dn": 75,  "pn": "10-25", "angulo_11_5": 113, "angulo_22_5": 105, "angulo_45": 130,  "angulo_90": 165  },
+      { "dn": 100, "pn": "10-25", "angulo_11_5": 115, "angulo_22_5": 110, "angulo_45": 140,  "angulo_90": 182  },
+      { "dn": 150, "pn": "10-25", "angulo_11_5": 113, "angulo_22_5": 109, "angulo_45": 160,  "angulo_90": 220  },
+      { "dn": 200, "pn": "10-25", "angulo_11_5": 132, "angulo_22_5": 131, "angulo_45": 180,  "angulo_90": 260  },
+      { "dn": 250, "pn": "10-25", "angulo_11_5": 152, "angulo_22_5": 167, "angulo_45": 245,  "angulo_90": 350  },
+      { "dn": 300, "pn": "10-25", "angulo_11_5": 156, "angulo_22_5": 175, "angulo_45": 275,  "angulo_90": 400  },
+      { "dn": 350, "pn": "10-25", "angulo_11_5": 191, "angulo_22_5": 215, "angulo_45": 300,  "angulo_90": 450  },
+      { "dn": 400, "pn": "10-25", "angulo_11_5": 205, "angulo_22_5": 239, "angulo_45": 325,  "angulo_90": 500  },
+      { "dn": 450, "pn": "10-25", "angulo_11_5": null,"angulo_22_5": null, "angulo_45": 350,  "angulo_90": 550  },
+      { "dn": 500, "pn": "10-25", "angulo_11_5": 233, "angulo_22_5": 272, "angulo_45": 375,  "angulo_90": 600  },
+      { "dn": 600, "pn": "10-25", "angulo_11_5": 274, "angulo_22_5": 320, "angulo_45": 425,  "angulo_90": 700  },
+      { "dn": 700, "pn": "10-25", "angulo_11_5": 230, "angulo_22_5": 300, "angulo_45": 480,  "angulo_90": 800  },
+      { "dn": 750, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
+      { "dn": 800, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
+      { "dn": 863, "pn": "10-25", "angulo_11_5": 280, "angulo_22_5": 375, "angulo_45": 580,  "angulo_90": 1000 },
+      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 11000}
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "codo-liso",
+    "nombre": "Codo Liso",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en ángulos de 45° o 90°. Se caracteriza por su acabado sin costuras visibles o tipo largo (2D/3D), lo que reduce la fricción interna y se une mediante soldadura a tope.",
+    "imagen": "codo-liso.png",
+    "tipos": ["Codo Liso 45°", "Codo Liso 90°"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Soldada / Uniones Mecánicas",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASTM A960/A960M – Requisitos generales"
+    ],
+    "caracteristicas": [
+      "Fabricado en acero al carbono mediante soldadura a tope sin bridas",
+      "Disponible en ángulos de curvatura de 11.5°, 22.5°, 45° y 90°",
+      "Diseño de radio largo (2D/3D) que reduce la pérdida de presión",
+      "Alta resistencia mecánica a cargas y presiones extremas",
+      "Recubrimiento epóxico o galvanizado para protección anticorrosiva"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "pn": "10-25", "angulo_11_5": 109, "angulo_22_5": 104, "angulo_45": 150,  "angulo_90": 150  },
+      { "dn": 75,  "pn": "10-25", "angulo_11_5": 113, "angulo_22_5": 105, "angulo_45": 130,  "angulo_90": 165  },
+      { "dn": 100, "pn": "10-25", "angulo_11_5": 115, "angulo_22_5": 110, "angulo_45": 140,  "angulo_90": 182  },
+      { "dn": 150, "pn": "10-25", "angulo_11_5": 113, "angulo_22_5": 109, "angulo_45": 160,  "angulo_90": 220  },
+      { "dn": 200, "pn": "10-25", "angulo_11_5": 132, "angulo_22_5": 131, "angulo_45": 180,  "angulo_90": 260  },
+      { "dn": 250, "pn": "10-25", "angulo_11_5": 152, "angulo_22_5": 167, "angulo_45": 245,  "angulo_90": 350  },
+      { "dn": 300, "pn": "10-25", "angulo_11_5": 156, "angulo_22_5": 175, "angulo_45": 275,  "angulo_90": 400  },
+      { "dn": 350, "pn": "10-25", "angulo_11_5": 191, "angulo_22_5": 215, "angulo_45": 300,  "angulo_90": 450  },
+      { "dn": 400, "pn": "10-25", "angulo_11_5": 205, "angulo_22_5": 239, "angulo_45": 325,  "angulo_90": 500  },
+      { "dn": 450, "pn": "10-25", "angulo_11_5": null,"angulo_22_5": null, "angulo_45": 350,  "angulo_90": 550  },
+      { "dn": 500, "pn": "10-25", "angulo_11_5": 233, "angulo_22_5": 272, "angulo_45": 375,  "angulo_90": 600  },
+      { "dn": 600, "pn": "10-25", "angulo_11_5": 274, "angulo_22_5": 320, "angulo_45": 425,  "angulo_90": 700  },
+      { "dn": 700, "pn": "10-25", "angulo_11_5": 230, "angulo_22_5": 300, "angulo_45": 480,  "angulo_90": 800  },
+      { "dn": 750, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
+      { "dn": 800, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
+      { "dn": 863, "pn": "10-25", "angulo_11_5": 280, "angulo_22_5": 375, "angulo_45": 580,  "angulo_90": 1000 },
+      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 11000}
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "tee-lisa",
+    "nombre": "Tee Lisa",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de tubería en forma de 'T' que se utiliza para desviar o combinar el flujo de fluidos, conectando tres secciones de tubería. Sus extremos lisos están preparados para unión mediante soldadura a tope (buttweld).",
+    "imagen": "tee-lisa.png",
+    "tipos": ["Tee Lisa Igual", "Tee Lisa Reducida"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Soldada / Uniones Mecánicas",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASTM A960/A960M – Requisitos generales"
+    ],
+    "caracteristicas": [
+      "Forma de 'T' con tres aberturas para derivación o combinación de flujos",
+      "Fabricada en acero al carbono de alta resistencia",
+      "Disponible en configuración igual (DN = DN1) y reducida (DN1 < DN)",
+      "Diámetros desde 50 mm hasta 920 mm con múltiples combinaciones",
+      "Recubrimiento epóxico para protección en ambientes industriales"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "dn1": 50,  "pn": "10-25", "altura_mm": 150,     "longitud_mm": 300      },
+      { "dn": 75,  "dn1": 50,  "pn": "10-25", "altura_mm": 157,     "longitud_mm": 330      },
+      { "dn": 100, "dn1": 100, "pn": "10-25", "altura_mm": 157,     "longitud_mm": 360      },
+      { "dn": 150, "dn1": 150, "pn": "10-25", "altura_mm": 200,     "longitud_mm": 440      },
+      { "dn": 200, "dn1": 200, "pn": "10-25", "altura_mm": 235,     "longitud_mm": 520      },
+      { "dn": 250, "dn1": 250, "pn": "10-25", "altura_mm": 270,     "longitud_mm": 700      },
+      { "dn": 300, "dn1": 300, "pn": "10-25", "altura_mm": 290,     "longitud_mm": 800      },
+      { "dn": 350, "dn1": 350, "pn": "10-25", "altura_mm": 400,     "longitud_mm": 800      },
+      { "dn": 400, "dn1": 400, "pn": "10-25", "altura_mm": 350,     "longitud_mm": 900      },
+      { "dn": 500, "dn1": 500, "pn": "10-25", "altura_mm": 400,     "longitud_mm": 1000     },
+      { "dn": 600, "dn1": 600, "pn": "10-25", "altura_mm": 564,     "longitud_mm": 762      },
+      { "dn": 750, "dn1": 150, "pn": "10-25", "altura_mm": null,    "longitud_mm": null     },
+      { "dn": 920, "dn1": 400, "pn": "10-25", "altura_mm": null,    "longitud_mm": null     }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "tee-bridada-mixta",
+    "nombre": "Tee Bridada o Mixta",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de conexión para tuberías industriales que permite la derivación del flujo en un ángulo de 90 grados. Utiliza bridas en sus extremos para facilitar la instalación y el mantenimiento sin necesidad de soldadura directa en el sitio.",
+    "imagen": "tee-bridada.png",
+    "tipos": ["Tee Bridada", "Tee Mixta"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Forma de 'T' con tres aberturas, cada una con brida para conexión por pernos",
+      "Fabricada con acero al carbono, soldadura y bridas",
+      "Permite desmontaje sin corte ni soldadura en campo",
+      "Disponible en configuración igual y reducida",
+      "Recubrimiento epóxico para protección en ambientes industriales"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "dn1": 50,  "pn": "10-25", "altura_mm": 150,  "longitud_mm": 300  },
+      { "dn": 100, "dn1": 100, "pn": "10-25", "altura_mm": 157,  "longitud_mm": 360  },
+      { "dn": 150, "dn1": 150, "pn": "10-25", "altura_mm": 200,  "longitud_mm": 440  },
+      { "dn": 200, "dn1": 200, "pn": "10-25", "altura_mm": 235,  "longitud_mm": 520  },
+      { "dn": 250, "dn1": 250, "pn": "10-25", "altura_mm": 270,  "longitud_mm": 700  },
+      { "dn": 300, "dn1": 300, "pn": "10-25", "altura_mm": 290,  "longitud_mm": 800  },
+      { "dn": 350, "dn1": 350, "pn": "10-25", "altura_mm": 400,  "longitud_mm": 800  },
+      { "dn": 400, "dn1": 400, "pn": "10-25", "altura_mm": 350,  "longitud_mm": 900  },
+      { "dn": 500, "dn1": 500, "pn": "10-25", "altura_mm": 400,  "longitud_mm": 1000 },
+      { "dn": 600, "dn1": 600, "pn": "10-25", "altura_mm": 564,  "longitud_mm": 762  },
+      { "dn": 750, "dn1": 150, "pn": "10-25", "altura_mm": null, "longitud_mm": null },
+      { "dn": 920, "dn1": 400, "pn": "10-25", "altura_mm": null, "longitud_mm": null }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "yee-bridada-mixta",
+    "nombre": "Yee Bridada o Mixta",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio robusto con forma de 'Y' utilizado en sistemas de tuberías industriales para crear ramificaciones en ángulo. Cuenta con bridas en sus extremos para facilitar la instalación y el mantenimiento sin soldadura directa en sitio.",
+    "imagen": "yee-bridada.png",
+    "tipos": ["Yee Bridada", "Yee Mixta"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Forma de 'Y' para derivaciones angulares en sistemas de tuberías",
+      "Fabricada con acero al carbono, soldadura y bridas",
+      "Permite unir tuberías, válvulas y bombas asegurando un sistema estanco",
+      "Disponible en configuración igual y reducida",
+      "Recubrimiento epóxico para alta durabilidad en ambientes industriales"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "dn1": 50,  "pn": "10-25", "g_f_mm": null,   "longitud_mm": null   },
+      { "dn": 75,  "dn1": 75,  "pn": "10-25", "g_f_mm": 254,    "longitud_mm": 395.65 },
+      { "dn": 100, "dn1": 100, "pn": "10-25", "g_f_mm": 304.8,  "longitud_mm": 460.36 },
+      { "dn": 150, "dn1": 150, "pn": "10-25", "g_f_mm": 368.3,  "longitud_mm": 548.61 },
+      { "dn": 200, "dn1": 200, "pn": "10-25", "g_f_mm": 444.5,  "longitud_mm": 647.26 },
+      { "dn": 250, "dn1": 250, "pn": "10-25", "g_f_mm": 520.7,  "longitud_mm": 758.93 },
+      { "dn": 300, "dn1": 300, "pn": "10-25", "g_f_mm": 622.3,  "longitud_mm": 888.65 },
+      { "dn": 350, "dn1": 350, "pn": "10-25", "g_f_mm": 685.8,  "longitud_mm": null   },
+      { "dn": 400, "dn1": 400, "pn": "10-25", "g_f_mm": 762,    "longitud_mm": null   },
+      { "dn": 450, "dn1": 450, "pn": "10-25", "g_f_mm": 812.8,  "longitud_mm": null   },
+      { "dn": 500, "dn1": 500, "pn": "10-25", "g_f_mm": 889,    "longitud_mm": null   },
+      { "dn": 600, "dn1": 600, "pn": "10-25", "g_f_mm": 1028.7, "longitud_mm": null   },
+      { "dn": 920, "dn1": 450, "pn": "10-25", "g_f_mm": null,   "longitud_mm": null   }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "yee-lisa",
+    "nombre": "Yee Lisa",
+    "categoria": "Accesorios",
+    "descripcion": "Accesorio de tubería industrial con forma de 'Y', diseñado para crear derivaciones en sistemas de fluidos mediante soldadura a tope. Garantiza una unión robusta y permanente con alta resistencia mecánica.",
+    "imagen": "yee-lisa.png",
+    "tipos": ["Yee Lisa Igual", "Yee Lisa Reducida"],
+    "propiedades": {
+      "diametros": "50 mm a 920 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Soldada / Uniones Mecánicas",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B16.25 – Preparación de extremos",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASTM A960/A960M – Requisitos generales"
+    ],
+    "caracteristicas": [
+      "Forma de 'Y' con tres aberturas para derivaciones angulares",
+      "Fabricada en acero al carbono de alta resistencia mecánica",
+      "Unión permanente por soldadura a tope, sin necesidad de pernos",
+      "Disponible en configuración igual y reducida",
+      "Recubrimiento epóxico para protección en ambientes industriales"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,  "dn1": 50,  "pn": "10-25", "g_f_mm": null,   "longitud_mm": null   },
+      { "dn": 75,  "dn1": 75,  "pn": "10-25", "g_f_mm": 254,    "longitud_mm": 395.65 },
+      { "dn": 100, "dn1": 100, "pn": "10-25", "g_f_mm": 304.8,  "longitud_mm": 460.36 },
+      { "dn": 150, "dn1": 150, "pn": "10-25", "g_f_mm": 368.3,  "longitud_mm": 548.61 },
+      { "dn": 200, "dn1": 200, "pn": "10-25", "g_f_mm": 444.5,  "longitud_mm": 647.26 },
+      { "dn": 250, "dn1": 250, "pn": "10-25", "g_f_mm": 520.7,  "longitud_mm": 758.93 },
+      { "dn": 300, "dn1": 300, "pn": "10-25", "g_f_mm": 622.3,  "longitud_mm": 888.65 },
+      { "dn": 350, "dn1": 350, "pn": "10-25", "g_f_mm": 685.8,  "longitud_mm": null   },
+      { "dn": 400, "dn1": 400, "pn": "10-25", "g_f_mm": 762,    "longitud_mm": null   },
+      { "dn": 450, "dn1": 450, "pn": "10-25", "g_f_mm": 812.8,  "longitud_mm": null   },
+      { "dn": 500, "dn1": 500, "pn": "10-25", "g_f_mm": 889,    "longitud_mm": null   },
+      { "dn": 600, "dn1": 600, "pn": "10-25", "g_f_mm": 1028.7, "longitud_mm": null   },
+      { "dn": 920, "dn1": 450, "pn": "10-25", "g_f_mm": null,   "longitud_mm": null   }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "compuerta-tipo-plana",
+    "nombre": "Compuerta Tipo Plana",
+    "categoria": "Compuertas",
+    "descripcion": "Dispositivo industrial utilizado para controlar o interrumpir completamente el flujo de fluidos como líquidos, gases o lodos en sistemas de tuberías y canales. Opera mediante un tablero o placa plana que se desliza verticalmente perpendicular al flujo.",
+    "imagen": "compuerta-plana.png",
+    "tipos": ["Compuerta Plana Mural", "Compuerta Plana en Canal", "Compuerta Plana Bridada"],
+    "propiedades": {
+      "diametros": "100 mm a 1500 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Mural / Canal / Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASME Section IX – Calificación de soldadura",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Tablero deslizante rectangular que permite cierre hermético y paso libre cuando está completamente abierta",
+      "Cuerpo principal en acero al carbono de alta resistencia mecánica",
+      "Vástago generalmente de acero inoxidable para mayor resistencia a la corrosión",
+      "Accionamiento manual por volante o actuadores eléctricos/neumáticos",
+      "Aplicaciones en plantas de tratamiento de agua, sistemas de irrigación y represas"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 100,  "pn": "10-25" },
+      { "dn": 150,  "pn": "10-25" },
+      { "dn": 200,  "pn": "10-25" },
+      { "dn": 250,  "pn": "10-25" },
+      { "dn": 300,  "pn": "10-25" },
+      { "dn": 350,  "pn": "10-25" },
+      { "dn": 400,  "pn": "10-25" },
+      { "dn": 450,  "pn": "10-25" },
+      { "dn": 500,  "pn": "10-25" },
+      { "dn": 600,  "pn": "10-25" },
+      { "dn": 700,  "pn": "10-25" },
+      { "dn": 750,  "pn": "10-25" },
+      { "dn": 800,  "pn": "10-25" },
+      { "dn": 900,  "pn": "10-25" },
+      { "dn": 1000, "pn": "10-25" },
+      { "dn": 1100, "pn": "10-25" },
+      { "dn": 1200, "pn": "10-25" },
+      { "dn": 1500, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "compuerta-tipo-pasamuro",
+    "nombre": "Compuerta Tipo Pasamuro",
+    "categoria": "Compuertas",
+    "descripcion": "Compuerta de acero al carbono diseñada para regular o cortar el flujo de fluidos en sistemas de tuberías y canales, instalándose directamente en muros o paredes metálicas. Combina la función de compuerta con la de pasamuro.",
+    "imagen": "compuerta-pasamuro.png",
+    "tipos": ["Compuerta Pasamuro Mural", "Compuerta Pasamuro en Canal", "Compuerta Pasamuro Bridada"],
+    "propiedades": {
+      "diametros": "100 mm a 1500 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Mural / Canal / Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica AWWA C-550 / Galvanizado"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASME Section IX – Calificación de soldadura",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Cuerpo y tajadera fabricados en lámina de acero al carbono de alta rigidez",
+      "Revestimiento de pintura epóxica (AWWA C-550) o galvanizado para vida útil hasta 20 años",
+      "Juntas de estanqueidad de EPDM o neopreno para cierre hermético",
+      "Guías laterales que garantizan deslizamiento suave de la hoja",
+      "Accionamiento mediante vástago y volante manual o actuador"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 100,  "pn": "10-25" },
+      { "dn": 150,  "pn": "10-25" },
+      { "dn": 200,  "pn": "10-25" },
+      { "dn": 250,  "pn": "10-25" },
+      { "dn": 300,  "pn": "10-25" },
+      { "dn": 350,  "pn": "10-25" },
+      { "dn": 400,  "pn": "10-25" },
+      { "dn": 450,  "pn": "10-25" },
+      { "dn": 500,  "pn": "10-25" },
+      { "dn": 600,  "pn": "10-25" },
+      { "dn": 700,  "pn": "10-25" },
+      { "dn": 750,  "pn": "10-25" },
+      { "dn": 800,  "pn": "10-25" },
+      { "dn": 900,  "pn": "10-25" },
+      { "dn": 1000, "pn": "10-25" },
+      { "dn": 1100, "pn": "10-25" },
+      { "dn": 1200, "pn": "10-25" },
+      { "dn": 1500, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "compuerta-tipo-bridada",
+    "nombre": "Compuerta Tipo Bridada (Válvula de Chapaleta)",
+    "categoria": "Compuertas",
+    "descripcion": "Válvula de chapaleta (flap valve) con conexión bridada, dispositivo esencial en sistemas de alcantarillado, drenaje y control de inundaciones. Opera por gravedad y diferencia de presión, actuando también como válvula de retención para prevenir el contraflujo.",
+    "imagen": "compuerta-bridada.png",
+    "tipos": ["Montaje en Pared", "Montaje Brida a Brida", "Montaje de Espiga o Inserción"],
+    "propiedades": {
+      "diametros": "100 mm a 1500 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Galvanizado"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASME Section IX – Calificación de soldadura",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Operación por gravedad sin necesidad de energía externa",
+      "Abre con una diferencia de presión menor a 1/3 del diámetro — diseño de baja inercia",
+      "Previene el contraflujo cuando el nivel externo supera al del ducto",
+      "Fabricada en acero al carbono con soldadura y bridas ANSI/ISO",
+      "Recubrimiento epóxico o galvanizado para protección anticorrosiva"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 100,  "pn": "10-25" },
+      { "dn": 150,  "pn": "10-25" },
+      { "dn": 200,  "pn": "10-25" },
+      { "dn": 250,  "pn": "10-25" },
+      { "dn": 300,  "pn": "10-25" },
+      { "dn": 400,  "pn": "10-25" },
+      { "dn": 500,  "pn": "10-25" },
+      { "dn": 600,  "pn": "10-25" },
+      { "dn": 700,  "pn": "10-25" },
+      { "dn": 800,  "pn": "10-25" },
+      { "dn": 900,  "pn": "10-25" },
+      { "dn": 1000, "pn": "10-25" },
+      { "dn": 1200, "pn": "10-25" },
+      { "dn": 1500, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "union-transicion-pvc-ac-hd-ac",
+    "nombre": "Unión de Transición PVC-AC / HD-AC",
+    "categoria": "Uniones",
+    "descripcion": "Accesorio para proyectos de redes de acueducto y obras sanitarias, donde es común realizar empalmes entre tuberías nuevas y redes existentes de materiales distintos (PVC, Hierro Dúctil o Asbesto Cemento). Mantiene el sello bajo presiones negativas y absorbe desviaciones angulares del terreno.",
+    "imagen": "union-transicion.png",
+    "tipos": ["Unión de Transición Simple PVC-AC", "Adaptador de Brida HD-AC"],
+    "propiedades": {
+      "diametros": "10\" a 30\"",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Unión de Transición Simple / Adaptador de Brida",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar (PN16 estándar ≈ 232 psi)",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica termo-fusionada"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados",
+      "AWWA C-219 – Uniones de acoplamiento mecánico"
+    ],
+    "caracteristicas": [
+      "Diseñada para empalmrar tuberías de distintos materiales sin soldadura",
+      "Mantiene el sello incluso en caídas de presión o presiones negativas",
+      "Absorbe desviaciones angulares por asentamiento del terreno",
+      "Sellos de elastómero EPDM o NBR para ajuste estanco con torque mínimo",
+      "Fabricada en hierro dúctil o acero con recubrimiento epóxico termo-fusionado"
+    ],
+    "tabla_dimensiones": [
+      { "dn": "10\"", "pn": "10-25", "diametro_nominal": "10\"" },
+      { "dn": "12\"", "pn": "10-25", "diametro_nominal": "12\"" },
+      { "dn": "14\"", "pn": "10-25", "diametro_nominal": "14\"" },
+      { "dn": "16\"", "pn": "10-25", "diametro_nominal": "16\"" },
+      { "dn": "18\"", "pn": "10-25", "diametro_nominal": "18\"" },
+      { "dn": "20\"", "pn": "10-25", "diametro_nominal": "20\"" },
+      { "dn": "24\"", "pn": "10-25", "diametro_nominal": "24\"" },
+      { "dn": "30\"", "pn": "10-25", "diametro_nominal": "30\"" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "union-autoportante",
+    "nombre": "Unión Autoportante",
+    "categoria": "Uniones",
+    "descripcion": "Componente mecánico de desmontaje (junta de desmontaje) diseñado para conectar válvulas y equipos en sistemas de tuberías. Su diseño autoportante transmite las fuerzas axiales a través de sus propios tirantes, evitando desplazamientos por presión hidráulica.",
+    "imagen": "union-autoportante.png",
+    "tipos": ["Unión Autoportante Brida-Brida", "Unión Autoportante Roscada", "Unión Autoportante para Soldar"],
+    "propiedades": {
+      "diametros": "50 mm a 1066 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Brida-Brida / Roscada / Para Soldar",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ISO 7005-2 – Bridas metálicas",
+      "ASTM A307 – Espárragos de acero al carbono"
+    ],
+    "caracteristicas": [
+      "Junta de desmontaje que permite retirar válvulas sin cortar la tubería",
+      "Carrera máxima de ajuste de ±50 mm entre bridas",
+      "Tirantes de acero que bloquean el movimiento axial bajo presión hidráulica",
+      "Sello con elastómero EPDM o Nitrilo para hermeticidad garantizada",
+      "Fabricada en acero al carbono forjado (ASTM A105) o fundición dúctil"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 50,   "pn": "10-25" },
+      { "dn": 100,  "pn": "10-25" },
+      { "dn": 160,  "pn": "10-25" },
+      { "dn": 200,  "pn": "10-25" },
+      { "dn": 250,  "pn": "10-25" },
+      { "dn": 300,  "pn": "10-25" },
+      { "dn": 350,  "pn": "10-25" },
+      { "dn": 400,  "pn": "10-25" },
+      { "dn": 450,  "pn": "10-25" },
+      { "dn": 500,  "pn": "10-25" },
+      { "dn": 600,  "pn": "10-25" },
+      { "dn": 700,  "pn": "10-25" },
+      { "dn": 750,  "pn": "10-25" },
+      { "dn": 800,  "pn": "10-25" },
+      { "dn": 900,  "pn": "10-25" },
+      { "dn": 1000, "pn": "10-25" },
+      { "dn": 1066, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "union-dresser",
+    "nombre": "Unión Dresser",
+    "categoria": "Uniones",
+    "descripcion": "Acople mecánico de compresión utilizado para unir tuberías de diversos materiales incluyendo acero al carbono, PVC e Hierro Dúctil. No requiere soldadura: el sellado se logra mediante la compresión de empaques de caucho al apretar los pernos.",
+    "imagen": "union-dresser.png",
+    "tipos": ["Unión Dresser Simple", "Unión Dresser Deslizante"],
+    "propiedades": {
+      "diametros": "40 mm a 1219 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Brida-Brida / Apernada / Tipo Tuerca",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados",
+      "ASTM A307 – Tornillos de acero al carbono"
+    ],
+    "caracteristicas": [
+      "Sellado por compresión de empaques de caucho sin necesidad de soldadura",
+      "Permite deslizar la unión sobre el tubo para reparaciones en espacios reducidos",
+      "Componentes: dressello, aro central, tornillos de carriaje, aros laterales y tuercas",
+      "Compatible con tuberías de distintos materiales: acero, PVC, Hierro Dúctil",
+      "Instalación rápida en campo ideal para rehabilitación de redes existentes"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 40,   "pn": "10-25" },
+      { "dn": 50,   "pn": "10-25" },
+      { "dn": 65,   "pn": "10-25" },
+      { "dn": 75,   "pn": "10-25" },
+      { "dn": 100,  "pn": "10-25" },
+      { "dn": 160,  "pn": "10-25" },
+      { "dn": 200,  "pn": "10-25" },
+      { "dn": 250,  "pn": "10-25" },
+      { "dn": 300,  "pn": "10-25" },
+      { "dn": 350,  "pn": "10-25" },
+      { "dn": 400,  "pn": "10-25" },
+      { "dn": 450,  "pn": "10-25" },
+      { "dn": 500,  "pn": "10-25" },
+      { "dn": 600,  "pn": "10-25" },
+      { "dn": 700,  "pn": "10-25" },
+      { "dn": 750,  "pn": "10-25" },
+      { "dn": 800,  "pn": "10-25" },
+      { "dn": 900,  "pn": "10-25" },
+      { "dn": 1000, "pn": "10-25" },
+      { "dn": 1219, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-de-pie",
+    "nombre": "Válvula de Pie",
+    "categoria": "Válvulas",
+    "descripcion": "Válvula de retención con canastilla integrada en su extremo de succión. Protege la tubería de la aspiración de partículas sólidas y evita que la tubería de succión se vacíe cuando la bomba se detiene, facilitando el cebado y protegiendo el impulsor.",
+    "imagen": "valvula-de-pie.png",
+    "tipos": ["Válvula de Pie Bridada"],
+    "propiedades": {
+      "diametros": "150 mm a 900 mm",
+      "temperatura": "-29°C a 425°C",
+      "conexion": "Bridada",
+      "cedulas": "Schedule 40, 80, 160, XXS",
+      "presion": "10 a 25 Bar",
+      "fluidos": "Agua, vapor, petróleo, gas natural, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Esmalte epóxico azul mar"
+    },
+    "normas": [
+      "ASTM A234 WPB / ASTM A106 Gr B",
+      "ASME B16.9 – Accesorios soldados a tope",
+      "ASME B31.3 – Tuberías de proceso",
+      "ASME Section IX – Calificación de soldadura",
+      "ANSI/ASME B16.1 – Bridas y accesorios bridados"
+    ],
+    "caracteristicas": [
+      "Cierre asistido por resorte de acero inoxidable para cierre instantáneo al parar la bomba",
+      "Sello hermético: plato recubierto con Nitrilo o EPDM para sellado total a baja presión",
+      "Canastilla de acero como primera etapa de filtrado contra sólidos",
+      "Área de flujo optimizada mayor al área de la tubería para minimizar pérdida de carga",
+      "Alta resistencia a golpes de ariete y sobrepresiones repentinas"
+    ],
+    "tabla_dimensiones": [
+      { "dn": 150, "pn": "10-25" },
+      { "dn": 200, "pn": "10-25" },
+      { "dn": 250, "pn": "10-25" },
+      { "dn": 300, "pn": "10-25" },
+      { "dn": 350, "pn": "10-25" },
+      { "dn": 400, "pn": "10-25" },
+      { "dn": 450, "pn": "10-25" },
+      { "dn": 500, "pn": "10-25" },
+      { "dn": 600, "pn": "10-25" },
+      { "dn": 700, "pn": "10-25" },
+      { "dn": 750, "pn": "10-25" },
+      { "dn": 800, "pn": "10-25" },
+      { "dn": 900, "pn": "10-25" }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  }
+]

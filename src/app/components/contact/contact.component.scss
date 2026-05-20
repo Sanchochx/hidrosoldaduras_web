@@ -2,7 +2,7 @@
 @use '../../shared/mixins' as *;
 
 .contact {
-  background-color: $light;
+  background-color: transparent;
   padding: 60px 20px;
 
   @include respond-to($bp-md) {
