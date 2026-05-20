@@ -29,7 +29,6 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
         img: 'assets/images/tarjeta_1.jpeg',
         alt: 'Codo 90°',
         price: 'Cotizar',
-        badge: 'NUEVO',
       },
       {
         title: 'Codo 45°',

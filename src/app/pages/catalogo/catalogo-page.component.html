@@ -1,11 +1,11 @@
 <div class="catalogo-page">
   <main class="catalogo-page__container">
-    <div class="catalogo-page__header catalogo-page__header-line" data-aos="fade-up">
+    <div class="catalogo-page__header catalogo-page__header-line">
       <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
     </div>
     <div class="catalogo-page__grid">
-      @for (product of products; track product.title; let i = $index) {
-        <div class="catalogo-page-card" [attr.data-aos-delay]="i * 100" data-aos="fade-up">
+      @for (product of products; track product.title) {
+        <div class="catalogo-page-card">
           <div class="catalogo-page-card__image-wrapper">
             <img class="catalogo-page-card__image" [src]="product.img" [alt]="product.alt" />
             @if (product.badge) {
@@ -14,11 +14,6 @@
           </div>
           <div class="catalogo-page-card__body">
             <h3 class="catalogo-page-card__title">{{ product.title }}</h3>
-            <p class="catalogo-page-card__desc">{{ product.desc }}</p>
-            <div class="catalogo-page-card__footer">
-              <span class="catalogo-page-card__price">{{ product.price }}</span>
-              <button class="catalogo-page-card__btn">VER DETALLES</button>
-            </div>
           </div>
         </div>
       }
