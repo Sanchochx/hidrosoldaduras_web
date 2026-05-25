@@ -103,12 +103,14 @@
     aspect-ratio: 16 / 9;
     overflow: hidden;
     position: relative;
+    background-color: $white;
   }
 
   &__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    padding: 8px;
   }
 
   &__badge {
@@ -298,18 +300,15 @@
     border: 2px solid $primary;
     overflow: hidden;
     aspect-ratio: 4 / 3;
+    background-color: $white;
   }
 
   &__image {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     display: block;
-    transition: transform 0.5s ease;
-
-    &:hover {
-      transform: scale(1.04);
-    }
+    padding: 12px;
   }
 
   &__info {
