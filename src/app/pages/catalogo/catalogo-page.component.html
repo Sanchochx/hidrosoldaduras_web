@@ -1,28 +1,25 @@
 <div class="catalogo-page">
   <main class="catalogo-page__container">
 
-      <div class="catalogo-page__header catalogo-page__header-line">
-        <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
-      </div>
-      <div class="catalogo-page__grid">
-        @for (product of products; track product.title) {
-          <div
-            class="catalogo-page-card"
-            [class.catalogo-page-card--clickable]="!!product.routeId"
-            [routerLink]="product.routeId ? ['/catalogo', categoria, product.routeId] : null"
-          >
-            <div class="catalogo-page-card__image-wrapper">
-              <img class="catalogo-page-card__image" [src]="product.img" [alt]="product.alt" />
-              @if (product.badge) {
-                <span class="catalogo-page-card__badge">{{ product.badge }}</span>
-              }
-            </div>
-            <div class="catalogo-page-card__body">
-              <h3 class="catalogo-page-card__title">{{ product.title }}</h3>
-            </div>
+    <div class="catalogo-page__header catalogo-page__header-line">
+      <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
+    </div>
+
+    <div class="catalogo-page__grid">
+      @for (producto of productos; track producto.id) {
+        <div
+          class="catalogo-page-card catalogo-page-card--clickable"
+          [routerLink]="['/catalogo', categoria, producto.id]"
+        >
+          <div class="catalogo-page-card__image-wrapper">
+            <img class="catalogo-page-card__image" [src]="imagenPath(producto)" [alt]="producto.nombre" />
           </div>
-        }
-      </div>
+          <div class="catalogo-page-card__body">
+            <h3 class="catalogo-page-card__title">{{ producto.nombre }}</h3>
+          </div>
+        </div>
+      }
+    </div>
 
     <div class="catalogo-page__cta" data-aos="fade-up">
       <div class="catalogo-page__cta-content">

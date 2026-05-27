@@ -246,7 +246,7 @@
       { "dn": 750, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
       { "dn": 800, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
       { "dn": 863, "pn": "10-25", "angulo_11_5": 280, "angulo_22_5": 375, "angulo_45": 580,  "angulo_90": 1000 },
-      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 11000}
+      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 1100}
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
@@ -255,7 +255,7 @@
     "nombre": "Codo Liso",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en ángulos de 45° o 90°. Se caracteriza por su acabado sin costuras visibles o tipo largo (2D/3D), lo que reduce la fricción interna y se une mediante soldadura a tope.",
-    "imagen": "codo-liso.jpeg",
+    "imagen": "codo-liso.png",
     "tipos": ["Codo Liso 45°", "Codo Liso 90°"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -297,7 +297,7 @@
       { "dn": 750, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
       { "dn": 800, "pn": "10-25", "angulo_11_5": 255, "angulo_22_5": 335, "angulo_45": 530,  "angulo_90": 900  },
       { "dn": 863, "pn": "10-25", "angulo_11_5": 280, "angulo_22_5": 375, "angulo_45": 580,  "angulo_90": 1000 },
-      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 11000}
+      { "dn": 920, "pn": "10-25", "angulo_11_5": 310, "angulo_22_5": 410, "angulo_45": 630,  "angulo_90": 1100}
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
@@ -446,7 +446,7 @@
     "nombre": "Yee Lisa",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería industrial con forma de 'Y', diseñado para crear derivaciones en sistemas de fluidos mediante soldadura a tope. Garantiza una unión robusta y permanente con alta resistencia mecánica.",
-    "imagen": "yee-lisa.jpeg",
+    "imagen": "yee-lisa.png",
     "tipos": ["Yee Lisa Igual", "Yee Lisa Reducida"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -664,7 +664,7 @@
       "AWWA C-219 – Uniones de acoplamiento mecánico"
     ],
     "caracteristicas": [
-      "Diseñada para empalmrar tuberías de distintos materiales sin soldadura",
+      "Diseñada para empalmar tuberías de distintos materiales sin soldadura",
       "Mantiene el sello incluso en caídas de presión o presiones negativas",
       "Absorbe desviaciones angulares por asentamiento del terreno",
       "Sellos de elastómero EPDM o NBR para ajuste estanco con torque mínimo",

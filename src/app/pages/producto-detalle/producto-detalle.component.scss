@@ -400,6 +400,37 @@
   align-self: center;
 }
 
+// ─── Loading / Not-found states ────────────────────────────────────────────────
+
+.pd--state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pd__state-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.pd__state-icon {
+  font-size: 48px;
+  color: $primary;
+
+  &--warn { color: rgba($dark, 0.4); }
+}
+
+.pd__state-text {
+  font-family: $font-body;
+  font-size: 18px;
+  color: rgba($dark, 0.6);
+  margin: 0;
+}
+
 // ─── CTA Banner ────────────────────────────────────────────────────────────────
 
 .pd__cta {

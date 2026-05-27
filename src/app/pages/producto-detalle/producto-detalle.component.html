@@ -1,4 +1,21 @@
-@if (producto) {
+@if (isLoading) {
+  <div class="pd pd--state">
+    <div class="pd__state-box">
+      <i class="fa-solid fa-circle-notch fa-spin pd__state-icon"></i>
+      <p class="pd__state-text">Cargando producto...</p>
+    </div>
+  </div>
+} @else if (notFound) {
+  <div class="pd pd--state">
+    <div class="pd__state-box">
+      <i class="fa-solid fa-triangle-exclamation pd__state-icon pd__state-icon--warn"></i>
+      <p class="pd__state-text">Producto no encontrado.</p>
+      <a routerLink="/catalogo/fabricacion" class="pd__cta-btn pd__cta-btn--secondary">
+        VER CATÁLOGO
+      </a>
+    </div>
+  </div>
+} @else if (producto) {
 <div class="pd">
   <div class="pd__container">
 

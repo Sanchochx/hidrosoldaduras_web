@@ -11,7 +11,7 @@
     [class.navbar__hamburger--open]="isMenuOpen"
     (click)="toggleMenu()"
     [attr.aria-label]="isMenuOpen ? 'Cerrar menú' : 'Abrir menú'"
-    aria-expanded="{{ isMenuOpen }}"
+    [attr.aria-expanded]="isMenuOpen"
   >
     <i [class]="isMenuOpen ? 'fa-solid fa-xmark' : 'fa-solid fa-bars'"></i>
   </button>

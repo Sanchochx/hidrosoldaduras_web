@@ -255,7 +255,7 @@
     "nombre": "Codo Liso",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en ángulos de 45° o 90°. Se caracteriza por su acabado sin costuras visibles o tipo largo (2D/3D), lo que reduce la fricción interna y se une mediante soldadura a tope.",
-    "imagen": "codo-liso.jpeg",
+    "imagen": "codo-liso.png",
     "tipos": ["Codo Liso 45°", "Codo Liso 90°"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
@@ -446,7 +446,7 @@
     "nombre": "Yee Lisa",
     "categoria": "Accesorios",
     "descripcion": "Accesorio de tubería industrial con forma de 'Y', diseñado para crear derivaciones en sistemas de fluidos mediante soldadura a tope. Garantiza una unión robusta y permanente con alta resistencia mecánica.",
-    "imagen": "yee-lisa.jpeg",
+    "imagen": "yee-lisa.png",
     "tipos": ["Yee Lisa Igual", "Yee Lisa Reducida"],
     "propiedades": {
       "diametros": "50 mm a 920 mm",

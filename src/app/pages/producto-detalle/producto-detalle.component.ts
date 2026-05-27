@@ -14,12 +14,15 @@ export class ProductoDetalleComponent implements OnInit {
   producto: Producto | null = null;
   categoria = '';
   imagenPath = '';
+  isLoading = true;
+  notFound = false;
 
   readonly specConfig: { key: string; label: string; icon: string }[] = [
     { key: 'diametros',     label: 'Rango de Diámetros',  icon: 'fa-ruler-combined' },
     { key: 'presion',       label: 'Presión',              icon: 'fa-gauge-high' },
     { key: 'temperatura',   label: 'Temperatura',          icon: 'fa-temperature-half' },
     { key: 'conexion',      label: 'Tipo de Conexión',     icon: 'fa-plug' },
+    { key: 'cedulas',       label: 'Cédulas',              icon: 'fa-bars' },
     { key: 'fluidos',       label: 'Fluidos Compatibles',  icon: 'fa-droplet' },
     { key: 'recubrimiento', label: 'Recubrimiento',        icon: 'fa-layer-group' },
   ];
@@ -60,11 +63,20 @@ export class ProductoDetalleComponent implements OnInit {
     const id = this.route.snapshot.paramMap.get('id') ?? '';
     this.categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
 
-    this.productoService.getById(id).subscribe(p => {
-      this.producto = p ?? null;
-      if (this.producto) {
-        this.imagenPath = `assets/images/${this.categoria}/${this.producto.imagen}`;
-      }
+    this.productoService.getById(id).subscribe({
+      next: p => {
+        if (p) {
+          this.producto = p;
+          this.imagenPath = `assets/images/${this.categoria}/${p.imagen}`;
+        } else {
+          this.notFound = true;
+        }
+        this.isLoading = false;
+      },
+      error: () => {
+        this.notFound = true;
+        this.isLoading = false;
+      },
     });
   }
 
