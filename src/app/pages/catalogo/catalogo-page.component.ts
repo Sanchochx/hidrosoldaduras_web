@@ -3,6 +3,8 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ProductoService, Producto } from '../../services/producto.service';
 
+declare var AOS: any;
+
 const CATALOG_META: Record<string, { title: string }> = {
   fabricacion: {
     title: 'CATÁLOGO — FABRICACIÓN',
@@ -30,6 +32,7 @@ export class CatalogoPageComponent implements OnInit {
 
     this.productoService.getAll().subscribe(productos => {
       this.productos = productos;
+      setTimeout(() => AOS.refresh(), 0);
     });
   }
 

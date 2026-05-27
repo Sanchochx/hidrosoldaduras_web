@@ -75,6 +75,8 @@
   grid-template-columns: 1fr;
   gap: 24px;
   overflow: hidden;
+  animation: gridFadeUp 0.7s ease both;
+  animation-delay: 0.1s;
 
   @include respond-to($bp-md) {
     grid-template-columns: repeat(2, 1fr);
@@ -140,6 +142,17 @@
     margin: 0;
   }
 
+}
+
+@keyframes gridFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .catalogo-page__cta {
