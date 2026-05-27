@@ -155,7 +155,7 @@ const CATALOG_DATA: Record<string, CatalogEntry> = {
       {
         title: 'Válvula de Pie',
         desc: 'Válvula de retención instalada en la toma de succión de sistemas de bombeo para mantener el cebado y evitar reflujo.',
-        img: 'assets/images/fabricacion/valvula-pie.jpeg',
+        img: 'assets/images/fabricacion/valvula-pie.png',
         alt: 'Válvula de Pie',
         price: 'Cotizar',
         routeId: 'valvula-de-pie',

@@ -33,22 +33,22 @@ export class ProductoDetalleComponent implements OnInit {
   ];
 
   private readonly tableHeaderLabels: { [key: string]: string } = {
-    dn:            'DN (mm)',
-    dn1:           'DN1 (mm)',
-    dn_mayor:      'DN Mayor (mm)',
-    dn_menor:      'DN Menor (mm)',
+    dn:            'DN',
+    dn1:           'DN1',
+    dn_mayor:      'DN Mayor',
+    dn_menor:      'DN Menor',
     pn:            'PN',
-    angulo_11_5:   '11.5° (mm)',
-    angulo_22_5:   '22.5° (mm)',
-    angulo_45:     '45° (mm)',
-    angulo_90:     '90° (mm)',
-    g:             'G (mm)',
+    angulo_11_5:   '11.5°',
+    angulo_22_5:   '22.5°',
+    angulo_45:     '45°',
+    angulo_90:     '90°',
+    g:             'G',
     asbesto:       'Asbesto',
-    g_f_mm:        'G-F (mm)',
-    longitud_mm:   'Longitud (mm)',
-    altura_mm:     'Altura (mm)',
-    peso_pn10_kg:  'Peso PN10 (kg)',
-    peso_pn16_kg:  'Peso PN16 (kg)',
+    g_f_mm:        'G-F',
+    longitud_mm:   'Longitud',
+    altura_mm:     'Altura',
+    peso_pn10_kg:  'Peso PN10',
+    peso_pn16_kg:  'Peso PN16',
   };
 
   constructor(

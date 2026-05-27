@@ -792,7 +792,7 @@
     "nombre": "Válvula de Pie",
     "categoria": "Válvulas",
     "descripcion": "Válvula de retención con canastilla integrada en su extremo de succión. Protege la tubería de la aspiración de partículas sólidas y evita que la tubería de succión se vacíe cuando la bomba se detiene, facilitando el cebado y protegiendo el impulsor.",
-    "imagen": "valvula-pie.jpeg",
+    "imagen": "valvula-pie.png",
     "tipos": ["Válvula de Pie Bridada"],
     "propiedades": {
       "diametros": "150 mm a 900 mm",
