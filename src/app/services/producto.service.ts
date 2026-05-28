@@ -13,6 +13,8 @@ export interface Producto {
   propiedades: { [key: string]: string };
   normas: string[];
   caracteristicas: string[];
+  tabla_grupos?: { label: string; columnas: string[] }[];
+  tabla_split?: number;
   tabla_dimensiones: { [key: string]: number | string | null }[];
   vida_util: string;
 }

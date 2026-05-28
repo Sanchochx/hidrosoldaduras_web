@@ -80,17 +80,46 @@
         <div class="pd__table-wrapper">
           <table class="pd__table">
             <thead>
-              <tr>
-                @for (header of tableHeaders; track header) {
-                  <th class="pd__table-th">{{ labelFor(header) }}</th>
-                }
-              </tr>
+              @if (tableGrupos.length) {
+                <tr>
+                  @for (header of tableSimpleHeaders; track header) {
+                    <th class="pd__table-th" rowspan="2">{{ labelFor(header) }}</th>
+                  }
+                  @for (grupo of tableGrupos; track grupo.label) {
+                    <th class="pd__table-th pd__table-th--grupo" [attr.colspan]="grupo.columnas.length">{{ grupo.label }}</th>
+                  }
+                </tr>
+                <tr>
+                  @for (grupo of tableGrupos; track grupo.label) {
+                    @for (col of grupo.columnas; track col) {
+                      <th class="pd__table-th pd__table-th--sub">{{ labelFor(col) }}</th>
+                    }
+                  }
+                </tr>
+              } @else {
+                <tr>
+                  @for (header of tableHeaders; track header) {
+                    <th class="pd__table-th">{{ labelFor(header) }}</th>
+                  }
+                </tr>
+              }
             </thead>
             <tbody>
               @for (row of producto.tabla_dimensiones; track $index; let i = $index) {
                 <tr [class.pd__table-row--odd]="i % 2 === 0">
-                  @for (header of tableHeaders; track header) {
-                    <td class="pd__table-td">{{ row[header] !== null ? row[header] : '—' }}</td>
+                  @if (tableGrupos.length) {
+                    @for (header of tableSimpleHeaders; track header) {
+                      <td class="pd__table-td">{{ formatDnCell(row[header], header) }}</td>
+                    }
+                    @for (grupo of tableGrupos; track grupo.label) {
+                      @for (col of grupo.columnas; track col) {
+                        <td class="pd__table-td">{{ formatDnCell(row[col], col) }}</td>
+                      }
+                    }
+                  } @else {
+                    @for (header of tableHeaders; track header) {
+                      <td class="pd__table-td">{{ formatDnCell(row[header], header) }}</td>
+                    }
                   }
                 </tr>
               }

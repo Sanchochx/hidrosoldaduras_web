@@ -312,6 +312,15 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   white-space: nowrap;
+
+  &--grupo {
+    border-bottom: 2px solid rgba($white, 0.35);
+  }
+
+  &--sub {
+    font-size: 10px;
+    padding: 7px 16px;
+  }
 }
 
 .pd__table-td {
