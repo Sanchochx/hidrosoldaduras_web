@@ -1,5 +1,6 @@
 {
   "framework": "angular",
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/hidrosoldaduras-web/browser"
+  "outputDirectory": "dist/hidrosoldaduras-web/browser",
+  "installCommand": "npm install --legacy-peer-deps"
 }
