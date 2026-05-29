@@ -53,6 +53,7 @@ export class ProductoDetalleComponent implements OnInit {
     altura_mm:     'Altura',
     peso_pn10_kg:  'PN10',
     peso_pn16_kg:  'PN16',
+    codigo:        'CODIGO',
   };
 
   private readonly dnFields = new Set(['dn', 'dn1', 'dn_mayor', 'dn_menor']);

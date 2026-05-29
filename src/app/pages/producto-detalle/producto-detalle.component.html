@@ -77,7 +77,7 @@
     @if (producto.tabla_dimensiones.length) {
       <section class="pd__section">
         <h2 class="pd__section-title pd__section-title--standalone">TABLA DE DIMENSIONES</h2>
-        <div class="pd__table-wrapper">
+        <div class="pd__table-wrapper" [class.pd__table-wrapper--compact]="producto.tabla_compacta">
           <table class="pd__table">
             <thead>
               @if (tableGrupos.length) {

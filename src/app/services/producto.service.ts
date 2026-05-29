@@ -15,6 +15,7 @@ export interface Producto {
   caracteristicas: string[];
   tabla_grupos?: { label: string; columnas: string[] }[];
   tabla_split?: number;
+  tabla_compacta?: boolean;
   tabla_dimensiones: { [key: string]: number | string | null }[];
   vida_util: string;
 }
