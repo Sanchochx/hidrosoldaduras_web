@@ -1,6 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterLink } from '@angular/router';
+import { RouterLink, Router, NavigationEnd } from '@angular/router';
+import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-navbar',
@@ -12,9 +13,18 @@ import { RouterLink } from '@angular/router';
 export class NavbarComponent {
   isScrolled = false;
   isMenuOpen = false;
+  isOnHome = true;
+
+  constructor(private router: Router) {
+    this.router.events.pipe(
+      filter(e => e instanceof NavigationEnd)
+    ).subscribe((e: NavigationEnd) => {
+      this.isOnHome = e.urlAfterRedirects === '/' || e.urlAfterRedirects.startsWith('/#');
+    });
+  }
 
   get isDark(): boolean {
-    return this.isScrolled;
+    return this.isScrolled || !this.isOnHome;
   }
 
   @HostListener('window:scroll', [])
