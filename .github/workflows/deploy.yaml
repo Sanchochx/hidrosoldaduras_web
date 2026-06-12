@@ -1,4 +1,4 @@
-name: Desplegar sitio estático en GoDaddy
+name: Compilar y Desplegar Angular en GoDaddy
 
 on:
   push:
@@ -6,15 +6,27 @@ on:
       - main  # Cambia a "master" si tu rama principal se llama así
 
 jobs:
-  deploy:
-    name: Subir archivos vía FTP
+  build-and-deploy:
+    name: Compilar y Subir Sitio
     runs-on: ubuntu-latest
 
     steps:
-    - name: 📁 Clonar el repositorio
+    - name: :file_folder: Clonar el repositorio
       uses: actions/checkout@v4
 
-    - name: 🚀 Subir archivos a GoDaddy
+    - name: :green_circle: Configurar Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-node: '20' # Usa la versión de Node que requiera tu proyecto
+        cache: 'npm'
+
+    - name: :package: Instalar dependencias
+      run: npm ci # Usa "npm install" si no tienes el archivo package-lock.json
+
+    - name: :construction_site: Compilar el proyecto Angular
+      run: npm run build -- --configuration=production
+
+    - name: :rocket: Subir compilado a GoDaddy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -22,4 +34,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
         security: loose
-        # server-dir: ./  # Opcional: Solo si necesitas especificar una subcarpeta dentro del FTP
+        # :warning: AQUÍ LE DECIMOS QUÉ CARPETA SUBIR
+        local-dir: ./dist/hidrosoldaduras_web/browser/
