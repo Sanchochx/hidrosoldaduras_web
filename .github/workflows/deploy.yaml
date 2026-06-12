@@ -11,22 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: :file_folder: Clonar el repositorio
+    - name: 📁 Clonar el repositorio
       uses: actions/checkout@v4
 
-    - name: :green_circle: Configurar Node.js
+    - name: 🟢 Configurar Node.js
       uses: actions/setup-node@v4
       with:
         node-node: '20' # Usa la versión de Node que requiera tu proyecto
         cache: 'npm'
 
-    - name: :package: Instalar dependencias
+    - name: 📦 Instalar dependencias
       run: npm ci # Usa "npm install" si no tienes el archivo package-lock.json
 
-    - name: :construction_site: Compilar el proyecto Angular
+    - name: 🏗️ Compilar el proyecto Angular
       run: npm run build -- --configuration=production
 
-    - name: :rocket: Subir compilado a GoDaddy
+    - name: 🚀 Subir compilado a GoDaddy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -34,5 +34,5 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
         security: loose
-        # :warning: AQUÍ LE DECIMOS QUÉ CARPETA SUBIR
+        # ⚠️ AQUÍ LE DECIMOS QUÉ CARPETA SUBIR
         local-dir: ./dist/hidrosoldaduras_web/browser/
