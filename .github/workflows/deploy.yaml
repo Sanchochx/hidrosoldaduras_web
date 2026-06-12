@@ -3,7 +3,7 @@ name: Compilar y Desplegar Angular en GoDaddy
 on:
   push:
     branches:
-      - main  # Cambia a "master" si tu rama principal se llama así
+      - main
 
 jobs:
   build-and-deploy:
@@ -17,11 +17,11 @@ jobs:
     - name: 🟢 Configurar Node.js
       uses: actions/setup-node@v4
       with:
-        node-node: '20' # Usa la versión de Node que requiera tu proyecto
+        node-version: '20'  # ← estaba "node-node", era un typo
         cache: 'npm'
 
     - name: 📦 Instalar dependencias
-      run: npm ci # Usa "npm install" si no tienes el archivo package-lock.json
+      run: npm ci
 
     - name: 🏗️ Compilar el proyecto Angular
       run: npm run build -- --configuration=production
@@ -34,5 +34,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
         security: loose
-        # ⚠️ AQUÍ LE DECIMOS QUÉ CARPETA SUBIR
         local-dir: ./dist/hidrosoldaduras-web/browser/
+        exclude: |
+          **/.vscode/**
+        dangerous-clean-slate: false
