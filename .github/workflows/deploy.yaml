@@ -35,4 +35,4 @@ jobs:
         port: 21
         security: loose
         # ⚠️ AQUÍ LE DECIMOS QUÉ CARPETA SUBIR
-        local-dir: ./dist/hidrosoldaduras_web/browser/
+        local-dir: ./dist/hidrosoldaduras-web/browser/
