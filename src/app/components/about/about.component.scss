@@ -159,7 +159,7 @@
     img {
       width: 100%;
       height: auto;
-      max-height: 640px;
+      max-height: 480px;
       object-fit: contain;
       display: block;
     }
@@ -222,14 +222,6 @@
     line-height: 1;
     margin-bottom: 8px;
 
-    &::before {
-      content: '';
-      display: block;
-      width: 24px;
-      height: 2px;
-      background: $primary;
-      margin: 0 auto 16px;
-    }
   }
 
   &__label {
@@ -315,5 +307,8 @@
     color: rgba($dark, 0.72);
     margin: 0;
     line-height: 1.6;
+    hyphens: none;
+    word-break: normal;
+    overflow-wrap: break-word;
   }
 }

@@ -23,10 +23,10 @@ export class AboutComponent {
 
   stats = [
     { number: '200',  label: 'Obras al año',          sublabel: 'Ejecutadas anualmente' },
-    { number: '70',   label: 'Empleados',              sublabel: 'Equipo especializado' },
+    { number: '20',   label: 'Empleados',              sublabel: 'Equipo especializado' },
     { number: '30',   label: 'Ciudades',               sublabel: 'Presencia nacional' },
     { number: '+12',  label: 'Proyectos PTAR-PTAP',    sublabel: 'Infraestructura hídrica' },
-    { number: '+70',  label: 'Proyectos de vivienda',  sublabel: 'Sector residencial' },
+    { number: '+30',  label: 'Proyectos de vivienda',  sublabel: 'Sector residencial' },
   ];
 
   capabilities = [
@@ -43,7 +43,7 @@ export class AboutComponent {
     {
       icon: 'fa-diagram-project',
       title: 'Ingeniería de Proyectos',
-      desc: 'Diseño y ejecución de proyectos PTAR, PTAP y sistemas de agua potable.'
+      desc: 'Diseño y ejecución de proyectos PTAR, PTAP y sistemas de agua potable, acompañamiento técnico en cada etapa del proyecto.'
     },
     {
       icon: 'fa-map-location-dot',
@@ -58,7 +58,7 @@ export class AboutComponent {
     {
       icon: 'fa-building',
       title: 'Proyectos de Vivienda',
-      desc: 'Más de 70 proyectos residenciales ejecutados con alto estándar técnico y seguridad.'
+      desc: 'Más de 30 proyectos residenciales ejecutados con alto estándar técnico y seguridad.'
     }
   ];
 }
