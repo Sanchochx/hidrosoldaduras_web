@@ -1,0 +1,22 @@
+name: Desplegar sitio estático en GoDaddy
+
+on:
+  push:
+    branches:
+      - main  # Cambia a "master" si tu rama principal se llama así
+
+jobs:
+  deploy:
+    name: Subir archivos vía FTP
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📁 Clonar el repositorio
+      uses: actions/checkout@v4
+
+    - name: 🚀 Subir archivos a GoDaddy
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
