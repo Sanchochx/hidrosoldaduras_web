@@ -20,6 +20,21 @@ const CATALOG_META: Record<string, { title: string }> = {
   },
 };
 
+interface ImagenCatalogo {
+  nombre: string;
+  imagen: string;
+}
+
+// Accesorios no tiene fichas de producto individuales: se muestra como galería de imágenes,
+// sin navegación a una página de detalle.
+const ACCESORIOS_IMAGENES: ImagenCatalogo[] = [
+  { nombre: 'Accesorios en Acero Inoxidable', imagen: 'ACCESORIOS EN ACERO INOXIDABLE.png' },
+  { nombre: 'Accesorios en Bronce', imagen: 'ACCESORIOS EN BRONCE.png' },
+  { nombre: 'Bridas en Acero al Carbón', imagen: 'BRIDAS EN ACERO AL CARBON.png' },
+  { nombre: 'Niples en Acero Inoxidable', imagen: 'NIPLES EN ACERO INOXIDABLE.png' },
+  { nombre: 'Red Contra Incendio', imagen: 'RED CONTRA INCENDIO.png' },
+];
+
 @Component({
   selector: 'app-catalogo-page',
   standalone: true,
@@ -31,6 +46,8 @@ export class CatalogoPageComponent implements OnInit {
   catalogTitle = '';
   productos: Producto[] = [];
   categoria = '';
+  esGaleria = false;
+  imagenesGaleria: ImagenCatalogo[] = [];
 
   constructor(private route: ActivatedRoute, private productoService: ProductoService) {}
 
@@ -38,6 +55,13 @@ export class CatalogoPageComponent implements OnInit {
     this.categoria = this.route.snapshot.paramMap.get('categoria') ?? '';
     const meta = CATALOG_META[this.categoria];
     this.catalogTitle = meta?.title ?? '';
+    this.esGaleria = this.categoria === 'accesorios';
+
+    if (this.esGaleria) {
+      this.imagenesGaleria = ACCESORIOS_IMAGENES;
+      setTimeout(() => AOS.refresh(), 0);
+      return;
+    }
 
     this.productoService.getAll().subscribe(productos => {
       this.productos = productos.filter(p => p.categoria === this.categoria);
@@ -47,6 +71,10 @@ export class CatalogoPageComponent implements OnInit {
 
   imagenPath(producto: Producto): string {
     return `/assets/images/${this.categoria}/${producto.imagen}`;
+  }
+
+  imagenGaleriaPath(item: ImagenCatalogo): string {
+    return `/assets/images/${this.categoria}/${item.imagen}`;
   }
 
   // TODO: reemplazar por fotos reales en assets/images/fabricacion/ — mientras tanto se

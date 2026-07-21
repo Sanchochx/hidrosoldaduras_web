@@ -5,39 +5,45 @@
       <h1 class="catalogo-page__title">{{ catalogTitle }}</h1>
     </div>
 
-    <div class="catalogo-page__grid">
-      @for (producto of productos; track producto.id) {
-        <div
-          class="catalogo-page-card catalogo-page-card--clickable"
-          [routerLink]="['/catalogo', categoria, producto.id]"
-        >
-          <div class="catalogo-page-card__image-wrapper">
-            <img
-              class="catalogo-page-card__image"
-              [src]="imagenPath(producto)"
-              [alt]="producto.nombre"
-              (error)="onImageError($event, producto)"
-            />
+    @if (esGaleria) {
+      <div class="catalogo-page__grid">
+        @for (item of imagenesGaleria; track item.imagen) {
+          <div class="catalogo-page-card">
+            <div class="catalogo-page-card__image-wrapper">
+              <img
+                class="catalogo-page-card__image"
+                [src]="imagenGaleriaPath(item)"
+                [alt]="item.nombre"
+              />
+            </div>
+            <div class="catalogo-page-card__body">
+              <h3 class="catalogo-page-card__title">{{ item.nombre }}</h3>
+            </div>
           </div>
-          <div class="catalogo-page-card__body">
-            <h3 class="catalogo-page-card__title">{{ producto.nombre }}</h3>
-          </div>
-        </div>
-      }
-    </div>
-
-    <div class="catalogo-page__cta" data-aos="fade-up">
-      <div class="catalogo-page__cta-content">
-        <h2 class="catalogo-page__cta-title">¿NO ENCUENTRA LO QUE BUSCA?</h2>
-        <p class="catalogo-page__cta-desc">
-          Desarrollamos soluciones de ingeniería a medida y fabricamos piezas especiales
-          según sus requerimientos técnicos específicos.
-        </p>
+        }
       </div>
-      <a href="tel:3224465872" class="catalogo-page__cta-btn">
-        SOLICITAR ASESORÍA TÉCNICA
-      </a>
-    </div>
+    } @else {
+      <div class="catalogo-page__grid">
+        @for (producto of productos; track producto.id) {
+          <div
+            class="catalogo-page-card catalogo-page-card--clickable"
+            [routerLink]="['/catalogo', categoria, producto.id]"
+          >
+            <div class="catalogo-page-card__image-wrapper">
+              <img
+                class="catalogo-page-card__image"
+                [src]="imagenPath(producto)"
+                [alt]="producto.nombre"
+                (error)="onImageError($event, producto)"
+              />
+            </div>
+            <div class="catalogo-page-card__body">
+              <h3 class="catalogo-page-card__title">{{ producto.nombre }}</h3>
+            </div>
+          </div>
+        }
+      </div>
+    }
 
   </main>
 </div>

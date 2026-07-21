@@ -74,7 +74,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 24px;
-  overflow: hidden;
+  padding-top: 8px;
   animation: gridFadeUp 0.7s ease both;
   animation-delay: 0.1s;
 
@@ -88,17 +88,27 @@
 }
 
 .catalogo-page-card {
-  border: 1px solid rgba(17, 17, 17, 0.12);
+  position: relative;
+  border-top: 3px solid $primary;
   border-radius: 0;
   background-color: $white;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
 
   &:hover {
     transform: translateY(-8px);
-    box-shadow: 0 16px 40px -12px rgba($primary, 0.35);
-    cursor: pointer;
+    box-shadow: 0 20px 44px -14px rgba($primary, 0.4);
+  }
+
+  &:hover &__image {
+    transform: scale(1.06);
+  }
+
+  &:focus-visible {
+    outline: 2px solid $secondary;
+    outline-offset: 3px;
   }
 
   &__image-wrapper {
@@ -113,6 +123,7 @@
     height: 100%;
     object-fit: contain;
     padding: 8px;
+    transition: transform 0.4s ease;
   }
 
   &__badge {
@@ -131,6 +142,7 @@
 
   &__body {
     padding: 20px 24px;
+    border-top: 1px solid rgba($primary, 0.12);
   }
 
   &__title {
@@ -138,10 +150,25 @@
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-    color: $primary;
+    color: $dark;
     margin: 0;
   }
 
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catalogo-page-card,
+  .catalogo-page-card__image {
+    transition: none;
+  }
+
+  .catalogo-page-card:hover {
+    transform: none;
+  }
+
+  .catalogo-page-card:hover .catalogo-page-card__image {
+    transform: none;
+  }
 }
 
 @keyframes gridFadeUp {
