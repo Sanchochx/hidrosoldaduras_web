@@ -15,6 +15,9 @@ const CATALOG_META: Record<string, { title: string }> = {
   uniones: {
     title: 'CATÁLOGO — UNIONES Y ACOPLES',
   },
+  accesorios: {
+    title: 'CATÁLOGO — ACCESORIOS',
+  },
 };
 
 @Component({

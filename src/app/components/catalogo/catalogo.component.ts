@@ -32,5 +32,12 @@ export class CatalogoComponent {
       alt: 'Uniones y Acoples',
       catalogRoute: '/catalogo/uniones',
     },
+    {
+      title: 'Accesorios',
+      desc: 'Amplio portafolio de accesorios hidráulicos complementarios para el ensamble, instalación y mantenimiento de sistemas a presión.',
+      img: 'assets/images/accesorios/accesorios_front.png',
+      alt: 'Accesorios',
+      catalogRoute: '/catalogo/accesorios',
+    },
   ];
 }
