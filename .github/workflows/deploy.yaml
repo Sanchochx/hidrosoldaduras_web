@@ -17,7 +17,7 @@ jobs:
     - name: 🟢 Configurar Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '20'  # ← estaba "node-node", era un typo
+        node-version: '20'
         cache: 'npm'
 
     - name: 📦 Instalar dependencias
@@ -33,8 +33,14 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
-        security: loose
+        protocol: ftp  # 🔥 AÑADIDO - especifica explícitamente FTP
         local-dir: ./dist/hidrosoldaduras-web/browser/
+        server-dir: /public_html/  # 🔥 AÑADIDO - ruta típica de GoDaddy
         exclude: |
           **/.vscode/**
+          **/.git/**
+          **/node_modules/**
+        args: '--passive --delete'  # 🔥 AÑADIDO - modo pasivo y limpia archivos
+        timeout: 60000  # 🔥 AÑADIDO - timeout más largo (60 segundos)
+        security: loose
         dangerous-clean-slate: false
