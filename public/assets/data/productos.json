@@ -2,10 +2,14 @@
   {
     "id": "niple-pasamuro-bridado-mixto",
     "nombre": "Niple Pasamuro Bridado o Mixto",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de conexión hidráulico diseñado para atravesar estructuras de concreto (como muros de tanques o cimentaciones) permitiendo la conexión estanca de tuberías en ambos lados.",
     "imagen": "niple-pasamuro-bridado.png",
-    "tipos": ["Niple Bridado", "Niple Mixto", "Niple con Anclaje Mecánico"],
+    "tipos": [
+      "Niple Bridado",
+      "Niple Mixto",
+      "Niple con Anclaje Mecánico"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -30,36 +34,130 @@
       "Extremo de salida liso compatible con tubería PVC, Hierro Dúctil o Brida ANSI B16.1"
     ],
     "tabla_grupos": [
-      { "label": "G (Longitud)", "columnas": ["g", "asbesto"] }
+      {
+        "label": "G (Longitud)",
+        "columnas": [
+          "g",
+          "asbesto"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "g": 89,  "asbesto": 120 },
-      { "dn": 75,  "pn": "10-25", "g": 108, "asbesto": 120 },
-      { "dn": 100, "pn": "10-25", "g": 114, "asbesto": 120 },
-      { "dn": 150, "pn": "10-25", "g": 140, "asbesto": 120 },
-      { "dn": 200, "pn": "10-25", "g": 159, "asbesto": 120 },
-      { "dn": 250, "pn": "10-25", "g": 184, "asbesto": 120 },
-      { "dn": 300, "pn": "10-25", "g": 210, "asbesto": 120 },
-      { "dn": 350, "pn": "10-25", "g": 220, "asbesto": 120 },
-      { "dn": 400, "pn": "10-25", "g": 240, "asbesto": 120 },
-      { "dn": 450, "pn": "10-25", "g": 260, "asbesto": 120 },
-      { "dn": 500, "pn": "10-25", "g": 280, "asbesto": 120 },
-      { "dn": 600, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 700, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 750, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 800, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 863, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 920, "pn": "10-25", "g": null, "asbesto": 120 }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "g": 89,
+        "asbesto": 120
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "g": 108,
+        "asbesto": 120
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "g": 114,
+        "asbesto": 120
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "g": 140,
+        "asbesto": 120
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "g": 159,
+        "asbesto": 120
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "g": 184,
+        "asbesto": 120
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "g": 210,
+        "asbesto": 120
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "g": 220,
+        "asbesto": 120
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "g": 240,
+        "asbesto": 120
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "g": 260,
+        "asbesto": 120
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "g": 280,
+        "asbesto": 120
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "niple-pasamuro-liso",
     "nombre": "Niple Pasa Muro Liso",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de fijación robusto diseñado para permitir el paso seguro de fluidos a través de estructuras como muros o tanques, garantizando alta resistencia mecánica y hermeticidad. Sus extremos lisos se unen mediante soldadura a tope.",
     "imagen": "niple-pasamuro-liso.png",
-    "tipos": ["Niple Liso", "Niple con Anclaje Mecánico"],
+    "tipos": [
+      "Niple Liso",
+      "Niple con Anclaje Mecánico"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -84,36 +182,130 @@
       "Recubrimiento epóxico para protección en ambientes húmedos"
     ],
     "tabla_grupos": [
-      { "label": "G (Longitud)", "columnas": ["g", "asbesto"] }
+      {
+        "label": "G (Longitud)",
+        "columnas": [
+          "g",
+          "asbesto"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "g": 89,  "asbesto": 120 },
-      { "dn": 75,  "pn": "10-25", "g": 108, "asbesto": 120 },
-      { "dn": 100, "pn": "10-25", "g": 114, "asbesto": 120 },
-      { "dn": 150, "pn": "10-25", "g": 140, "asbesto": 120 },
-      { "dn": 200, "pn": "10-25", "g": 159, "asbesto": 120 },
-      { "dn": 250, "pn": "10-25", "g": 184, "asbesto": 120 },
-      { "dn": 300, "pn": "10-25", "g": 210, "asbesto": 120 },
-      { "dn": 350, "pn": "10-25", "g": 220, "asbesto": 120 },
-      { "dn": 400, "pn": "10-25", "g": 240, "asbesto": 120 },
-      { "dn": 450, "pn": "10-25", "g": 260, "asbesto": 120 },
-      { "dn": 500, "pn": "10-25", "g": 280, "asbesto": 120 },
-      { "dn": 600, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 700, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 750, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 800, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 863, "pn": "10-25", "g": null, "asbesto": 120 },
-      { "dn": 920, "pn": "10-25", "g": null, "asbesto": 120 }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "g": 89,
+        "asbesto": 120
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "g": 108,
+        "asbesto": 120
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "g": 114,
+        "asbesto": 120
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "g": 140,
+        "asbesto": 120
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "g": 159,
+        "asbesto": 120
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "g": 184,
+        "asbesto": 120
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "g": 210,
+        "asbesto": 120
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "g": 220,
+        "asbesto": 120
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "g": 240,
+        "asbesto": 120
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "g": 260,
+        "asbesto": 120
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "g": 280,
+        "asbesto": 120
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "g": null,
+        "asbesto": 120
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "reduccion-excentrica-concentrica-bridada",
     "nombre": "Reducción Excéntrica-Concéntrica Bridada",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante conexiones bridadas, facilitando el desmontaje para mantenimiento. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido.",
     "imagen": "reduccion-excentrica-bridada.jpeg",
-    "tipos": ["Reducción Excéntrica Bridada", "Reducción Concéntrica Bridada"],
+    "tipos": [
+      "Reducción Excéntrica Bridada",
+      "Reducción Concéntrica Bridada"
+    ],
     "propiedades": {
       "diametros": "63 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -138,39 +330,168 @@
       "Acabado con recubrimiento epóxico o galvanizado para protección anticorrosiva"
     ],
     "tabla_grupos": [
-      { "label": "Kg", "columnas": ["peso_pn10_kg", "peso_pn16_kg"] }
+      {
+        "label": "Kg",
+        "columnas": [
+          "peso_pn10_kg",
+          "peso_pn16_kg"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dnxdn": "150x63",  "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 14,   "peso_pn16_kg": 14   },
-      { "dnxdn": "150x75",  "pn": "10-25", "longitud_mm": 400,  "peso_pn10_kg": 16,   "peso_pn16_kg": 16   },
-      { "dnxdn": "150x100", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 15,   "peso_pn16_kg": 15   },
-      { "dnxdn": "200x100", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 28,   "peso_pn16_kg": 28   },
-      { "dnxdn": "200x150", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 22,   "peso_pn16_kg": 22   },
-      { "dnxdn": "250x100", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 38,   "peso_pn16_kg": 38   },
-      { "dnxdn": "250x150", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 38,   "peso_pn16_kg": 38   },
-      { "dnxdn": "250x200", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 30,   "peso_pn16_kg": 30   },
-      { "dnxdn": "300x150", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 46,   "peso_pn16_kg": 46   },
-      { "dnxdn": "300x250", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 42,   "peso_pn16_kg": 42   },
-      { "dnxdn": "350x150", "pn": "10-25", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null },
-      { "dnxdn": "350x200", "pn": "10-25", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null },
-      { "dnxdn": "350x300", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 52,   "peso_pn16_kg": 55   },
-      { "dnxdn": "400x150", "pn": "10-25", "longitud_mm": 700,  "peso_pn10_kg": 78,   "peso_pn16_kg": 78   },
-      { "dnxdn": "500x250", "pn": "10-25", "longitud_mm": 700,  "peso_pn10_kg": 101,  "peso_pn16_kg": 114  },
-      { "dnxdn": "500x300", "pn": "10-25", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null },
-      { "dnxdn": "600x300", "pn": "10-25", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null },
-      { "dnxdn": "600x350", "pn": "10-26", "longitud_mm": 750,  "peso_pn10_kg": 147,  "peso_pn16_kg": 174  },
-      { "dnxdn": "920x300", "pn": "10-27", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null },
-      { "dnxdn": "920x350", "pn": "10-28", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null }
+      {
+        "dnxdn": "150x63",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 14,
+        "peso_pn16_kg": 14
+      },
+      {
+        "dnxdn": "150x75",
+        "pn": "10-25",
+        "longitud_mm": 400,
+        "peso_pn10_kg": 16,
+        "peso_pn16_kg": 16
+      },
+      {
+        "dnxdn": "150x100",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 15,
+        "peso_pn16_kg": 15
+      },
+      {
+        "dnxdn": "200x100",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 28,
+        "peso_pn16_kg": 28
+      },
+      {
+        "dnxdn": "200x150",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 22,
+        "peso_pn16_kg": 22
+      },
+      {
+        "dnxdn": "250x100",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 38,
+        "peso_pn16_kg": 38
+      },
+      {
+        "dnxdn": "250x150",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 38,
+        "peso_pn16_kg": 38
+      },
+      {
+        "dnxdn": "250x200",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 30,
+        "peso_pn16_kg": 30
+      },
+      {
+        "dnxdn": "300x150",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 46,
+        "peso_pn16_kg": 46
+      },
+      {
+        "dnxdn": "300x250",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 42,
+        "peso_pn16_kg": 42
+      },
+      {
+        "dnxdn": "350x150",
+        "pn": "10-25",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      },
+      {
+        "dnxdn": "350x200",
+        "pn": "10-25",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      },
+      {
+        "dnxdn": "350x300",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 52,
+        "peso_pn16_kg": 55
+      },
+      {
+        "dnxdn": "400x150",
+        "pn": "10-25",
+        "longitud_mm": 700,
+        "peso_pn10_kg": 78,
+        "peso_pn16_kg": 78
+      },
+      {
+        "dnxdn": "500x250",
+        "pn": "10-25",
+        "longitud_mm": 700,
+        "peso_pn10_kg": 101,
+        "peso_pn16_kg": 114
+      },
+      {
+        "dnxdn": "500x300",
+        "pn": "10-25",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      },
+      {
+        "dnxdn": "600x300",
+        "pn": "10-25",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      },
+      {
+        "dnxdn": "600x350",
+        "pn": "10-26",
+        "longitud_mm": 750,
+        "peso_pn10_kg": 147,
+        "peso_pn16_kg": 174
+      },
+      {
+        "dnxdn": "920x300",
+        "pn": "10-27",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      },
+      {
+        "dnxdn": "920x350",
+        "pn": "10-28",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "reduccion-excentrica-concentrica-liso",
     "nombre": "Reducción Excéntrica-Concéntrica Liso",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorios de tubería diseñados para unir dos tramos de diámetros diferentes mediante soldadura a tope. La elección entre versión excéntrica o concéntrica depende de la orientación de la tubería y el fluido transportado.",
     "imagen": "reduccion-excentrica-liso.jpeg",
-    "tipos": ["Reducción Excéntrica Lisa", "Reducción Concéntrica Lisa"],
+    "tipos": [
+      "Reducción Excéntrica Lisa",
+      "Reducción Concéntrica Lisa"
+    ],
     "propiedades": {
       "diametros": "63 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -195,34 +516,133 @@
       "Acabado con recubrimiento epóxico o galvanizado para protección anticorrosiva"
     ],
     "tabla_grupos": [
-      { "label": "Kg", "columnas": ["peso_pn10_kg", "peso_pn16_kg"] }
+      {
+        "label": "Kg",
+        "columnas": [
+          "peso_pn10_kg",
+          "peso_pn16_kg"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dnxdn": "150x63",  "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 14,   "peso_pn16_kg": 14   },
-      { "dnxdn": "150x75",  "pn": "10-25", "longitud_mm": 400,  "peso_pn10_kg": 16,   "peso_pn16_kg": 16   },
-      { "dnxdn": "150x100", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 15,   "peso_pn16_kg": 15   },
-      { "dnxdn": "200x100", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 28,   "peso_pn16_kg": 28   },
-      { "dnxdn": "200x150", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 22,   "peso_pn16_kg": 22   },
-      { "dnxdn": "250x100", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 38,   "peso_pn16_kg": 38   },
-      { "dnxdn": "250x150", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 38,   "peso_pn16_kg": 38   },
-      { "dnxdn": "250x200", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 30,   "peso_pn16_kg": 30   },
-      { "dnxdn": "300x150", "pn": "10-25", "longitud_mm": 600,  "peso_pn10_kg": 46,   "peso_pn16_kg": 46   },
-      { "dnxdn": "300x250", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 42,   "peso_pn16_kg": 42   },
-      { "dnxdn": "350x300", "pn": "10-25", "longitud_mm": 300,  "peso_pn10_kg": 52,   "peso_pn16_kg": 55   },
-      { "dnxdn": "400x150", "pn": "10-25", "longitud_mm": 700,  "peso_pn10_kg": 78,   "peso_pn16_kg": 78   },
-      { "dnxdn": "500x250", "pn": "10-25", "longitud_mm": 700,  "peso_pn10_kg": 101,  "peso_pn16_kg": 114  },
-      { "dnxdn": "600x350", "pn": "10-26", "longitud_mm": 750,  "peso_pn10_kg": 147,  "peso_pn16_kg": 174  },
-      { "dnxdn": "920x350", "pn": "10-28", "longitud_mm": null, "peso_pn10_kg": null, "peso_pn16_kg": null }
+      {
+        "dnxdn": "150x63",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 14,
+        "peso_pn16_kg": 14
+      },
+      {
+        "dnxdn": "150x75",
+        "pn": "10-25",
+        "longitud_mm": 400,
+        "peso_pn10_kg": 16,
+        "peso_pn16_kg": 16
+      },
+      {
+        "dnxdn": "150x100",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 15,
+        "peso_pn16_kg": 15
+      },
+      {
+        "dnxdn": "200x100",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 28,
+        "peso_pn16_kg": 28
+      },
+      {
+        "dnxdn": "200x150",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 22,
+        "peso_pn16_kg": 22
+      },
+      {
+        "dnxdn": "250x100",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 38,
+        "peso_pn16_kg": 38
+      },
+      {
+        "dnxdn": "250x150",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 38,
+        "peso_pn16_kg": 38
+      },
+      {
+        "dnxdn": "250x200",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 30,
+        "peso_pn16_kg": 30
+      },
+      {
+        "dnxdn": "300x150",
+        "pn": "10-25",
+        "longitud_mm": 600,
+        "peso_pn10_kg": 46,
+        "peso_pn16_kg": 46
+      },
+      {
+        "dnxdn": "300x250",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 42,
+        "peso_pn16_kg": 42
+      },
+      {
+        "dnxdn": "350x300",
+        "pn": "10-25",
+        "longitud_mm": 300,
+        "peso_pn10_kg": 52,
+        "peso_pn16_kg": 55
+      },
+      {
+        "dnxdn": "400x150",
+        "pn": "10-25",
+        "longitud_mm": 700,
+        "peso_pn10_kg": 78,
+        "peso_pn16_kg": 78
+      },
+      {
+        "dnxdn": "500x250",
+        "pn": "10-25",
+        "longitud_mm": 700,
+        "peso_pn10_kg": 101,
+        "peso_pn16_kg": 114
+      },
+      {
+        "dnxdn": "600x350",
+        "pn": "10-26",
+        "longitud_mm": 750,
+        "peso_pn10_kg": 147,
+        "peso_pn16_kg": 174
+      },
+      {
+        "dnxdn": "920x350",
+        "pn": "10-28",
+        "longitud_mm": null,
+        "peso_pn10_kg": null,
+        "peso_pn16_kg": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "codo-bridado-mixto",
     "nombre": "Codo Bridado o Mixto",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en un sistema hidráulico. Disponible con ángulos de 11.5°, 22.5°, 45° y 90°, con conexiones bridadas que facilitan la instalación y el mantenimiento sin soldadura directa en sitio.",
     "imagen": "codo-bridado-mixto.png",
-    "tipos": ["Codo Bridado", "Codo Mixto"],
+    "tipos": [
+      "Codo Bridado",
+      "Codo Mixto"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -247,36 +667,166 @@
       "Recubrimiento epóxico o galvanizado para protección anticorrosiva"
     ],
     "tabla_grupos": [
-      { "label": "ANGULO", "columnas": ["angulo_11_5", "angulo_22_5", "angulo_45", "angulo_90"] }
+      {
+        "label": "ANGULO",
+        "columnas": [
+          "angulo_11_5",
+          "angulo_22_5",
+          "angulo_45",
+          "angulo_90"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "angulo_11_5": 109,  "angulo_22_5": 104,  "angulo_45": 150,  "angulo_90": 150  },
-      { "dn": 75,  "pn": "10-25", "angulo_11_5": 113,  "angulo_22_5": 105,  "angulo_45": 130,  "angulo_90": 165  },
-      { "dn": 100, "pn": "10-25", "angulo_11_5": 115,  "angulo_22_5": 110,  "angulo_45": 140,  "angulo_90": 182  },
-      { "dn": 150, "pn": "10-25", "angulo_11_5": 113,  "angulo_22_5": 109,  "angulo_45": 160,  "angulo_90": 220  },
-      { "dn": 200, "pn": "10-25", "angulo_11_5": 132,  "angulo_22_5": 131,  "angulo_45": 180,  "angulo_90": 260  },
-      { "dn": 250, "pn": "10-25", "angulo_11_5": 152,  "angulo_22_5": 167,  "angulo_45": 245,  "angulo_90": 350  },
-      { "dn": 300, "pn": "10-25", "angulo_11_5": 156,  "angulo_22_5": 175,  "angulo_45": 275,  "angulo_90": 400  },
-      { "dn": 350, "pn": "10-25", "angulo_11_5": 191,  "angulo_22_5": 215,  "angulo_45": 300,  "angulo_90": 450  },
-      { "dn": 400, "pn": "10-25", "angulo_11_5": 205,  "angulo_22_5": 239,  "angulo_45": 325,  "angulo_90": 500  },
-      { "dn": 450, "pn": "10-25", "angulo_11_5": null, "angulo_22_5": null, "angulo_45": 350,  "angulo_90": 550  },
-      { "dn": 500, "pn": "10-25", "angulo_11_5": 233,  "angulo_22_5": 272,  "angulo_45": 375,  "angulo_90": 600  },
-      { "dn": 600, "pn": "10-25", "angulo_11_5": 274,  "angulo_22_5": 320,  "angulo_45": 425,  "angulo_90": 700  },
-      { "dn": 700, "pn": "10-25", "angulo_11_5": 230,  "angulo_22_5": 300,  "angulo_45": 480,  "angulo_90": 800  },
-      { "dn": 750, "pn": "10-25", "angulo_11_5": 255,  "angulo_22_5": 335,  "angulo_45": 530,  "angulo_90": 900  },
-      { "dn": 800, "pn": "10-25", "angulo_11_5": 255,  "angulo_22_5": 335,  "angulo_45": 530,  "angulo_90": 900  },
-      { "dn": 863, "pn": "10-25", "angulo_11_5": 280,  "angulo_22_5": 375,  "angulo_45": 580,  "angulo_90": 1000 },
-      { "dn": 920, "pn": "10-25", "angulo_11_5": 310,  "angulo_22_5": 410,  "angulo_45": 630,  "angulo_90": 1100 }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "angulo_11_5": 109,
+        "angulo_22_5": 104,
+        "angulo_45": 150,
+        "angulo_90": 150
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "angulo_11_5": 113,
+        "angulo_22_5": 105,
+        "angulo_45": 130,
+        "angulo_90": 165
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "angulo_11_5": 115,
+        "angulo_22_5": 110,
+        "angulo_45": 140,
+        "angulo_90": 182
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "angulo_11_5": 113,
+        "angulo_22_5": 109,
+        "angulo_45": 160,
+        "angulo_90": 220
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "angulo_11_5": 132,
+        "angulo_22_5": 131,
+        "angulo_45": 180,
+        "angulo_90": 260
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "angulo_11_5": 152,
+        "angulo_22_5": 167,
+        "angulo_45": 245,
+        "angulo_90": 350
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "angulo_11_5": 156,
+        "angulo_22_5": 175,
+        "angulo_45": 275,
+        "angulo_90": 400
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "angulo_11_5": 191,
+        "angulo_22_5": 215,
+        "angulo_45": 300,
+        "angulo_90": 450
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "angulo_11_5": 205,
+        "angulo_22_5": 239,
+        "angulo_45": 325,
+        "angulo_90": 500
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "angulo_11_5": null,
+        "angulo_22_5": null,
+        "angulo_45": 350,
+        "angulo_90": 550
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "angulo_11_5": 233,
+        "angulo_22_5": 272,
+        "angulo_45": 375,
+        "angulo_90": 600
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "angulo_11_5": 274,
+        "angulo_22_5": 320,
+        "angulo_45": 425,
+        "angulo_90": 700
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "angulo_11_5": 230,
+        "angulo_22_5": 300,
+        "angulo_45": 480,
+        "angulo_90": 800
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "angulo_11_5": 255,
+        "angulo_22_5": 335,
+        "angulo_45": 530,
+        "angulo_90": 900
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "angulo_11_5": 255,
+        "angulo_22_5": 335,
+        "angulo_45": 530,
+        "angulo_90": 900
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "angulo_11_5": 280,
+        "angulo_22_5": 375,
+        "angulo_45": 580,
+        "angulo_90": 1000
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "angulo_11_5": 310,
+        "angulo_22_5": 410,
+        "angulo_45": 630,
+        "angulo_90": 1100
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "codo-liso",
     "nombre": "Codo Liso",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de tubería diseñado para cambiar la dirección del flujo en ángulos de 45° o 90°. Se caracteriza por su acabado sin costuras visibles o tipo largo (2D/3D), lo que reduce la fricción interna y se une mediante soldadura a tope.",
     "imagen": "codo-liso.png",
-    "tipos": ["Codo Liso 45°", "Codo Liso 90°"],
+    "tipos": [
+      "Codo Liso 45°",
+      "Codo Liso 90°"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -301,36 +851,166 @@
       "Recubrimiento epóxico o galvanizado para protección anticorrosiva"
     ],
     "tabla_grupos": [
-      { "label": "ANGULO", "columnas": ["angulo_11_5", "angulo_22_5", "angulo_45", "angulo_90"] }
+      {
+        "label": "ANGULO",
+        "columnas": [
+          "angulo_11_5",
+          "angulo_22_5",
+          "angulo_45",
+          "angulo_90"
+        ]
+      }
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "angulo_11_5": 109,  "angulo_22_5": 104,  "angulo_45": 150,  "angulo_90": 150  },
-      { "dn": 75,  "pn": "10-25", "angulo_11_5": 113,  "angulo_22_5": 105,  "angulo_45": 130,  "angulo_90": 165  },
-      { "dn": 100, "pn": "10-25", "angulo_11_5": 115,  "angulo_22_5": 110,  "angulo_45": 140,  "angulo_90": 182  },
-      { "dn": 150, "pn": "10-25", "angulo_11_5": 113,  "angulo_22_5": 109,  "angulo_45": 160,  "angulo_90": 220  },
-      { "dn": 200, "pn": "10-25", "angulo_11_5": 132,  "angulo_22_5": 131,  "angulo_45": 180,  "angulo_90": 260  },
-      { "dn": 250, "pn": "10-25", "angulo_11_5": 152,  "angulo_22_5": 167,  "angulo_45": 245,  "angulo_90": 350  },
-      { "dn": 300, "pn": "10-25", "angulo_11_5": 156,  "angulo_22_5": 175,  "angulo_45": 275,  "angulo_90": 400  },
-      { "dn": 350, "pn": "10-25", "angulo_11_5": 191,  "angulo_22_5": 215,  "angulo_45": 300,  "angulo_90": 450  },
-      { "dn": 400, "pn": "10-25", "angulo_11_5": 205,  "angulo_22_5": 239,  "angulo_45": 325,  "angulo_90": 500  },
-      { "dn": 450, "pn": "10-25", "angulo_11_5": null, "angulo_22_5": null, "angulo_45": 350,  "angulo_90": 550  },
-      { "dn": 500, "pn": "10-25", "angulo_11_5": 233,  "angulo_22_5": 272,  "angulo_45": 375,  "angulo_90": 600  },
-      { "dn": 600, "pn": "10-25", "angulo_11_5": 274,  "angulo_22_5": 320,  "angulo_45": 425,  "angulo_90": 700  },
-      { "dn": 700, "pn": "10-25", "angulo_11_5": 230,  "angulo_22_5": 300,  "angulo_45": 480,  "angulo_90": 800  },
-      { "dn": 750, "pn": "10-25", "angulo_11_5": 255,  "angulo_22_5": 335,  "angulo_45": 530,  "angulo_90": 900  },
-      { "dn": 800, "pn": "10-25", "angulo_11_5": 255,  "angulo_22_5": 335,  "angulo_45": 530,  "angulo_90": 900  },
-      { "dn": 863, "pn": "10-25", "angulo_11_5": 280,  "angulo_22_5": 375,  "angulo_45": 580,  "angulo_90": 1000 },
-      { "dn": 920, "pn": "10-25", "angulo_11_5": 310,  "angulo_22_5": 410,  "angulo_45": 630,  "angulo_90": 1100 }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "angulo_11_5": 109,
+        "angulo_22_5": 104,
+        "angulo_45": 150,
+        "angulo_90": 150
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "angulo_11_5": 113,
+        "angulo_22_5": 105,
+        "angulo_45": 130,
+        "angulo_90": 165
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "angulo_11_5": 115,
+        "angulo_22_5": 110,
+        "angulo_45": 140,
+        "angulo_90": 182
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "angulo_11_5": 113,
+        "angulo_22_5": 109,
+        "angulo_45": 160,
+        "angulo_90": 220
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "angulo_11_5": 132,
+        "angulo_22_5": 131,
+        "angulo_45": 180,
+        "angulo_90": 260
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "angulo_11_5": 152,
+        "angulo_22_5": 167,
+        "angulo_45": 245,
+        "angulo_90": 350
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "angulo_11_5": 156,
+        "angulo_22_5": 175,
+        "angulo_45": 275,
+        "angulo_90": 400
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "angulo_11_5": 191,
+        "angulo_22_5": 215,
+        "angulo_45": 300,
+        "angulo_90": 450
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "angulo_11_5": 205,
+        "angulo_22_5": 239,
+        "angulo_45": 325,
+        "angulo_90": 500
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "angulo_11_5": null,
+        "angulo_22_5": null,
+        "angulo_45": 350,
+        "angulo_90": 550
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "angulo_11_5": 233,
+        "angulo_22_5": 272,
+        "angulo_45": 375,
+        "angulo_90": 600
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "angulo_11_5": 274,
+        "angulo_22_5": 320,
+        "angulo_45": 425,
+        "angulo_90": 700
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "angulo_11_5": 230,
+        "angulo_22_5": 300,
+        "angulo_45": 480,
+        "angulo_90": 800
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "angulo_11_5": 255,
+        "angulo_22_5": 335,
+        "angulo_45": 530,
+        "angulo_90": 900
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "angulo_11_5": 255,
+        "angulo_22_5": 335,
+        "angulo_45": 530,
+        "angulo_90": 900
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "angulo_11_5": 280,
+        "angulo_22_5": 375,
+        "angulo_45": 580,
+        "angulo_90": 1000
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "angulo_11_5": 310,
+        "angulo_22_5": 410,
+        "angulo_45": 630,
+        "angulo_90": 1100
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "tee-lisa",
     "nombre": "Tee Lisa",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de tubería en forma de 'T' que se utiliza para desviar o combinar el flujo de fluidos, conectando tres secciones de tubería. Sus extremos lisos están preparados para unión mediante soldadura a tope (buttweld).",
     "imagen": "tee-lisa.jpeg",
-    "tipos": ["Tee Lisa Igual", "Tee Lisa Reducida"],
+    "tipos": [
+      "Tee Lisa Igual",
+      "Tee Lisa Reducida"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -355,111 +1035,684 @@
       "Recubrimiento epóxico para protección en ambientes industriales"
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "dn1": 50,  "altura_mm": 150,       "longitud_mm": 300        },
-      { "dn": 75,  "pn": "10-25", "dn1": 50,  "altura_mm": "157-165", "longitud_mm": 330        },
-      { "dn": 75,  "pn": "10-25", "dn1": 75,  "altura_mm": "157-165", "longitud_mm": 330        },
-      { "dn": 100, "pn": "10-25", "dn1": 50,  "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 100, "pn": "10-25", "dn1": 75,  "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 100, "pn": "10-25", "dn1": 100, "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 150, "pn": "10-25", "dn1": 50,  "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 75,  "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 100, "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 150, "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 200, "pn": "10-25", "dn1": 50,  "altura_mm": "235-280", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 75,  "altura_mm": "235-280", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 100, "altura_mm": "235-280", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 150, "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 200, "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 250, "pn": "10-25", "dn1": 50,  "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 75,  "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 100, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 150, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 200, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 250, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 300, "pn": "10-25", "dn1": 50,  "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 75,  "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 100, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 150, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 200, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 250, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 300, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 50,  "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 75,  "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 100, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 150, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 200, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 250, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 300, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 350, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 400, "pn": "10-25", "dn1": 75,  "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 100, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 150, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 200, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 250, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 300, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 350, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 400, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 450, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 500, "pn": "10-25", "dn1": 150, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 200, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 250, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 300, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 350, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 400, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 450, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 500, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 600, "pn": "10-25", "dn1": 150, "altura_mm": 558.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 200, "altura_mm": 558.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 250, "altura_mm": 559.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 300, "altura_mm": 560.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 350, "altura_mm": 561.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 400, "altura_mm": 562.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 450, "altura_mm": 563.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 500, "altura_mm": 564.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 600, "altura_mm": 564.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 750, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": 150,
+        "longitud_mm": 300
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "157-165",
+        "longitud_mm": 330
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "157-165",
+        "longitud_mm": 330
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "235-280",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "235-280",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "235-280",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 500,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 558.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 558.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 559.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 560.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 561.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": 562.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": 563.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 500,
+        "altura_mm": 564.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 600,
+        "altura_mm": 564.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "tee-bridada-mixta",
     "nombre": "Tee Bridada o Mixta",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de conexión para tuberías industriales que permite la derivación del flujo en un ángulo de 90 grados. Utiliza bridas en sus extremos para facilitar la instalación y el mantenimiento sin necesidad de soldadura directa en el sitio.",
     "imagen": "tee-bridada-mixta.jpeg",
-    "tipos": ["Tee Bridada", "Tee Mixta"],
+    "tipos": [
+      "Tee Bridada",
+      "Tee Mixta"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -484,110 +1737,677 @@
       "Recubrimiento epóxico para protección en ambientes industriales"
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "dn1": 50,  "altura_mm": 150,       "longitud_mm": 300        },
-      { "dn": 75,  "pn": "10-25", "dn1": 50,  "altura_mm": "157-165", "longitud_mm": 330        },
-      { "dn": 75,  "pn": "10-25", "dn1": 75,  "altura_mm": "157-165", "longitud_mm": 330        },
-      { "dn": 100, "pn": "10-25", "dn1": 50,  "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 100, "pn": "10-25", "dn1": 75,  "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 100, "pn": "10-25", "dn1": 100, "altura_mm": "157-165", "longitud_mm": 360        },
-      { "dn": 150, "pn": "10-25", "dn1": 50,  "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 75,  "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 100, "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 150, "pn": "10-25", "dn1": 150, "altura_mm": "200-220", "longitud_mm": 440        },
-      { "dn": 200, "pn": "10-25", "dn1": 50,  "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 75,  "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 100, "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 150, "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 200, "pn": "10-25", "dn1": 200, "altura_mm": "235-260", "longitud_mm": 520        },
-      { "dn": 250, "pn": "10-25", "dn1": 50,  "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 75,  "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 100, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 150, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 200, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 250, "pn": "10-25", "dn1": 250, "altura_mm": "270-350", "longitud_mm": 700        },
-      { "dn": 300, "pn": "10-25", "dn1": 50,  "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 75,  "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 100, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 150, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 200, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 250, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 300, "pn": "10-25", "dn1": 300, "altura_mm": "290-400", "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 50,  "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 100, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 150, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 200, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 250, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 300, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 350, "pn": "10-25", "dn1": 350, "altura_mm": 400,       "longitud_mm": 800        },
-      { "dn": 400, "pn": "10-25", "dn1": 75,  "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 100, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 150, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 200, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 250, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 300, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 350, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 400, "pn": "10-25", "dn1": 400, "altura_mm": 350,       "longitud_mm": 900        },
-      { "dn": 450, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 450, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 500, "pn": "10-25", "dn1": 150, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 200, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 250, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 300, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 350, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 400, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 450, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 500, "pn": "10-25", "dn1": 500, "altura_mm": "400-500", "longitud_mm": 1000       },
-      { "dn": 600, "pn": "10-25", "dn1": 150, "altura_mm": 558.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 200, "altura_mm": 558.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 250, "altura_mm": 559.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 300, "altura_mm": 560.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 350, "altura_mm": 561.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 400, "altura_mm": 562.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 450, "altura_mm": 563.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 500, "altura_mm": 564.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 600, "pn": "10-25", "dn1": 600, "altura_mm": 564.8,     "longitud_mm": "762-1117.6" },
-      { "dn": 750, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 750, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 800, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 863, "pn": "10-25", "dn1": 450, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 150, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 200, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 250, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 300, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 350, "altura_mm": null,      "longitud_mm": null       },
-      { "dn": 920, "pn": "10-25", "dn1": 400, "altura_mm": null,      "longitud_mm": null       }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": 150,
+        "longitud_mm": 300
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "157-165",
+        "longitud_mm": 330
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "157-165",
+        "longitud_mm": 330
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "157-165",
+        "longitud_mm": 360
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "200-220",
+        "longitud_mm": 440
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "235-260",
+        "longitud_mm": 520
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "270-350",
+        "longitud_mm": 700
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": "290-400",
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 50,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 400,
+        "longitud_mm": 800
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 75,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 100,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": 350,
+        "longitud_mm": 900
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 500,
+        "altura_mm": "400-500",
+        "longitud_mm": 1000
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": 558.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": 558.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": 559.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": 560.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": 561.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": 562.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": 563.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 500,
+        "altura_mm": 564.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 600,
+        "altura_mm": 564.8,
+        "longitud_mm": "762-1117.6"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 450,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 150,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 200,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 250,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 300,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 350,
+        "altura_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 400,
+        "altura_mm": null,
+        "longitud_mm": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "yee-bridada-mixta",
     "nombre": "Yee Bridada o Mixta",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio robusto con forma de 'Y' utilizado en sistemas de tuberías industriales para crear ramificaciones en ángulo. Cuenta con bridas en sus extremos para facilitar la instalación y el mantenimiento sin soldadura directa en sitio.",
     "imagen": "yee-bridada-mixta.png",
-    "tipos": ["Yee Bridada", "Yee Mixta"],
+    "tipos": [
+      "Yee Bridada",
+      "Yee Mixta"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -612,111 +2432,684 @@
       "Recubrimiento epóxico para alta durabilidad en ambientes industriales"
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "dn1": 50,  "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 75,  "pn": "10-25", "dn1": 50,  "g_f_mm": 254,    "longitud_mm": 395.65 },
-      { "dn": 75,  "pn": "10-25", "dn1": 75,  "g_f_mm": 254,    "longitud_mm": 395.65 },
-      { "dn": 100, "pn": "10-25", "dn1": 50,  "g_f_mm": 304.8,  "longitud_mm": 460.36 },
-      { "dn": 100, "pn": "10-25", "dn1": 75,  "g_f_mm": 304.8,  "longitud_mm": 460.36 },
-      { "dn": 100, "pn": "10-25", "dn1": 100, "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 50,  "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 75,  "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 100, "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 150, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 50,  "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 75,  "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 100, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 150, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 200, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 250, "pn": "10-25", "dn1": 50,  "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 75,  "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 100, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 150, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 200, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 250, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 300, "pn": "10-25", "dn1": 50,  "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 75,  "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 100, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 150, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 200, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 250, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 300, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 350, "pn": "10-25", "dn1": 50,  "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 100, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 150, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 200, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 250, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 300, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 350, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 75,  "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 100, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 150, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 200, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 250, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 300, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 350, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 400, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 150, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 200, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 250, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 300, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 350, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 400, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 450, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 150, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 200, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 250, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 300, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 350, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 400, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 450, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 500, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 150, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 200, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 250, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 300, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 350, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 400, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 450, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 500, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 600, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 254,
+        "longitud_mm": 395.65
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 254,
+        "longitud_mm": 395.65
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 304.8,
+        "longitud_mm": 460.36
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 304.8,
+        "longitud_mm": 460.36
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 500,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 500,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 600,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "yee-lisa",
     "nombre": "Yee Lisa",
-    "categoria": "Accesorios",
+    "categoria": "fabricacion",
     "descripcion": "Accesorio de tubería industrial con forma de 'Y', diseñado para crear derivaciones en sistemas de fluidos mediante soldadura a tope. Garantiza una unión robusta y permanente con alta resistencia mecánica.",
     "imagen": "yee-lisa.png",
-    "tipos": ["Yee Lisa Igual", "Yee Lisa Reducida"],
+    "tipos": [
+      "Yee Lisa Igual",
+      "Yee Lisa Reducida"
+    ],
     "propiedades": {
       "diametros": "50 mm a 920 mm",
       "temperatura": "-29°C a 425°C",
@@ -741,107 +3134,657 @@
       "Recubrimiento epóxico para protección en ambientes industriales"
     ],
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25", "dn1": 50,  "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 75,  "pn": "10-25", "dn1": 50,  "g_f_mm": 254,    "longitud_mm": 395.65 },
-      { "dn": 75,  "pn": "10-25", "dn1": 75,  "g_f_mm": 254,    "longitud_mm": 395.65 },
-      { "dn": 100, "pn": "10-25", "dn1": 50,  "g_f_mm": 304.8,  "longitud_mm": 460.36 },
-      { "dn": 100, "pn": "10-25", "dn1": 75,  "g_f_mm": 304.8,  "longitud_mm": 460.36 },
-      { "dn": 100, "pn": "10-25", "dn1": 100, "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 50,  "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 75,  "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 100, "g_f_mm": 368.3,  "longitud_mm": 548.61 },
-      { "dn": 150, "pn": "10-25", "dn1": 150, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 50,  "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 75,  "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 100, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 150, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 200, "pn": "10-25", "dn1": 200, "g_f_mm": 444.5,  "longitud_mm": 647.26 },
-      { "dn": 250, "pn": "10-25", "dn1": 50,  "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 75,  "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 100, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 150, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 200, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 250, "pn": "10-25", "dn1": 250, "g_f_mm": 520.7,  "longitud_mm": 758.93 },
-      { "dn": 300, "pn": "10-25", "dn1": 50,  "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 75,  "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 100, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 150, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 200, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 250, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 300, "pn": "10-25", "dn1": 300, "g_f_mm": 622.3,  "longitud_mm": 888.65 },
-      { "dn": 350, "pn": "10-25", "dn1": 75,  "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 100, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 150, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 200, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 250, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 300, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 350, "pn": "10-25", "dn1": 350, "g_f_mm": 685.8,  "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 150, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 200, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 250, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 300, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 350, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 400, "pn": "10-25", "dn1": 400, "g_f_mm": 762,    "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 150, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 200, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 250, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 300, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 350, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 400, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 450, "pn": "10-25", "dn1": 450, "g_f_mm": 812.8,  "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 250, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 300, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 350, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 400, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 450, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 500, "pn": "10-25", "dn1": 500, "g_f_mm": 889,    "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 150, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 200, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 250, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 300, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 350, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 400, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 450, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 500, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 600, "pn": "10-25", "dn1": 600, "g_f_mm": 1028.7, "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 750, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 800, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 863, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 150, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 200, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 250, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 300, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 350, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 400, "g_f_mm": null,   "longitud_mm": null   },
-      { "dn": 920, "pn": "10-25", "dn1": 450, "g_f_mm": null,   "longitud_mm": null   }
+      {
+        "dn": 50,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 254,
+        "longitud_mm": 395.65
+      },
+      {
+        "dn": 75,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 254,
+        "longitud_mm": 395.65
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 304.8,
+        "longitud_mm": 460.36
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 304.8,
+        "longitud_mm": 460.36
+      },
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 368.3,
+        "longitud_mm": 548.61
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 444.5,
+        "longitud_mm": 647.26
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 520.7,
+        "longitud_mm": 758.93
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 50,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 622.3,
+        "longitud_mm": 888.65
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 75,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 100,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 685.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 762,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 812.8,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "dn1": 500,
+        "g_f_mm": 889,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 500,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "dn1": 600,
+        "g_f_mm": 1028.7,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 863,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 150,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 200,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 250,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 300,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 350,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 400,
+        "g_f_mm": null,
+        "longitud_mm": null
+      },
+      {
+        "dn": 920,
+        "pn": "10-25",
+        "dn1": 450,
+        "g_f_mm": null,
+        "longitud_mm": null
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "compuerta-tipo-plana",
     "nombre": "Compuerta Tipo Plana",
-    "categoria": "Compuertas",
+    "categoria": "compuertas",
     "descripcion": "Dispositivo industrial utilizado para controlar o interrumpir completamente el flujo de fluidos como líquidos, gases o lodos en sistemas de tuberías y canales. Opera mediante un tablero o placa plana que se desliza verticalmente perpendicular al flujo.",
     "imagen": "compuerta-plana.jpeg",
-    "tipos": ["Compuerta Plana Mural", "Compuerta Plana en Canal", "Compuerta Plana Bridada"],
+    "tipos": [
+      "Compuerta Plana Mural",
+      "Compuerta Plana en Canal",
+      "Compuerta Plana Bridada"
+    ],
     "propiedades": {
       "diametros": "100 mm a 1500 mm",
       "temperatura": "-29°C a 425°C",
@@ -866,34 +3809,110 @@
       "Aplicaciones en plantas de tratamiento de agua, sistemas de irrigación y represas"
     ],
     "tabla_dimensiones": [
-      { "dn": 100,  "pn": "10-25", "codigo": "ACP002510" },
-      { "dn": 150,  "pn": "10-25", "codigo": "ACP002511" },
-      { "dn": 200,  "pn": "10-25", "codigo": "ACP002512" },
-      { "dn": 250,  "pn": "10-25", "codigo": "ACP002513" },
-      { "dn": 300,  "pn": "10-25", "codigo": "ACP002514" },
-      { "dn": 350,  "pn": "10-25", "codigo": "ACP002515" },
-      { "dn": 400,  "pn": "10-25", "codigo": "ACP002516" },
-      { "dn": 450,  "pn": "10-25", "codigo": "ACP002517" },
-      { "dn": 500,  "pn": "10-25", "codigo": "ACP002518" },
-      { "dn": 600,  "pn": "10-25", "codigo": "ACP002519" },
-      { "dn": 700,  "pn": "10-25", "codigo": "ACP002520" },
-      { "dn": 750,  "pn": "10-25", "codigo": "ACP002521" },
-      { "dn": 800,  "pn": "10-25", "codigo": "ACP002522" },
-      { "dn": 900,  "pn": "10-25", "codigo": "ACP002523" },
-      { "dn": 1000, "pn": "10-25", "codigo": "ACP002524" },
-      { "dn": 1100, "pn": "10-25", "codigo": "ACP002525" },
-      { "dn": 1200, "pn": "10-25", "codigo": "ACP002526" },
-      { "dn": 1500, "pn": "10-25", "codigo": "ACP002527" }
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "codigo": "ACP002510"
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "codigo": "ACP002511"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "codigo": "ACP002512"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "codigo": "ACP002513"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "codigo": "ACP002514"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "codigo": "ACP002515"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "codigo": "ACP002516"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "codigo": "ACP002517"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "codigo": "ACP002518"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "codigo": "ACP002519"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "codigo": "ACP002520"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "codigo": "ACP002521"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "codigo": "ACP002522"
+      },
+      {
+        "dn": 900,
+        "pn": "10-25",
+        "codigo": "ACP002523"
+      },
+      {
+        "dn": 1000,
+        "pn": "10-25",
+        "codigo": "ACP002524"
+      },
+      {
+        "dn": 1100,
+        "pn": "10-25",
+        "codigo": "ACP002525"
+      },
+      {
+        "dn": 1200,
+        "pn": "10-25",
+        "codigo": "ACP002526"
+      },
+      {
+        "dn": 1500,
+        "pn": "10-25",
+        "codigo": "ACP002527"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "compuerta-tipo-pasamuro",
     "nombre": "Compuerta Tipo Pasamuro",
-    "categoria": "Compuertas",
+    "categoria": "compuertas",
     "descripcion": "Compuerta de acero al carbono diseñada para regular o cortar el flujo de fluidos en sistemas de tuberías y canales, instalándose directamente en muros o paredes metálicas. Combina la función de compuerta con la de pasamuro.",
     "imagen": "compuerta-pasamuro.jpeg",
-    "tipos": ["Compuerta Pasamuro Mural", "Compuerta Pasamuro en Canal", "Compuerta Pasamuro Bridada"],
+    "tipos": [
+      "Compuerta Pasamuro Mural",
+      "Compuerta Pasamuro en Canal",
+      "Compuerta Pasamuro Bridada"
+    ],
     "propiedades": {
       "diametros": "100 mm a 1500 mm",
       "temperatura": "-29°C a 425°C",
@@ -918,34 +3937,110 @@
       "Accionamiento mediante vástago y volante manual o actuador"
     ],
     "tabla_dimensiones": [
-      { "dn": 100,  "pn": "10-25", "codigo": "ACPM002528" },
-      { "dn": 150,  "pn": "10-25", "codigo": "ACPM002529" },
-      { "dn": 200,  "pn": "10-25", "codigo": "ACPM002530" },
-      { "dn": 250,  "pn": "10-25", "codigo": "ACPM002531" },
-      { "dn": 300,  "pn": "10-25", "codigo": "ACPM002532" },
-      { "dn": 350,  "pn": "10-25", "codigo": "ACPM002533" },
-      { "dn": 400,  "pn": "10-25", "codigo": "ACPM002534" },
-      { "dn": 450,  "pn": "10-25", "codigo": "ACPM002535" },
-      { "dn": 500,  "pn": "10-25", "codigo": "ACPM002536" },
-      { "dn": 600,  "pn": "10-25", "codigo": "ACPM002537" },
-      { "dn": 700,  "pn": "10-25", "codigo": "ACPM002538" },
-      { "dn": 750,  "pn": "10-25", "codigo": "ACPM002539" },
-      { "dn": 800,  "pn": "10-25", "codigo": "ACPM002540" },
-      { "dn": 900,  "pn": "10-25", "codigo": "ACPM002541" },
-      { "dn": 1000, "pn": "10-25", "codigo": "ACPM002542" },
-      { "dn": 1100, "pn": "10-25", "codigo": "ACPM002543" },
-      { "dn": 1200, "pn": "10-25", "codigo": "ACPM002544" },
-      { "dn": 1500, "pn": "10-25", "codigo": "ACPM002545" }
+      {
+        "dn": 100,
+        "pn": "10-25",
+        "codigo": "ACPM002528"
+      },
+      {
+        "dn": 150,
+        "pn": "10-25",
+        "codigo": "ACPM002529"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25",
+        "codigo": "ACPM002530"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25",
+        "codigo": "ACPM002531"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25",
+        "codigo": "ACPM002532"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25",
+        "codigo": "ACPM002533"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25",
+        "codigo": "ACPM002534"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25",
+        "codigo": "ACPM002535"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25",
+        "codigo": "ACPM002536"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25",
+        "codigo": "ACPM002537"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25",
+        "codigo": "ACPM002538"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25",
+        "codigo": "ACPM002539"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25",
+        "codigo": "ACPM002540"
+      },
+      {
+        "dn": 900,
+        "pn": "10-25",
+        "codigo": "ACPM002541"
+      },
+      {
+        "dn": 1000,
+        "pn": "10-25",
+        "codigo": "ACPM002542"
+      },
+      {
+        "dn": 1100,
+        "pn": "10-25",
+        "codigo": "ACPM002543"
+      },
+      {
+        "dn": 1200,
+        "pn": "10-25",
+        "codigo": "ACPM002544"
+      },
+      {
+        "dn": 1500,
+        "pn": "10-25",
+        "codigo": "ACPM002545"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "compuerta-tipo-bridada",
     "nombre": "Compuerta Tipo Bridada (Válvula de Chapaleta)",
-    "categoria": "Compuertas",
+    "categoria": "compuertas",
     "descripcion": "Válvula de chapaleta (flap valve) con conexión bridada, dispositivo esencial en sistemas de alcantarillado, drenaje y control de inundaciones. Opera por gravedad y diferencia de presión, actuando también como válvula de retención para prevenir el contraflujo.",
     "imagen": "compuerta-bridada.png",
-    "tipos": ["Montaje en Pared", "Montaje Brida a Brida", "Montaje de Espiga o Inserción"],
+    "tipos": [
+      "Montaje en Pared",
+      "Montaje Brida a Brida",
+      "Montaje de Espiga o Inserción"
+    ],
     "propiedades": {
       "diametros": "100 mm a 1500 mm",
       "temperatura": "-29°C a 425°C",
@@ -971,33 +4066,87 @@
     ],
     "tabla_compacta": true,
     "tabla_dimensiones": [
-      { "dn": 50,  "pn": "10-25" },
-      { "dn": 75,  "pn": "10-25" },
-      { "dn": 100, "pn": "10-25" },
-      { "dn": 150, "pn": "10-25" },
-      { "dn": 200, "pn": "10-25" },
-      { "dn": 250, "pn": "10-25" },
-      { "dn": 300, "pn": "10-25" },
-      { "dn": 350, "pn": "10-25" },
-      { "dn": 400, "pn": "10-25" },
-      { "dn": 450, "pn": "10-25" },
-      { "dn": 500, "pn": "10-25" },
-      { "dn": 600, "pn": "10-25" },
-      { "dn": 700, "pn": "10-25" },
-      { "dn": 750, "pn": "10-25" },
-      { "dn": 800, "pn": "10-25" },
-      { "dn": 863, "pn": "10-25" },
-      { "dn": 920, "pn": "10-25" }
+      {
+        "dn": 50,
+        "pn": "10-25"
+      },
+      {
+        "dn": 75,
+        "pn": "10-25"
+      },
+      {
+        "dn": 100,
+        "pn": "10-25"
+      },
+      {
+        "dn": 150,
+        "pn": "10-25"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25"
+      },
+      {
+        "dn": 863,
+        "pn": "10-25"
+      },
+      {
+        "dn": 920,
+        "pn": "10-25"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "union-transicion-pvc-ac-hd-ac",
     "nombre": "Unión de Transición PVC-AC / HD-AC",
-    "categoria": "Uniones",
+    "categoria": "uniones",
     "descripcion": "Accesorio para proyectos de redes de acueducto y obras sanitarias, donde es común realizar empalmes entre tuberías nuevas y redes existentes de materiales distintos (PVC, Hierro Dúctil o Asbesto Cemento). Mantiene el sello bajo presiones negativas y absorbe desviaciones angulares del terreno.",
     "imagen": "union-transicion-pvc-ac-hd.jpeg",
-    "tipos": ["Unión de Transición Simple PVC-AC", "Adaptador de Brida HD-AC"],
+    "tipos": [
+      "Unión de Transición Simple PVC-AC",
+      "Adaptador de Brida HD-AC"
+    ],
     "propiedades": {
       "diametros": "10\" a 30\"",
       "temperatura": "-29°C a 425°C",
@@ -1023,24 +4172,60 @@
     ],
     "tabla_compacta": true,
     "tabla_dimensiones": [
-      { "dn": "10\"", "pn": "10-25", "diametro_nominal": "10\"" },
-      { "dn": "12\"", "pn": "10-25", "diametro_nominal": "12\"" },
-      { "dn": "14\"", "pn": "10-25", "diametro_nominal": "14\"" },
-      { "dn": "16\"", "pn": "10-25", "diametro_nominal": "16\"" },
-      { "dn": "18\"", "pn": "10-25", "diametro_nominal": "18\"" },
-      { "dn": "20\"", "pn": "10-25", "diametro_nominal": "20\"" },
-      { "dn": "24\"", "pn": "10-25", "diametro_nominal": "24\"" },
-      { "dn": "30\"", "pn": "10-25", "diametro_nominal": "30\"" }
+      {
+        "dn": "10\"",
+        "pn": "10-25",
+        "diametro_nominal": "10\""
+      },
+      {
+        "dn": "12\"",
+        "pn": "10-25",
+        "diametro_nominal": "12\""
+      },
+      {
+        "dn": "14\"",
+        "pn": "10-25",
+        "diametro_nominal": "14\""
+      },
+      {
+        "dn": "16\"",
+        "pn": "10-25",
+        "diametro_nominal": "16\""
+      },
+      {
+        "dn": "18\"",
+        "pn": "10-25",
+        "diametro_nominal": "18\""
+      },
+      {
+        "dn": "20\"",
+        "pn": "10-25",
+        "diametro_nominal": "20\""
+      },
+      {
+        "dn": "24\"",
+        "pn": "10-25",
+        "diametro_nominal": "24\""
+      },
+      {
+        "dn": "30\"",
+        "pn": "10-25",
+        "diametro_nominal": "30\""
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "union-autoportante",
     "nombre": "Unión Autoportante",
-    "categoria": "Uniones",
+    "categoria": "uniones",
     "descripcion": "Componente mecánico de desmontaje (junta de desmontaje) diseñado para conectar válvulas y equipos en sistemas de tuberías. Su diseño autoportante transmite las fuerzas axiales a través de sus propios tirantes, evitando desplazamientos por presión hidráulica.",
     "imagen": "union-autoportante.png",
-    "tipos": ["Unión Autoportante Brida-Brida", "Unión Autoportante Roscada", "Unión Autoportante para Soldar"],
+    "tipos": [
+      "Unión Autoportante Brida-Brida",
+      "Unión Autoportante Roscada",
+      "Unión Autoportante para Soldar"
+    ],
     "propiedades": {
       "diametros": "50 mm a 1066 mm",
       "temperatura": "-29°C a 425°C",
@@ -1066,33 +4251,87 @@
     ],
     "tabla_compacta": true,
     "tabla_dimensiones": [
-      { "dn": 50,   "pn": "10-25" },
-      { "dn": 100,  "pn": "10-25" },
-      { "dn": 160,  "pn": "10-25" },
-      { "dn": 200,  "pn": "10-25" },
-      { "dn": 250,  "pn": "10-25" },
-      { "dn": 300,  "pn": "10-25" },
-      { "dn": 350,  "pn": "10-25" },
-      { "dn": 400,  "pn": "10-25" },
-      { "dn": 450,  "pn": "10-25" },
-      { "dn": 500,  "pn": "10-25" },
-      { "dn": 600,  "pn": "10-25" },
-      { "dn": 700,  "pn": "10-25" },
-      { "dn": 750,  "pn": "10-25" },
-      { "dn": 800,  "pn": "10-25" },
-      { "dn": 900,  "pn": "10-25" },
-      { "dn": 1000, "pn": "10-25" },
-      { "dn": 1066, "pn": "10-25" }
+      {
+        "dn": 50,
+        "pn": "10-25"
+      },
+      {
+        "dn": 100,
+        "pn": "10-25"
+      },
+      {
+        "dn": 160,
+        "pn": "10-25"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25"
+      },
+      {
+        "dn": 900,
+        "pn": "10-25"
+      },
+      {
+        "dn": 1000,
+        "pn": "10-25"
+      },
+      {
+        "dn": 1066,
+        "pn": "10-25"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "union-dresser",
     "nombre": "Unión Dresser",
-    "categoria": "Uniones",
+    "categoria": "uniones",
     "descripcion": "Acople mecánico de compresión utilizado para unir tuberías de diversos materiales incluyendo acero al carbono, PVC e Hierro Dúctil. No requiere soldadura: el sellado se logra mediante la compresión de empaques de caucho al apretar los pernos.",
     "imagen": "union-dresser.jpeg",
-    "tipos": ["Unión Dresser Simple", "Unión Dresser Deslizante"],
+    "tipos": [
+      "Unión Dresser Simple",
+      "Unión Dresser Deslizante"
+    ],
     "propiedades": {
       "diametros": "40 mm a 1219 mm",
       "temperatura": "-29°C a 425°C",
@@ -1118,36 +4357,98 @@
     ],
     "tabla_compacta": true,
     "tabla_dimensiones": [
-      { "dn": 40,   "pn": "10-25" },
-      { "dn": 50,   "pn": "10-25" },
-      { "dn": 65,   "pn": "10-25" },
-      { "dn": 75,   "pn": "10-25" },
-      { "dn": 100,  "pn": "10-25" },
-      { "dn": 160,  "pn": "10-25" },
-      { "dn": 200,  "pn": "10-25" },
-      { "dn": 250,  "pn": "10-25" },
-      { "dn": 300,  "pn": "10-25" },
-      { "dn": 350,  "pn": "10-25" },
-      { "dn": 400,  "pn": "10-25" },
-      { "dn": 450,  "pn": "10-25" },
-      { "dn": 500,  "pn": "10-25" },
-      { "dn": 600,  "pn": "10-25" },
-      { "dn": 700,  "pn": "10-25" },
-      { "dn": 750,  "pn": "10-25" },
-      { "dn": 800,  "pn": "10-25" },
-      { "dn": 900,  "pn": "10-25" },
-      { "dn": 1000, "pn": "10-25" },
-      { "dn": 1219, "pn": "10-25" }
+      {
+        "dn": 40,
+        "pn": "10-25"
+      },
+      {
+        "dn": 50,
+        "pn": "10-25"
+      },
+      {
+        "dn": 65,
+        "pn": "10-25"
+      },
+      {
+        "dn": 75,
+        "pn": "10-25"
+      },
+      {
+        "dn": 100,
+        "pn": "10-25"
+      },
+      {
+        "dn": 160,
+        "pn": "10-25"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25"
+      },
+      {
+        "dn": 900,
+        "pn": "10-25"
+      },
+      {
+        "dn": 1000,
+        "pn": "10-25"
+      },
+      {
+        "dn": 1219,
+        "pn": "10-25"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   },
   {
     "id": "valvula-de-pie",
     "nombre": "Válvula de Pie",
-    "categoria": "Válvulas",
+    "categoria": "valvulas",
     "descripcion": "Válvula de retención con canastilla integrada en su extremo de succión. Protege la tubería de la aspiración de partículas sólidas y evita que la tubería de succión se vacíe cuando la bomba se detiene, facilitando el cebado y protegiendo el impulsor.",
     "imagen": "valvula-pie.png",
-    "tipos": ["Válvula de Pie Bridada"],
+    "tipos": [
+      "Válvula de Pie Bridada"
+    ],
     "propiedades": {
       "diametros": "150 mm a 900 mm",
       "temperatura": "-29°C a 425°C",
@@ -1173,19 +4474,1019 @@
     ],
     "tabla_compacta": true,
     "tabla_dimensiones": [
-      { "dn": 150, "pn": "10-25" },
-      { "dn": 200, "pn": "10-25" },
-      { "dn": 250, "pn": "10-25" },
-      { "dn": 300, "pn": "10-25" },
-      { "dn": 350, "pn": "10-25" },
-      { "dn": 400, "pn": "10-25" },
-      { "dn": 450, "pn": "10-25" },
-      { "dn": 500, "pn": "10-25" },
-      { "dn": 600, "pn": "10-25" },
-      { "dn": 700, "pn": "10-25" },
-      { "dn": 750, "pn": "10-25" },
-      { "dn": 800, "pn": "10-25" },
-      { "dn": 900, "pn": "10-25" }
+      {
+        "dn": 150,
+        "pn": "10-25"
+      },
+      {
+        "dn": 200,
+        "pn": "10-25"
+      },
+      {
+        "dn": 250,
+        "pn": "10-25"
+      },
+      {
+        "dn": 300,
+        "pn": "10-25"
+      },
+      {
+        "dn": 350,
+        "pn": "10-25"
+      },
+      {
+        "dn": 400,
+        "pn": "10-25"
+      },
+      {
+        "dn": 450,
+        "pn": "10-25"
+      },
+      {
+        "dn": 500,
+        "pn": "10-25"
+      },
+      {
+        "dn": 600,
+        "pn": "10-25"
+      },
+      {
+        "dn": 700,
+        "pn": "10-25"
+      },
+      {
+        "dn": 750,
+        "pn": "10-25"
+      },
+      {
+        "dn": 800,
+        "pn": "10-25"
+      },
+      {
+        "dn": 900,
+        "pn": "10-25"
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-compuerta-elastica-vastago-no-ascendente",
+    "nombre": "Válvula Compuerta Elástica Vástago No Ascendente",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de compuerta con disco de asiento elástico y vástago no ascendente, utilizada para el corte total del flujo en redes de acueducto y sistemas de distribución de agua. Disponible en conexión por junta hidráulica, extremo liso, bridada o garra de tigre.",
+    "imagen": "valvula-compuerta-elastica-no-ascendente.jpg",
+    "tipos": [
+      "Junta Hidráulica",
+      "Extremo Liso",
+      "Bridada",
+      "Garra de Tigre"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 500 mm (2\" a 20\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Junta Hidráulica / Extremo Liso / Bridada / Garra de Tigre",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de acueducto",
+      "recubrimiento": "Pintura epóxica fusionada (FBE) azul"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso"
+    ],
+    "caracteristicas": [
+      "Vástago no ascendente, ideal para instalación en cámaras de poca altura",
+      "Disco 100% recubierto en caucho EPDM para cierre hermético sin fricción metal-metal",
+      "Cuerpo en hierro dúctil de alta resistencia mecánica",
+      "Bajo torque de operación gracias al diseño de compuerta elástica",
+      "Disponible en múltiples tipos de conexión según el proyecto"
+    ],
+    "tabla_dimensiones": [
+      {
+        "codigo": "VAL.100592",
+        "descripcion": "2\" ( 50 mm)",
+        "junta_hidraulica": 376783,
+        "extremo_liso": 359783,
+        "bridada": 433417,
+        "garra_tigre": 641133
+      },
+      {
+        "codigo": "VAL.100594",
+        "descripcion": "3\" ( 75 mm)",
+        "junta_hidraulica": 489967,
+        "extremo_liso": 489967,
+        "bridada": 659367,
+        "garra_tigre": 887850
+      },
+      {
+        "codigo": "VAL.100595",
+        "descripcion": "4\" (100 mm)",
+        "junta_hidraulica": 646258,
+        "extremo_liso": 646258,
+        "bridada": 869017,
+        "garra_tigre": 948214
+      },
+      {
+        "codigo": "VAL.100596",
+        "descripcion": "6\" (150 mm)",
+        "junta_hidraulica": 1090233,
+        "extremo_liso": 1129877,
+        "bridada": 1361038,
+        "garra_tigre": 1393498
+      },
+      {
+        "codigo": "VAL.100597",
+        "descripcion": "8\" (200 mm)",
+        "junta_hidraulica": 1678915,
+        "extremo_liso": 1574155,
+        "bridada": 1974130,
+        "garra_tigre": 2285833
+      },
+      {
+        "codigo": "VAL.100598",
+        "descripcion": "10\" (250 mm)",
+        "junta_hidraulica": 3201638,
+        "extremo_liso": 2934835,
+        "bridada": 3736580,
+        "garra_tigre": 4518406
+      },
+      {
+        "codigo": "VAL.100599",
+        "descripcion": "12\" (300 mm)",
+        "junta_hidraulica": 3871802,
+        "extremo_liso": 3582228,
+        "bridada": 4358112,
+        "garra_tigre": null
+      },
+      {
+        "codigo": "VAL.100600",
+        "descripcion": "14\" (350 mm)",
+        "junta_hidraulica": 6862023,
+        "extremo_liso": 6717144,
+        "bridada": 6748475,
+        "garra_tigre": null
+      },
+      {
+        "codigo": "VAL.100601",
+        "descripcion": "16\" (400 mm)",
+        "junta_hidraulica": 11618164,
+        "extremo_liso": 11393610,
+        "bridada": 11583255,
+        "garra_tigre": null
+      },
+      {
+        "codigo": "VAL.100602",
+        "descripcion": "18\" (450 mm)",
+        "junta_hidraulica": 20718743,
+        "extremo_liso": 20908194,
+        "bridada": 15433259,
+        "garra_tigre": null
+      },
+      {
+        "codigo": "VAL.100603",
+        "descripcion": "20\" (500 mm)",
+        "junta_hidraulica": 25179774,
+        "extremo_liso": 25159334,
+        "bridada": 17129119,
+        "garra_tigre": null
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-mariposa-wafer",
+    "nombre": "Válvula Mariposa Wafer",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de mariposa de cuerpo en hierro, tipo wafer, para instalación entre bridas sin necesidad de pernos pasantes propios. Permite regulación y corte de flujo con bajo peso y espacio reducido de instalación.",
+    "imagen": "valvula-mariposa-wafer.png",
+    "tipos": [
+      "Wafer Cuerpo Hierro"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 250 mm (2\" a 10\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Wafer (entre bridas)",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Disco en hierro fundido o acero inoxidable"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "API 609 - Válvulas de mariposa"
+    ],
+    "caracteristicas": [
+      "Diseño wafer compacto y liviano, económico en espacio de instalación",
+      "Asiento en caucho EPDM o Nitrilo vulcanizado al cuerpo",
+      "Accionamiento por palanca manual o actuador",
+      "Cuerpo en hierro fundido de alta resistencia",
+      "Ideal para maniobra rápida de corte en redes hidráulicas"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "VALMP225864",
+        "precio": 240000
+      },
+      {
+        "dn": 75,
+        "codigo": "VALMP225865",
+        "precio": 360000
+      },
+      {
+        "dn": 100,
+        "codigo": "VALMP225866",
+        "precio": 450000
+      },
+      {
+        "dn": 150,
+        "codigo": "VALMP225867",
+        "precio": null
+      },
+      {
+        "dn": 200,
+        "codigo": "VALMP225868",
+        "precio": null
+      },
+      {
+        "dn": 250,
+        "codigo": "VALMP225869",
+        "precio": null
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-mariposa-doble-excentrica-bridada",
+    "nombre": "Válvula Mariposa Doble Excéntrica Bridada",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de mariposa de cuerpo en hierro con diseño de doble excentricidad, conexión bridada, que reduce el desgaste del asiento al levantar el disco del sello antes de girar. Adecuada para grandes diámetros y ciclos frecuentes de operación.",
+    "imagen": "valvula-mariposa-doble-excentrica-bridada.png",
+    "tipos": [
+      "Bridada Cuerpo Hierro"
+    ],
+    "propiedades": {
+      "diametros": "200 mm a 600 mm (8\" a 24\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de acueducto",
+      "recubrimiento": "Pintura epóxica / Disco en hierro fundido con anillo de asiento reemplazable"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "API 609 - Válvulas de mariposa"
+    ],
+    "caracteristicas": [
+      "Diseño de doble excentricidad que minimiza el rozamiento disco-asiento",
+      "Menor torque de operación y mayor vida útil del sello",
+      "Conexión bridada para instalación directa en línea",
+      "Cuerpo en hierro fundido de alta resistencia mecánica",
+      "Recomendada para grandes diámetros en redes de acueducto"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 200,
+        "codigo": "VALB7745826",
+        "precio": 5008000
+      },
+      {
+        "dn": 250,
+        "codigo": "VALB7745827",
+        "precio": 5738000
+      },
+      {
+        "dn": 300,
+        "codigo": "VALB7745828",
+        "precio": 7647000
+      },
+      {
+        "dn": 350,
+        "codigo": "VALB7745829",
+        "precio": 10226000
+      },
+      {
+        "dn": 400,
+        "codigo": "VALB7745830",
+        "precio": 12255000
+      },
+      {
+        "dn": 450,
+        "codigo": "VALB7745831",
+        "precio": 15456000
+      },
+      {
+        "dn": 500,
+        "codigo": "VALB7745832",
+        "precio": 20453000
+      },
+      {
+        "dn": 600,
+        "codigo": "VALB7745833",
+        "precio": 26260000
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-compuerta-vastago-ascendente-bridada",
+    "nombre": "Válvula de Compuerta Vástago Ascendente Bridada",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de compuerta bridada con vástago ascendente, que permite verificar visualmente el estado de apertura desde el exterior. Disponible con sello en bronce o compuerta elástica según el requerimiento del proyecto.",
+    "imagen": "valvula-compuerta-vastago-ascendente-bridada.png",
+    "tipos": [
+      "Sello en Bronce",
+      "Compuerta Elástica"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 500 mm (2\" a 20\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de acueducto",
+      "recubrimiento": "Pintura epóxica fusionada (FBE) azul"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso"
+    ],
+    "caracteristicas": [
+      "Vástago ascendente que indica visualmente el grado de apertura",
+      "Disponible con sello en bronce o compuerta 100% elástica en EPDM",
+      "Cuerpo en hierro dúctil de alta resistencia mecánica",
+      "Conexión bridada para instalación directa en línea",
+      "Aplicaciones en redes de acueducto y plantas de tratamiento"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "VAL.VA100867",
+        "sello_bronce": 376783,
+        "compuerta_elastica": 359783
+      },
+      {
+        "dn": 75,
+        "codigo": "VAL.VA100868",
+        "sello_bronce": 489967,
+        "compuerta_elastica": 489967
+      },
+      {
+        "dn": 100,
+        "codigo": "VAL.VA100869",
+        "sello_bronce": 646258,
+        "compuerta_elastica": 646258
+      },
+      {
+        "dn": 150,
+        "codigo": "VAL.VA100870",
+        "sello_bronce": 1090233,
+        "compuerta_elastica": 1129877
+      },
+      {
+        "dn": 200,
+        "codigo": "VAL.VA100871",
+        "sello_bronce": 1678915,
+        "compuerta_elastica": 1574155
+      },
+      {
+        "dn": 250,
+        "codigo": "VAL.VA100872",
+        "sello_bronce": 3201638,
+        "compuerta_elastica": 2934835
+      },
+      {
+        "dn": 300,
+        "codigo": "VAL.VA100873",
+        "sello_bronce": 3871802,
+        "compuerta_elastica": 3582228
+      },
+      {
+        "dn": 350,
+        "codigo": "VAL.VA100874",
+        "sello_bronce": 6862023,
+        "compuerta_elastica": 6717144
+      },
+      {
+        "dn": 400,
+        "codigo": "VAL.VA100875",
+        "sello_bronce": 11618164,
+        "compuerta_elastica": 11393610
+      },
+      {
+        "dn": 450,
+        "codigo": "VAL.VA100876",
+        "sello_bronce": 20718743,
+        "compuerta_elastica": 20908194
+      },
+      {
+        "dn": 500,
+        "codigo": "VAL.VA100877",
+        "sello_bronce": 25179774,
+        "compuerta_elastica": 25159334
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-tipo-globo-bridada",
+    "nombre": "Válvula Tipo Globo Bridada",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de globo bridada diseñada para regulación fina de flujo y presión en sistemas hidráulicos, con mejor capacidad de estrangulamiento que una válvula de compuerta.",
+    "imagen": "valvula-tipo-globo-bridada.png",
+    "tipos": [
+      "Bridada"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 250 mm (2\" a 10\")",
+      "temperatura": "-10°C a 120°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua, vapor, aceites, aire comprimido",
+      "recubrimiento": "Pintura epóxica / Cuerpo en bronce o hierro fundido"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "ASME B16.34 - Válvulas bridadas y roscadas"
+    ],
+    "caracteristicas": [
+      "Diseño de asiento en forma de globo para regulación precisa de flujo",
+      "Mejor control de estrangulamiento frente a válvulas de compuerta",
+      "Cuerpo en bronce o hierro fundido según diámetro y presión",
+      "Conexión bridada para instalación directa en línea",
+      "Aplicaciones en sistemas de dosificación y control de caudal"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "VAL.GL107853",
+        "precio": 1408011
+      },
+      {
+        "dn": 75,
+        "codigo": "VAL.GL107854",
+        "precio": 1995479
+      },
+      {
+        "dn": 100,
+        "codigo": "VAL.GL107855",
+        "precio": 2128611
+      },
+      {
+        "dn": 150,
+        "codigo": "VAL.GL107856",
+        "precio": 4632983
+      },
+      {
+        "dn": 200,
+        "codigo": "VAL.GL107857",
+        "precio": 5811725
+      },
+      {
+        "dn": 250,
+        "codigo": "VAL.GL107858",
+        "precio": 8008271
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-de-retencion-cheque",
+    "nombre": "Válvula de Retención (Cheque)",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de retención (cheque) que permite el flujo en un solo sentido y evita el contraflujo, protegiendo bombas y equipos de golpes de ariete en sistemas de impulsión.",
+    "imagen": "valvula-de-retencion-cheque.png",
+    "tipos": [
+      "Retención / Cheque Bridada"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 600 mm (2\" a 24\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de impulsión",
+      "recubrimiento": "Pintura epóxica / Cuerpo en hierro fundido"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "API 594 - Válvulas de retención"
+    ],
+    "caracteristicas": [
+      "Cierre automático por gravedad o diferencial de presión, sin actuador externo",
+      "Previene el contraflujo y protege bombas contra golpe de ariete",
+      "Disco articulado con resorte de asistencia al cierre en algunos diámetros",
+      "Cuerpo en hierro fundido de alta resistencia mecánica",
+      "Instalación horizontal o vertical según el modelo"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "VAL.CH100235",
+        "precio": 1290153
+      },
+      {
+        "dn": 75,
+        "codigo": "VAL.CH100236",
+        "precio": 1773740
+      },
+      {
+        "dn": 100,
+        "codigo": "VAL.CH100237",
+        "precio": 2112706
+      },
+      {
+        "dn": 150,
+        "codigo": "VAL.CH100238",
+        "precio": 2626994
+      },
+      {
+        "dn": 200,
+        "codigo": "VAL.CH100239",
+        "precio": 4396654
+      },
+      {
+        "dn": 250,
+        "codigo": "VAL.CH100240",
+        "precio": 6399624
+      },
+      {
+        "dn": 300,
+        "codigo": "VAL.CH100241",
+        "precio": 8272975
+      },
+      {
+        "dn": 350,
+        "codigo": "VAL.CH100242",
+        "precio": 15070507
+      },
+      {
+        "dn": 400,
+        "codigo": "VAL.CH100243",
+        "precio": 18215742
+      },
+      {
+        "dn": 450,
+        "codigo": "VAL.CH100244",
+        "precio": 24489967
+      },
+      {
+        "dn": 500,
+        "codigo": "VAL.CH100245",
+        "precio": 26714619
+      },
+      {
+        "dn": 600,
+        "codigo": "VAL.CH100246",
+        "precio": 34187079
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "ventosa-camara-sencilla-doble-accion",
+    "nombre": "Válvula Ventosa Cámara Sencilla - Doble Acción",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de admisión y expulsión de aire (ventosa) de cámara sencilla y doble acción, para diámetros pequeños roscados. Expulsa el aire acumulado durante el llenado y admite aire durante el vaciado o rotura de la tubería.",
+    "imagen": "ventosa-camara-sencilla-doble-accion.png",
+    "tipos": [
+      "Cámara Sencilla - Doble Acción"
+    ],
+    "propiedades": {
+      "diametros": "1/2\" a 2\" (15 mm a 50 mm)",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Roscada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda",
+      "recubrimiento": "Pintura epóxica / Cuerpo en hierro fundido o bronce"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "AWWA C512 - Válvulas de aire y vacío"
+    ],
+    "caracteristicas": [
+      "Expulsa el aire acumulado en los puntos altos de la tubería durante el llenado",
+      "Admite aire durante el vaciado o rotura para evitar colapso por vacío",
+      "Conexión roscada para instalación en derivaciones de pequeño diámetro",
+      "Flotador interno de cierre hermético contra fugas de agua",
+      "Cuerpo en hierro fundido o bronce según especificación"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 15,
+        "codigo": "VE.3582489",
+        "precio": 278491
+      },
+      {
+        "dn": 20,
+        "codigo": "VE.3582490",
+        "precio": 294973
+      },
+      {
+        "dn": 25,
+        "codigo": "VE.3582491",
+        "precio": 278474
+      },
+      {
+        "dn": 40,
+        "codigo": "VE.3582492",
+        "precio": 301861
+      },
+      {
+        "dn": 50,
+        "codigo": "VE.3582493",
+        "precio": 498602
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "ventosa-camara-doble-accion-multiple",
+    "nombre": "Válvula Ventosa Cámara Doble - Acción Múltiple",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de admisión y expulsión de aire (ventosa) de cámara doble y acción múltiple, para diámetros bridados mayores. Combina expulsión de grandes volúmenes de aire durante el llenado con purga continua de aire acumulado en operación.",
+    "imagen": "ventosa-camara-doble-accion-multiple.png",
+    "tipos": [
+      "Cámara Doble - Acción Múltiple"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 200 mm (2\" a 8\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de impulsión",
+      "recubrimiento": "Pintura epóxica / Cuerpo en hierro fundido"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso",
+      "AWWA C512 - Válvulas de aire y vacío"
+    ],
+    "caracteristicas": [
+      "Cámara doble para expulsión de grandes volúmenes de aire y purga continua",
+      "Protege la tubería contra golpe de ariete al cierre",
+      "Conexión bridada para instalación en línea principal",
+      "Válvula de cierre incorporada para mantenimiento sin detener la red",
+      "Cuerpo en hierro fundido de alta resistencia mecánica"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "VEDL.5284236",
+        "precio": 918726
+      },
+      {
+        "dn": 75,
+        "codigo": "VEDL.5284237",
+        "precio": 1198210
+      },
+      {
+        "dn": 100,
+        "codigo": "VEDL.5284238",
+        "precio": 1732031
+      },
+      {
+        "dn": 150,
+        "codigo": "VEDL.5284239",
+        "precio": 4960584
+      },
+      {
+        "dn": 200,
+        "codigo": "VEDL.5284240",
+        "precio": 5652455
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "valvula-chapaleta",
+    "nombre": "Válvula Chapaleta",
+    "categoria": "valvulas",
+    "descripcion": "Válvula de chapaleta (flap valve) utilizada en descargas de alcantarillado y drenaje pluvial, que impide el retroceso de agua u otros fluidos hacia la red mediante una tapa articulada que cierra por gravedad.",
+    "imagen": "valvula-chapaleta.png",
+    "tipos": [
+      "Bridada",
+      "Lisa"
+    ],
+    "propiedades": {
+      "diametros": "100 mm a 500 mm (4\" a 20\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada / Lisa",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua residual, aguas lluvias, drenaje",
+      "recubrimiento": "Pintura epóxica / Cuerpo en hierro fundido"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso"
+    ],
+    "caracteristicas": [
+      "Tapa articulada que cierra por gravedad para evitar el contraflujo",
+      "Operación sin necesidad de energía externa ni actuadores",
+      "Disponible en conexión bridada o extremo liso",
+      "Cuerpo en hierro fundido de alta resistencia a la corrosión",
+      "Aplicaciones en descargas de alcantarillado y control de inundaciones"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 100,
+        "codigo": "VCH.2579245",
+        "bridada": 1657842,
+        "lisa": null
+      },
+      {
+        "dn": 150,
+        "codigo": "VCH.2579246",
+        "bridada": 2090705,
+        "lisa": null
+      },
+      {
+        "dn": 200,
+        "codigo": "VCH.2579247",
+        "bridada": 2559867,
+        "lisa": null
+      },
+      {
+        "dn": 250,
+        "codigo": "VCH.2579248",
+        "bridada": 3401735,
+        "lisa": null
+      },
+      {
+        "dn": 300,
+        "codigo": "VCH.2579249",
+        "bridada": 3643792,
+        "lisa": null
+      },
+      {
+        "dn": 350,
+        "codigo": "VCH.2579250",
+        "bridada": 6245208,
+        "lisa": null
+      },
+      {
+        "dn": 400,
+        "codigo": "VCH.2579251",
+        "bridada": 6639398,
+        "lisa": null
+      },
+      {
+        "dn": 450,
+        "codigo": "VCH.2579252",
+        "bridada": 7113648,
+        "lisa": null
+      },
+      {
+        "dn": 500,
+        "codigo": "VCH.2579253",
+        "bridada": 7555462,
+        "lisa": null
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "filtro-yee-bridado",
+    "nombre": "Filtro tipo Y (Yee) Bridado",
+    "categoria": "valvulas",
+    "descripcion": "Filtro colador tipo \"Y\" bridado para redes de acueducto, instalado en línea para retener partículas y sedimentos que puedan dañar bombas, medidores o válvulas aguas abajo.",
+    "imagen": "filtro-yee-bridado.png",
+    "tipos": [
+      "Bridado"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 400 mm (2\" a 16\")",
+      "temperatura": "-10°C a 80°C",
+      "conexion": "Bridada",
+      "presion": "PN 10 - PN 16",
+      "fluidos": "Agua potable, agua cruda, redes de acueducto",
+      "recubrimiento": "Pintura epóxica / Cuerpo en hierro fundido"
+    },
+    "normas": [
+      "ASTM A126 / ASTM A536 - Fundiciones de hierro",
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta",
+      "ANSI/ASME B16.1 - Bridas y accesorios bridados",
+      "ASME B31.3 - Tuberías de proceso"
+    ],
+    "caracteristicas": [
+      "Cuerpo en forma de 'Y' que facilita la limpieza y extracción de la malla filtrante",
+      "Malla filtrante en acero inoxidable, removible para mantenimiento",
+      "Protege bombas, medidores y válvulas de sedimentos y partículas",
+      "Conexión bridada para instalación directa en línea",
+      "Cuerpo en hierro fundido de alta resistencia mecánica"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "YEE.238875230",
+        "precio": 704426
+      },
+      {
+        "dn": 75,
+        "codigo": "YEE.238875231",
+        "precio": 878230
+      },
+      {
+        "dn": 100,
+        "codigo": "YEE.238875232",
+        "precio": 1203951
+      },
+      {
+        "dn": 150,
+        "codigo": "YEE.238875233",
+        "precio": 2008302
+      },
+      {
+        "dn": 200,
+        "codigo": "YEE.238875234",
+        "precio": 2984621
+      },
+      {
+        "dn": 250,
+        "codigo": "YEE.238875235",
+        "precio": 3842975
+      },
+      {
+        "dn": 300,
+        "codigo": "YEE.238875236",
+        "precio": 4558489
+      },
+      {
+        "dn": 350,
+        "codigo": "YEE.238875237",
+        "precio": 10220568
+      },
+      {
+        "dn": 400,
+        "codigo": "YEE.238875238",
+        "precio": 14311166
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "volante-valvula",
+    "nombre": "Volante Válvula",
+    "categoria": "valvulas",
+    "descripcion": "Volante de repuesto para accionamiento manual de válvulas de compuerta, disponible en sello elástico o sello de bronce según el rango de diámetro de la válvula.",
+    "imagen": "volante-valvula.png",
+    "tipos": [
+      "Sello Elástico",
+      "Sello de Bronce"
+    ],
+    "propiedades": {
+      "diametros": "3\" a 12\" (75 mm a 300 mm)",
+      "conexion": "Roscado al vástago de la válvula",
+      "fluidos": "Aplica a válvulas de compuerta en general",
+      "recubrimiento": "Pintura anticorrosiva"
+    },
+    "normas": [
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta"
+    ],
+    "caracteristicas": [
+      "Repuesto de accionamiento manual para válvulas de compuerta",
+      "Disponible en sello elástico o sello de bronce según el modelo de válvula",
+      "Fabricado en hierro fundido de alta resistencia mecánica",
+      "Compatible con válvulas de 3\" a 12\""
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": "3\" - 4\" (75 - 100 mm)",
+        "codigo": "VOL.466872633",
+        "precio": 48208
+      },
+      {
+        "dn": "6\" - 8\" (150 - 200 mm)",
+        "codigo": "VOL.466872634",
+        "precio": 99229
+      },
+      {
+        "dn": "10\" - 12\" (250 - 300 mm)",
+        "codigo": "VOL.466872635",
+        "precio": 168436
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "macromedidor",
+    "nombre": "Macromedidor",
+    "categoria": "valvulas",
+    "descripcion": "Medidor de caudal de gran diámetro utilizado en redes de acueducto para el control y facturación del volumen de agua distribuido, disponible en conexión roscada o bridada.",
+    "imagen": "macromedidor.png",
+    "tipos": [
+      "Roscado",
+      "Bridado"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 250 mm (2\" a 10\")",
+      "conexion": "Roscada / Bridada",
+      "fluidos": "Agua potable, agua cruda"
+    },
+    "normas": [
+      "AWWA C701 / AWWA C702 - Medidores de caudal"
+    ],
+    "caracteristicas": [
+      "Medición precisa de caudal en redes de acueducto",
+      "Disponible en conexión roscada o bridada según el diámetro",
+      "Utilizado para control y facturación del volumen de agua distribuido",
+      "Cuerpo en hierro fundido o bronce según especificación"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "MAC.3697514"
+      },
+      {
+        "dn": 75,
+        "codigo": "MAC.3697515"
+      },
+      {
+        "dn": 100,
+        "codigo": "MAC.3697516"
+      },
+      {
+        "dn": 150,
+        "codigo": "MAC.3697517"
+      },
+      {
+        "dn": 200,
+        "codigo": "MAC.3697518"
+      },
+      {
+        "dn": 250,
+        "codigo": "MAC.3697519"
+      }
+    ],
+    "vida_util": "10 a 50 años según condiciones"
+  },
+  {
+    "id": "reguladora",
+    "nombre": "Reguladora",
+    "categoria": "valvulas",
+    "descripcion": "Válvula reguladora de presión con conexión roscada, utilizada para controlar y estabilizar la presión de servicio en redes de acueducto y sistemas de distribución de agua.",
+    "imagen": "reguladora.png",
+    "tipos": [
+      "Roscado"
+    ],
+    "propiedades": {
+      "diametros": "50 mm a 250 mm (2\" a 10\")",
+      "conexion": "Roscada",
+      "fluidos": "Agua potable, agua cruda"
+    },
+    "normas": [
+      "AWWA C509 / AWWA C515 - Válvulas de compuerta"
+    ],
+    "caracteristicas": [
+      "Controla y estabiliza la presión de servicio en la red",
+      "Conexión roscada para instalación en derivaciones",
+      "Cuerpo en hierro fundido o bronce según especificación",
+      "Aplicaciones en redes de acueducto y sistemas de distribución"
+    ],
+    "tabla_dimensiones": [
+      {
+        "dn": 50,
+        "codigo": "REG.2287624"
+      },
+      {
+        "dn": 75,
+        "codigo": "REG.2287625"
+      },
+      {
+        "dn": 100,
+        "codigo": "REG.2287626"
+      },
+      {
+        "dn": 150,
+        "codigo": "REG.2287627"
+      },
+      {
+        "dn": 200,
+        "codigo": "REG.2287628"
+      },
+      {
+        "dn": 250,
+        "codigo": "REG.2287629"
+      }
     ],
     "vida_util": "10 a 50 años según condiciones"
   }

@@ -23,7 +23,7 @@
 <!-- Hero -->
     <section class="pd__hero">
       <div class="pd__hero-image-wrapper">
-        <img class="pd__hero-image" [src]="imagenPath" [alt]="producto.nombre" />
+        <img class="pd__hero-image" [src]="imagenPath" [alt]="producto.nombre" (error)="onImageError($event)" />
       </div>
       <div class="pd__hero-info">
 <h1 class="pd__title">{{ producto.nombre | uppercase }}</h1>
@@ -36,21 +36,23 @@
         </div>
         <div class="pd__actions">
           <a
-            href="https://wa.me/573224465872"
+            [attr.href]="whatsappUrl"
             target="_blank"
             rel="noopener noreferrer"
             class="pd__btn pd__btn--whatsapp"
           >
             <i class="fa-brands fa-whatsapp"></i> COTIZAR POR WHATSAPP
           </a>
-          <a
-            [attr.href]="'assets/fichas_tecnicas/' + producto.id + '.pdf'"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="pd__btn pd__btn--pdf"
-          >
-            <i class="fa-solid fa-file-pdf"></i> FICHA TÉCNICA PDF
-          </a>
+          @if (tieneFichaTecnica) {
+            <a
+              [attr.href]="'assets/fichas_tecnicas/' + producto.id + '.pdf'"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pd__btn pd__btn--pdf"
+            >
+              <i class="fa-solid fa-file-pdf"></i> FICHA TÉCNICA PDF
+            </a>
+          }
         </div>
       </div>
     </section>
@@ -129,6 +131,23 @@
       </section>
     }
 
+    <!-- Tipos de Conexión -->
+    @if (tiposConImagen.length) {
+      <section class="pd__section">
+        <h2 class="pd__section-title pd__section-title--standalone">TIPOS DE CONEXIÓN</h2>
+        <div class="pd__conexion-grid">
+          @for (c of tiposConImagen; track c.label) {
+            <div class="pd__conexion-item">
+              <div class="pd__conexion-image-wrapper">
+                <img class="pd__conexion-image" [src]="c.src" [alt]="c.label" />
+              </div>
+              <p class="pd__conexion-label">{{ c.label | uppercase }}</p>
+            </div>
+          }
+        </div>
+      </section>
+    }
+
     <!-- Normas Técnicas -->
     <section class="pd__section">
       <h2 class="pd__section-title pd__section-title--standalone">NORMAS TÉCNICAS</h2>
@@ -162,7 +181,7 @@
         <p class="pd__cta-desc">Nuestro equipo de ingeniería está listo para asesorarlo en la selección y dimensionamiento del accesorio ideal.</p>
       </div>
       <div class="pd__cta-actions">
-        <a href="https://wa.me/573224465872" target="_blank" rel="noopener noreferrer" class="pd__cta-btn pd__cta-btn--primary"><i class="fa-brands fa-whatsapp"></i> SOLICITAR COTIZACIÓN</a>
+        <a [attr.href]="whatsappUrl" target="_blank" rel="noopener noreferrer" class="pd__cta-btn pd__cta-btn--primary"><i class="fa-brands fa-whatsapp"></i> SOLICITAR COTIZACIÓN</a>
         <a [routerLink]="['/catalogo', categoria]" class="pd__cta-btn pd__cta-btn--secondary">VER OTROS PRODUCTOS</a>
       </div>
     </section>

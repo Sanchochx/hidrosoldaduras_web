@@ -19,18 +19,18 @@ export class CatalogoComponent {
       catalogRoute: '/catalogo/fabricacion',
     },
     {
-      title: 'Soldadura Especializada',
-      desc: 'Servicios técnicos certificados en unión de materiales y tuberías de gran diámetro.',
-      img: 'assets/images/imagen_1.jpeg',
-      alt: 'Soldadura Especializada',
-      catalogRoute: null,
+      title: 'Válvulas',
+      desc: 'Válvulas de compuerta, mariposa, retención, chapaleta y ventosas para sistemas hidráulicos industriales y redes de acueducto.',
+      img: 'assets/images/valvula.png',
+      alt: 'Válvulas',
+      catalogRoute: '/catalogo/valvulas',
     },
     {
-      title: 'Ingeniería Hidráulica',
-      desc: 'Diseño y montaje de infraestructura para el tratamiento y conducción de aguas.',
-      img: 'assets/images/imagen_1.jpeg',
-      alt: 'Ingeniería Hidráulica',
-      catalogRoute: null,
+      title: 'Uniones y Acoples',
+      desc: 'Uniones universales, garra de tigre, carretes de desmonte y acoples bridados para conexión y mantenimiento de tuberías a presión.',
+      img: 'assets/images/uniones.jpg',
+      alt: 'Uniones y Acoples',
+      catalogRoute: '/catalogo/uniones',
     },
   ];
 }

@@ -373,6 +373,56 @@
   background-color: rgba($dark, 0.03);
 }
 
+// ─── Tipos de Conexión ─────────────────────────────────────────────────────────
+
+.pd__conexion-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+
+  @include respond-to($bp-md) { grid-template-columns: repeat(4, 1fr); gap: 32px; }
+}
+
+.pd__conexion-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.pd__conexion-image-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: $white;
+  border: 1px solid rgba($dark, 0.12);
+  border-top: 4px solid $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+
+  &:hover { box-shadow: 0 8px 24px -8px rgba($primary, 0.25); }
+}
+
+.pd__conexion-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 20px;
+}
+
+.pd__conexion-label {
+  font-family: $font-body;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $dark;
+  text-align: center;
+  margin: 0;
+}
+
 // ─── Normas ────────────────────────────────────────────────────────────────────
 
 .pd__normas-grid {

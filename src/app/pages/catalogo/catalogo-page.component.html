@@ -12,7 +12,12 @@
           [routerLink]="['/catalogo', categoria, producto.id]"
         >
           <div class="catalogo-page-card__image-wrapper">
-            <img class="catalogo-page-card__image" [src]="imagenPath(producto)" [alt]="producto.nombre" />
+            <img
+              class="catalogo-page-card__image"
+              [src]="imagenPath(producto)"
+              [alt]="producto.nombre"
+              (error)="onImageError($event, producto)"
+            />
           </div>
           <div class="catalogo-page-card__body">
             <h3 class="catalogo-page-card__title">{{ producto.nombre }}</h3>

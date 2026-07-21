@@ -54,9 +54,61 @@ export class ProductoDetalleComponent implements OnInit {
     peso_pn10_kg:  'PN10',
     peso_pn16_kg:  'PN16',
     codigo:        'CODIGO',
+    descripcion:   'DESCRIPCIÓN',
+    junta_hidraulica: 'JUNTA HIDRÁULICA',
+    extremo_liso:  'EXTREMO LISO',
+    bridada:       'BRIDADA',
+    garra_tigre:   'GARRA DE TIGRE',
+    precio:        'PRECIO',
+    sello_bronce:  'SELLO EN BRONCE',
+    compuerta_elastica: 'COMPUERTA ELÁSTICA',
+    lisa:          'LISA',
   };
 
   private readonly dnFields = new Set(['dn', 'dn1', 'dn_mayor', 'dn_menor']);
+
+  private readonly priceFields = new Set([
+    'junta_hidraulica', 'extremo_liso', 'bridada', 'garra_tigre',
+    'precio', 'sello_bronce', 'compuerta_elastica', 'lisa',
+  ]);
+
+  private readonly idsConFichaTecnica = new Set([
+    'codo-bridado-mixto',
+    'codo-liso',
+    'compuerta-tipo-bridada',
+    'compuerta-tipo-pasamuro',
+    'compuerta-tipo-plana',
+    'niple-pasamuro-bridado-mixto',
+    'niple-pasamuro-liso',
+    'reduccion-excentrica-concentrica-bridada',
+    'reduccion-excentrica-concentrica-liso',
+    'tee-bridada-mixta',
+    'tee-lisa',
+    'union-autoportante',
+    'union-dresser',
+    'union-transicion-pvc-ac-hd-ac',
+    'valvula-de-pie',
+    'yee-bridada-mixta',
+    'yee-lisa',
+  ]);
+
+  get tieneFichaTecnica(): boolean {
+    return !!this.producto && this.idsConFichaTecnica.has(this.producto.id);
+  }
+
+  private readonly conexionImagenes: { [tipo: string]: string } = {
+    'Junta Hidráulica': 'junta-hidraulica.png',
+    'Extremo Liso':     'extremo-liso.png',
+    'Bridada':          'bridada.png',
+    'Garra de Tigre':   'garra-tigre.png',
+  };
+
+  get tiposConImagen(): { label: string; src: string }[] {
+    if (!this.producto) return [];
+    return this.producto.tipos
+      .filter(tipo => this.conexionImagenes[tipo])
+      .map(tipo => ({ label: tipo, src: `assets/images/valvulas/${this.conexionImagenes[tipo]}` }));
+  }
 
   private readonly dnMmToInches: { [mm: number]: string } = {
     40:   '1½',
@@ -90,6 +142,10 @@ export class ProductoDetalleComponent implements OnInit {
   };
 
   formatDnCell(value: unknown, key: string): string {
+    if (this.priceFields.has(key)) {
+      if (value === null || value === undefined) return '';
+      return `$ ${new Intl.NumberFormat('es-CO').format(value as number)}`;
+    }
     if (!this.dnFields.has(key)) return value !== null && value !== undefined ? String(value) : '—';
     if (value === null || value === undefined) return '—';
     if (typeof value === 'string') return value;
@@ -111,7 +167,7 @@ export class ProductoDetalleComponent implements OnInit {
       next: p => {
         if (p) {
           this.producto = p;
-          this.imagenPath = `assets/images/${this.categoria}/${p.imagen}`;
+          this.imagenPath = `/assets/images/${this.categoria}/${p.imagen}`;
         } else {
           this.notFound = true;
         }
@@ -122,6 +178,11 @@ export class ProductoDetalleComponent implements OnInit {
         this.isLoading = false;
       },
     });
+  }
+
+  get whatsappUrl(): string {
+    const mensaje = `Hola, quiero cotizar: ${this.producto?.nombre ?? ''}`;
+    return `https://wa.me/573224465872?text=${encodeURIComponent(mensaje)}`;
   }
 
   get tableHeaders(): string[] {
@@ -140,5 +201,18 @@ export class ProductoDetalleComponent implements OnInit {
 
   labelFor(key: string): string {
     return this.tableHeaderLabels[key] ?? key.replace(/_/g, ' ').toUpperCase();
+  }
+
+  // TODO: reemplazar por fotos reales en assets/images/fabricacion/ — mientras tanto se
+  // genera un placeholder azul con el nombre del producto para los ítems sin imagen.
+  onImageError(event: Event): void {
+    if (!this.producto) return;
+    const img = event.target as HTMLImageElement;
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="600" height="450">
+      <rect width="100%" height="100%" fill="#1565C0"/>
+      <text x="50%" y="50%" fill="#FFFFFF" font-family="sans-serif" font-size="28" font-weight="700"
+        text-anchor="middle" dominant-baseline="middle">${this.producto.nombre.toUpperCase()}</text>
+    </svg>`;
+    img.src = `data:image/svg+xml,${encodeURIComponent(svg)}`;
   }
 }
