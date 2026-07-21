@@ -32,8 +32,6 @@ jobs:
         ls -la ./dist/hidrosoldaduras-web/browser/
         echo "📄 Total de archivos:"
         find ./dist/hidrosoldaduras-web/browser/ -type f | wc -l
-        echo "📋 Contenido de index.html:"
-        head -5 ./dist/hidrosoldaduras-web/browser/index.html
 
     - name: 🚀 Subir compilado a GoDaddy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
@@ -44,7 +42,7 @@ jobs:
         port: 21
         protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: /public_html/  
+        server-dir: /public_html/public_html/  # 🔥 RUTA CORRECTA
         exclude: |
           **/.vscode/**
           **/.git/**
