@@ -42,7 +42,7 @@ jobs:
         port: 21
         protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: /public_html/public_html/  # 🔥 RUTA CORRECTA
+        server-dir: ./public_html/  # 🔥 RUTA CORREGIDA
         exclude: |
           **/.vscode/**
           **/.git/**
