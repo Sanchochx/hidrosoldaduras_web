@@ -26,13 +26,6 @@ jobs:
     - name: 🏗️ Compilar el proyecto Angular
       run: npm run build -- --configuration=production
 
-    - name: 📂 Verificar archivos compilados
-      run: |
-        echo "📁 Archivos compilados:"
-        ls -la ./dist/hidrosoldaduras-web/browser/
-        echo "📄 Total de archivos:"
-        find ./dist/hidrosoldaduras-web/browser/ -type f | wc -l
-
     - name: 🚀 Subir compilado a GoDaddy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -42,23 +35,11 @@ jobs:
         port: 21
         protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: public_html/  # 🔥 CON SLASH AL FINAL
+        server-dir: /public_html/
         exclude: |
           **/.vscode/**
           **/.git/**
           **/node_modules/**
-          .editorconfig
-          .npmrc
-          angular.json
-          package-lock.json
-          package.json
-          README.md
-          tsconfig.app.json
-          tsconfig.json
-          tsconfig.spec.json
-          vercel.json
-          public/**
-          src/**
         timeout: 60000
         security: loose
-        dangerous-clean-slate: false
+        dangerous-clean-slate: true
