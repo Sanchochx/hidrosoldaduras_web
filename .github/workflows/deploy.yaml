@@ -35,11 +35,11 @@ jobs:
         port: 21
         protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: /public_html/
+        server-dir: /home/ucnqppzzv2l4/public_html/  # 🔥 RUTA ABSOLUTA COMPLETA
         exclude: |
           **/.vscode/**
           **/.git/**
           **/node_modules/**
         timeout: 60000
         security: loose
-        dangerous-clean-slate: true
+        dangerous-clean-slate: true  # 🔥 BORRA TODO Y SUBE DE NUEVO
