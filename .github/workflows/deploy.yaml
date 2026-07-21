@@ -26,6 +26,13 @@ jobs:
     - name: 🏗️ Compilar el proyecto Angular
       run: npm run build -- --configuration=production
 
+    - name: 📂 Verificar archivos compilados
+      run: |
+        echo "📁 Archivos compilados:"
+        ls -la ./dist/hidrosoldaduras-web/browser/
+        echo "📄 Total de archivos:"
+        find ./dist/hidrosoldaduras-web/browser/ -type f | wc -l
+
     - name: 🚀 Subir compilado a GoDaddy
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
@@ -33,14 +40,26 @@ jobs:
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: 21
-        protocol: ftp  # 🔥 AÑADIDO - especifica explícitamente FTP
+        protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: /public_html/  # 🔥 AÑADIDO - ruta típica de GoDaddy
+        server-dir: ./
         exclude: |
           **/.vscode/**
           **/.git/**
           **/node_modules/**
-        args: '--passive --delete'  # 🔥 AÑADIDO - modo pasivo y limpia archivos
-        timeout: 60000  # 🔥 AÑADIDO - timeout más largo (60 segundos)
+          .editorconfig
+          .npmrc
+          angular.json
+          package-lock.json
+          package.json
+          README.md
+          tsconfig.app.json
+          tsconfig.json
+          tsconfig.spec.json
+          vercel.json
+          public/**
+          src/**
+        args: '--passive'
+        timeout: 60000
         security: loose
         dangerous-clean-slate: false
