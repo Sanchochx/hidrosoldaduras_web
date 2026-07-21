@@ -35,11 +35,23 @@ jobs:
         port: 21
         protocol: ftp
         local-dir: ./dist/hidrosoldaduras-web/browser/
-        server-dir: /home/ucnqppzzv2l4/public_html/  # 🔥 RUTA ABSOLUTA COMPLETA
+        server-dir: ./              # 🔥 ESTA ES LA CLAVE
         exclude: |
           **/.vscode/**
           **/.git/**
           **/node_modules/**
+          .editorconfig
+          .npmrc
+          angular.json
+          package-lock.json
+          package.json
+          README.md
+          tsconfig.app.json
+          tsconfig.json
+          tsconfig.spec.json
+          vercel.json
+          public/**
+          src/**
         timeout: 60000
         security: loose
-        dangerous-clean-slate: true  # 🔥 BORRA TODO Y SUBE DE NUEVO
+        dangerous-clean-slate: true   # 🔥 BORRA Y SUBE DE NUEVO
