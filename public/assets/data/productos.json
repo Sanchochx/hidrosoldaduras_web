@@ -4565,91 +4565,47 @@
     "tabla_dimensiones": [
       {
         "codigo": "VAL.100592",
-        "descripcion": "2\" ( 50 mm)",
-        "junta_hidraulica": 376783,
-        "extremo_liso": 359783,
-        "bridada": 433417,
-        "garra_tigre": 641133
+        "descripcion": "2\" ( 50 mm)"
       },
       {
         "codigo": "VAL.100594",
-        "descripcion": "3\" ( 75 mm)",
-        "junta_hidraulica": 489967,
-        "extremo_liso": 489967,
-        "bridada": 659367,
-        "garra_tigre": 887850
+        "descripcion": "3\" ( 75 mm)"
       },
       {
         "codigo": "VAL.100595",
-        "descripcion": "4\" (100 mm)",
-        "junta_hidraulica": 646258,
-        "extremo_liso": 646258,
-        "bridada": 869017,
-        "garra_tigre": 948214
+        "descripcion": "4\" (100 mm)"
       },
       {
         "codigo": "VAL.100596",
-        "descripcion": "6\" (150 mm)",
-        "junta_hidraulica": 1090233,
-        "extremo_liso": 1129877,
-        "bridada": 1361038,
-        "garra_tigre": 1393498
+        "descripcion": "6\" (150 mm)"
       },
       {
         "codigo": "VAL.100597",
-        "descripcion": "8\" (200 mm)",
-        "junta_hidraulica": 1678915,
-        "extremo_liso": 1574155,
-        "bridada": 1974130,
-        "garra_tigre": 2285833
+        "descripcion": "8\" (200 mm)"
       },
       {
         "codigo": "VAL.100598",
-        "descripcion": "10\" (250 mm)",
-        "junta_hidraulica": 3201638,
-        "extremo_liso": 2934835,
-        "bridada": 3736580,
-        "garra_tigre": 4518406
+        "descripcion": "10\" (250 mm)"
       },
       {
         "codigo": "VAL.100599",
-        "descripcion": "12\" (300 mm)",
-        "junta_hidraulica": 3871802,
-        "extremo_liso": 3582228,
-        "bridada": 4358112,
-        "garra_tigre": null
+        "descripcion": "12\" (300 mm)"
       },
       {
         "codigo": "VAL.100600",
-        "descripcion": "14\" (350 mm)",
-        "junta_hidraulica": 6862023,
-        "extremo_liso": 6717144,
-        "bridada": 6748475,
-        "garra_tigre": null
+        "descripcion": "14\" (350 mm)"
       },
       {
         "codigo": "VAL.100601",
-        "descripcion": "16\" (400 mm)",
-        "junta_hidraulica": 11618164,
-        "extremo_liso": 11393610,
-        "bridada": 11583255,
-        "garra_tigre": null
+        "descripcion": "16\" (400 mm)"
       },
       {
         "codigo": "VAL.100602",
-        "descripcion": "18\" (450 mm)",
-        "junta_hidraulica": 20718743,
-        "extremo_liso": 20908194,
-        "bridada": 15433259,
-        "garra_tigre": null
+        "descripcion": "18\" (450 mm)"
       },
       {
         "codigo": "VAL.100603",
-        "descripcion": "20\" (500 mm)",
-        "junta_hidraulica": 25179774,
-        "extremo_liso": 25159334,
-        "bridada": 17129119,
-        "garra_tigre": null
+        "descripcion": "20\" (500 mm)"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -4688,33 +4644,27 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "VALMP225864",
-        "precio": 240000
+        "codigo": "VALMP225864"
       },
       {
         "dn": 75,
-        "codigo": "VALMP225865",
-        "precio": 360000
+        "codigo": "VALMP225865"
       },
       {
         "dn": 100,
-        "codigo": "VALMP225866",
-        "precio": 450000
+        "codigo": "VALMP225866"
       },
       {
         "dn": 150,
-        "codigo": "VALMP225867",
-        "precio": null
+        "codigo": "VALMP225867"
       },
       {
         "dn": 200,
-        "codigo": "VALMP225868",
-        "precio": null
+        "codigo": "VALMP225868"
       },
       {
         "dn": 250,
-        "codigo": "VALMP225869",
-        "precio": null
+        "codigo": "VALMP225869"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -4753,43 +4703,35 @@
     "tabla_dimensiones": [
       {
         "dn": 200,
-        "codigo": "VALB7745826",
-        "precio": 5008000
+        "codigo": "VALB7745826"
       },
       {
         "dn": 250,
-        "codigo": "VALB7745827",
-        "precio": 5738000
+        "codigo": "VALB7745827"
       },
       {
         "dn": 300,
-        "codigo": "VALB7745828",
-        "precio": 7647000
+        "codigo": "VALB7745828"
       },
       {
         "dn": 350,
-        "codigo": "VALB7745829",
-        "precio": 10226000
+        "codigo": "VALB7745829"
       },
       {
         "dn": 400,
-        "codigo": "VALB7745830",
-        "precio": 12255000
+        "codigo": "VALB7745830"
       },
       {
         "dn": 450,
-        "codigo": "VALB7745831",
-        "precio": 15456000
+        "codigo": "VALB7745831"
       },
       {
         "dn": 500,
-        "codigo": "VALB7745832",
-        "precio": 20453000
+        "codigo": "VALB7745832"
       },
       {
         "dn": 600,
-        "codigo": "VALB7745833",
-        "precio": 26260000
+        "codigo": "VALB7745833"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -4828,69 +4770,47 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "VAL.VA100867",
-        "sello_bronce": 376783,
-        "compuerta_elastica": 359783
+        "codigo": "VAL.VA100867"
       },
       {
         "dn": 75,
-        "codigo": "VAL.VA100868",
-        "sello_bronce": 489967,
-        "compuerta_elastica": 489967
+        "codigo": "VAL.VA100868"
       },
       {
         "dn": 100,
-        "codigo": "VAL.VA100869",
-        "sello_bronce": 646258,
-        "compuerta_elastica": 646258
+        "codigo": "VAL.VA100869"
       },
       {
         "dn": 150,
-        "codigo": "VAL.VA100870",
-        "sello_bronce": 1090233,
-        "compuerta_elastica": 1129877
+        "codigo": "VAL.VA100870"
       },
       {
         "dn": 200,
-        "codigo": "VAL.VA100871",
-        "sello_bronce": 1678915,
-        "compuerta_elastica": 1574155
+        "codigo": "VAL.VA100871"
       },
       {
         "dn": 250,
-        "codigo": "VAL.VA100872",
-        "sello_bronce": 3201638,
-        "compuerta_elastica": 2934835
+        "codigo": "VAL.VA100872"
       },
       {
         "dn": 300,
-        "codigo": "VAL.VA100873",
-        "sello_bronce": 3871802,
-        "compuerta_elastica": 3582228
+        "codigo": "VAL.VA100873"
       },
       {
         "dn": 350,
-        "codigo": "VAL.VA100874",
-        "sello_bronce": 6862023,
-        "compuerta_elastica": 6717144
+        "codigo": "VAL.VA100874"
       },
       {
         "dn": 400,
-        "codigo": "VAL.VA100875",
-        "sello_bronce": 11618164,
-        "compuerta_elastica": 11393610
+        "codigo": "VAL.VA100875"
       },
       {
         "dn": 450,
-        "codigo": "VAL.VA100876",
-        "sello_bronce": 20718743,
-        "compuerta_elastica": 20908194
+        "codigo": "VAL.VA100876"
       },
       {
         "dn": 500,
-        "codigo": "VAL.VA100877",
-        "sello_bronce": 25179774,
-        "compuerta_elastica": 25159334
+        "codigo": "VAL.VA100877"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -4929,33 +4849,27 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "VAL.GL107853",
-        "precio": 1408011
+        "codigo": "VAL.GL107853"
       },
       {
         "dn": 75,
-        "codigo": "VAL.GL107854",
-        "precio": 1995479
+        "codigo": "VAL.GL107854"
       },
       {
         "dn": 100,
-        "codigo": "VAL.GL107855",
-        "precio": 2128611
+        "codigo": "VAL.GL107855"
       },
       {
         "dn": 150,
-        "codigo": "VAL.GL107856",
-        "precio": 4632983
+        "codigo": "VAL.GL107856"
       },
       {
         "dn": 200,
-        "codigo": "VAL.GL107857",
-        "precio": 5811725
+        "codigo": "VAL.GL107857"
       },
       {
         "dn": 250,
-        "codigo": "VAL.GL107858",
-        "precio": 8008271
+        "codigo": "VAL.GL107858"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -4994,63 +4908,51 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "VAL.CH100235",
-        "precio": 1290153
+        "codigo": "VAL.CH100235"
       },
       {
         "dn": 75,
-        "codigo": "VAL.CH100236",
-        "precio": 1773740
+        "codigo": "VAL.CH100236"
       },
       {
         "dn": 100,
-        "codigo": "VAL.CH100237",
-        "precio": 2112706
+        "codigo": "VAL.CH100237"
       },
       {
         "dn": 150,
-        "codigo": "VAL.CH100238",
-        "precio": 2626994
+        "codigo": "VAL.CH100238"
       },
       {
         "dn": 200,
-        "codigo": "VAL.CH100239",
-        "precio": 4396654
+        "codigo": "VAL.CH100239"
       },
       {
         "dn": 250,
-        "codigo": "VAL.CH100240",
-        "precio": 6399624
+        "codigo": "VAL.CH100240"
       },
       {
         "dn": 300,
-        "codigo": "VAL.CH100241",
-        "precio": 8272975
+        "codigo": "VAL.CH100241"
       },
       {
         "dn": 350,
-        "codigo": "VAL.CH100242",
-        "precio": 15070507
+        "codigo": "VAL.CH100242"
       },
       {
         "dn": 400,
-        "codigo": "VAL.CH100243",
-        "precio": 18215742
+        "codigo": "VAL.CH100243"
       },
       {
         "dn": 450,
-        "codigo": "VAL.CH100244",
-        "precio": 24489967
+        "codigo": "VAL.CH100244"
       },
       {
         "dn": 500,
-        "codigo": "VAL.CH100245",
-        "precio": 26714619
+        "codigo": "VAL.CH100245"
       },
       {
         "dn": 600,
-        "codigo": "VAL.CH100246",
-        "precio": 34187079
+        "codigo": "VAL.CH100246"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5089,28 +4991,23 @@
     "tabla_dimensiones": [
       {
         "dn": 15,
-        "codigo": "VE.3582489",
-        "precio": 278491
+        "codigo": "VE.3582489"
       },
       {
         "dn": 20,
-        "codigo": "VE.3582490",
-        "precio": 294973
+        "codigo": "VE.3582490"
       },
       {
         "dn": 25,
-        "codigo": "VE.3582491",
-        "precio": 278474
+        "codigo": "VE.3582491"
       },
       {
         "dn": 40,
-        "codigo": "VE.3582492",
-        "precio": 301861
+        "codigo": "VE.3582492"
       },
       {
         "dn": 50,
-        "codigo": "VE.3582493",
-        "precio": 498602
+        "codigo": "VE.3582493"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5149,28 +5046,23 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "VEDL.5284236",
-        "precio": 918726
+        "codigo": "VEDL.5284236"
       },
       {
         "dn": 75,
-        "codigo": "VEDL.5284237",
-        "precio": 1198210
+        "codigo": "VEDL.5284237"
       },
       {
         "dn": 100,
-        "codigo": "VEDL.5284238",
-        "precio": 1732031
+        "codigo": "VEDL.5284238"
       },
       {
         "dn": 150,
-        "codigo": "VEDL.5284239",
-        "precio": 4960584
+        "codigo": "VEDL.5284239"
       },
       {
         "dn": 200,
-        "codigo": "VEDL.5284240",
-        "precio": 5652455
+        "codigo": "VEDL.5284240"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5209,57 +5101,39 @@
     "tabla_dimensiones": [
       {
         "dn": 100,
-        "codigo": "VCH.2579245",
-        "bridada": 1657842,
-        "lisa": null
+        "codigo": "VCH.2579245"
       },
       {
         "dn": 150,
-        "codigo": "VCH.2579246",
-        "bridada": 2090705,
-        "lisa": null
+        "codigo": "VCH.2579246"
       },
       {
         "dn": 200,
-        "codigo": "VCH.2579247",
-        "bridada": 2559867,
-        "lisa": null
+        "codigo": "VCH.2579247"
       },
       {
         "dn": 250,
-        "codigo": "VCH.2579248",
-        "bridada": 3401735,
-        "lisa": null
+        "codigo": "VCH.2579248"
       },
       {
         "dn": 300,
-        "codigo": "VCH.2579249",
-        "bridada": 3643792,
-        "lisa": null
+        "codigo": "VCH.2579249"
       },
       {
         "dn": 350,
-        "codigo": "VCH.2579250",
-        "bridada": 6245208,
-        "lisa": null
+        "codigo": "VCH.2579250"
       },
       {
         "dn": 400,
-        "codigo": "VCH.2579251",
-        "bridada": 6639398,
-        "lisa": null
+        "codigo": "VCH.2579251"
       },
       {
         "dn": 450,
-        "codigo": "VCH.2579252",
-        "bridada": 7113648,
-        "lisa": null
+        "codigo": "VCH.2579252"
       },
       {
         "dn": 500,
-        "codigo": "VCH.2579253",
-        "bridada": 7555462,
-        "lisa": null
+        "codigo": "VCH.2579253"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5297,48 +5171,39 @@
     "tabla_dimensiones": [
       {
         "dn": 50,
-        "codigo": "YEE.238875230",
-        "precio": 704426
+        "codigo": "YEE.238875230"
       },
       {
         "dn": 75,
-        "codigo": "YEE.238875231",
-        "precio": 878230
+        "codigo": "YEE.238875231"
       },
       {
         "dn": 100,
-        "codigo": "YEE.238875232",
-        "precio": 1203951
+        "codigo": "YEE.238875232"
       },
       {
         "dn": 150,
-        "codigo": "YEE.238875233",
-        "precio": 2008302
+        "codigo": "YEE.238875233"
       },
       {
         "dn": 200,
-        "codigo": "YEE.238875234",
-        "precio": 2984621
+        "codigo": "YEE.238875234"
       },
       {
         "dn": 250,
-        "codigo": "YEE.238875235",
-        "precio": 3842975
+        "codigo": "YEE.238875235"
       },
       {
         "dn": 300,
-        "codigo": "YEE.238875236",
-        "precio": 4558489
+        "codigo": "YEE.238875236"
       },
       {
         "dn": 350,
-        "codigo": "YEE.238875237",
-        "precio": 10220568
+        "codigo": "YEE.238875237"
       },
       {
         "dn": 400,
-        "codigo": "YEE.238875238",
-        "precio": 14311166
+        "codigo": "YEE.238875238"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5371,18 +5236,15 @@
     "tabla_dimensiones": [
       {
         "dn": "3\" - 4\" (75 - 100 mm)",
-        "codigo": "VOL.466872633",
-        "precio": 48208
+        "codigo": "VOL.466872633"
       },
       {
         "dn": "6\" - 8\" (150 - 200 mm)",
-        "codigo": "VOL.466872634",
-        "precio": 99229
+        "codigo": "VOL.466872634"
       },
       {
         "dn": "10\" - 12\" (250 - 300 mm)",
-        "codigo": "VOL.466872635",
-        "precio": 168436
+        "codigo": "VOL.466872635"
       }
     ],
     "vida_util": "10 a 50 años según condiciones"
@@ -5443,14 +5305,14 @@
     "id": "reguladora",
     "nombre": "Reguladora",
     "categoria": "valvulas",
-    "descripcion": "Válvula reguladora de presión con conexión roscada, utilizada para controlar y estabilizar la presión de servicio en redes de acueducto y sistemas de distribución de agua.",
+    "descripcion": "Válvula reguladora de presión con conexión bridada, utilizada para controlar y estabilizar la presión de servicio en redes de acueducto y sistemas de distribución de agua.",
     "imagen": "reguladora.png",
     "tipos": [
-      "Roscado"
+      "Bridada"
     ],
     "propiedades": {
       "diametros": "50 mm a 250 mm (2\" a 10\")",
-      "conexion": "Roscada",
+      "conexion": "Bridada",
       "fluidos": "Agua potable, agua cruda"
     },
     "normas": [
@@ -5458,7 +5320,7 @@
     ],
     "caracteristicas": [
       "Controla y estabiliza la presión de servicio en la red",
-      "Conexión roscada para instalación en derivaciones",
+      "Conexión bridada para instalación en derivaciones",
       "Cuerpo en hierro fundido o bronce según especificación",
       "Aplicaciones en redes de acueducto y sistemas de distribución"
     ],

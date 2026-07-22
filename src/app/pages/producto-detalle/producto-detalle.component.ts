@@ -59,18 +59,12 @@ export class ProductoDetalleComponent implements OnInit {
     extremo_liso:  'EXTREMO LISO',
     bridada:       'BRIDADA',
     garra_tigre:   'GARRA DE TIGRE',
-    precio:        'PRECIO',
     sello_bronce:  'SELLO EN BRONCE',
     compuerta_elastica: 'COMPUERTA ELÁSTICA',
     lisa:          'LISA',
   };
 
   private readonly dnFields = new Set(['dn', 'dn1', 'dn_mayor', 'dn_menor']);
-
-  private readonly priceFields = new Set([
-    'junta_hidraulica', 'extremo_liso', 'bridada', 'garra_tigre',
-    'precio', 'sello_bronce', 'compuerta_elastica', 'lisa',
-  ]);
 
   private readonly idsConFichaTecnica = new Set([
     'codo-bridado-mixto',
@@ -142,10 +136,6 @@ export class ProductoDetalleComponent implements OnInit {
   };
 
   formatDnCell(value: unknown, key: string): string {
-    if (this.priceFields.has(key)) {
-      if (value === null || value === undefined) return '';
-      return `$ ${new Intl.NumberFormat('es-CO').format(value as number)}`;
-    }
     if (!this.dnFields.has(key)) return value !== null && value !== undefined ? String(value) : '—';
     if (value === null || value === undefined) return '—';
     if (typeof value === 'string') return value;
