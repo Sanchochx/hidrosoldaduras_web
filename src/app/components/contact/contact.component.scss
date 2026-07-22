@@ -51,6 +51,7 @@
   &__grid {
     display: grid;
     grid-template-columns: 1fr;
+    align-items: stretch;
     gap: 24px;
     max-width: 1200px;
     margin: 0 auto;
@@ -60,7 +61,7 @@
     }
 
     @include respond-to($bp-lg) {
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(6, 1fr);
     }
   }
 }
@@ -72,10 +73,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: flex-start;
   text-align: center;
   gap: 16px;
+  height: 100%;
+  min-height: 210px;
+  min-width: 0;
   transition: box-shadow 0.25s ease, transform 0.25s ease;
   position: relative;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 
   &:hover {
     box-shadow: 0 6px 20px rgba($primary, 0.15);
@@ -108,6 +115,7 @@
     color: $dark;
     margin: 0;
     letter-spacing: 0.5px;
+    flex-shrink: 0;
   }
 
   &__content {
@@ -116,6 +124,7 @@
     color: rgba($dark, 0.72);
     margin: 0;
     line-height: 1.6;
+    flex-shrink: 0;
 
     &--link {
       display: block;
@@ -124,6 +133,10 @@
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    &--small {
+      font-size: 12px;
     }
   }
 

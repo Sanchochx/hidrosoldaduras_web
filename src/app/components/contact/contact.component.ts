@@ -44,8 +44,8 @@ export class ContactComponent {
     {
       icon: 'fa-envelope',
       title: 'Email',
-      content: 'Hidrasoldadurasach@gmail.com',
-      link: 'mailto:Hidrasoldadurasach@gmail.com'
+      content: 'hidrosoldadura@gmail.com',
+      link: 'mailto:hidrosoldadura@gmail.com'
     },
     {
       icon: 'fa-clock',
@@ -58,6 +58,14 @@ export class ContactComponent {
       title: 'Instagram',
       content: '@hidrosoldaduras_ach_sas',
       link: 'https://www.instagram.com/hidrosoldaduras_ach_sas/',
+      externalLink: true
+    },
+    {
+      icon: 'fa-facebook',
+      iconPrefix: 'fa-brands',
+      title: 'Facebook',
+      content: 'Hidrosoldaduras ACH SAS',
+      link: 'https://www.facebook.com/profile.php?id=61578330041994&mibextid=wwXIfr&rdid=H1ykEFY74QDG1Jnx&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1BM3eMHiVU%2F%3Fmibextid%3DwwXIfr#',
       externalLink: true
     }
   ];

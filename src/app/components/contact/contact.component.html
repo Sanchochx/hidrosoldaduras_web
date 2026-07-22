@@ -24,6 +24,7 @@
           </div>
         } @else if (card.link && card.externalLink) {
           <a class="contact-card__content contact-card__content--link"
+             [class.contact-card__content--small]="card.title === 'Email' || card.title === 'Instagram'"
              [href]="card.link"
              target="_blank"
              rel="noopener noreferrer">
@@ -31,6 +32,7 @@
           </a>
         } @else if (card.link) {
           <a class="contact-card__content contact-card__content--link"
+             [class.contact-card__content--small]="card.title === 'Email' || card.title === 'Instagram'"
              [href]="card.link">
             {{ card.content }}
           </a>
